@@ -1,5 +1,5 @@
 ---
-pagetitle: khan_etal_2022_tethysSSPRCP
+pagetitle: G20 All-In
 ---
 
 <div class="header_logo">

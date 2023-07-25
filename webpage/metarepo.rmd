@@ -1,5 +1,5 @@
 ---
-pagetitle: khan_etal_2022_tethysSSPRCP
+pagetitle: G20 All-In
 output: 
   html_document:
     toc: true
@@ -74,7 +74,7 @@ scenario_names = c("ssp1_rcp26_gfdl"   = "SSP 1, RCP 2.6, gfdl",
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-Khan, Z., Thompson, I., Vernon, C.R. et al. Global monthly sectoral water use for 2010–2100 at 0.5° resolution across alternative futures. Sci Data 10, 201 (2023). https://doi.org/10.1038/s41597-023-02086-2
+Upcoming. https://doi.org/____
 
 <br>
 
@@ -88,11 +88,11 @@ Khan, Z., Thompson, I., Vernon, C.R. et al. Global monthly sectoral water use fo
 ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra)
 data.frame(
-    Model = c("Tethys"),
-    Version = c("v1.3.1"),
-    Description = c("Spatiotemporal downscaling model for global water use"),
-    Language = c("Python"),
-    DOI = c("https://doi.org/10.5281/zenodo.6399488")
+    Model = c("GCAM"),
+    Version = c("v6.0_g20"),
+    Description = c("Integrated assessment model"),
+    Language = c("C++, R"),
+    DOI = c("https://doi.org/_________")
     ) %>% 
   kbl() %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))

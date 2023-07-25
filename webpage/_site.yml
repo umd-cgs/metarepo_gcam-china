@@ -1,5 +1,5 @@
 navbar:
-  title: "khan_etal_2022_tethysSSPRCP"
+  title: "G20_All-In"
   left:
     - icon: fa-home
       href: index.html
@@ -9,7 +9,7 @@ navbar:
     - text: "Disclaimer"
       href: disclaimer.html
     - icon: fab fa-github
-      href: https://github.com/JGCRI/khan-etal_2022_tethysSSPRCP
+      href: https://github.com/umd-cgs/g20_metarepo
 
 
 output:

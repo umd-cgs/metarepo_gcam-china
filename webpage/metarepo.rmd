@@ -1,5 +1,5 @@
 ---
-pagetitle: G20 All-In
+pagetitle: GCAM-China
 output: 
   html_document:
     toc: true
@@ -63,8 +63,7 @@ scenario_names = c("ssp1_rcp26_gfdl"   = "SSP 1, RCP 2.6, gfdl",
 ```
 
 <div class="header_logo">
-<img src="images/logo_gcims_white.png" style="float:right;height:30px; padding-top:10px;">
-<img src="images/logo_pnnl_white.png" style="float:right;height:40px;">
+Add logos if desired
 </div>
 
 <!-------------------------->
@@ -80,32 +79,18 @@ Upcoming. https://doi.org/____
 
 <!-------------------------->
 <!-------------------------->
-# Models Used
+# Overview
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
-library(kableExtra)
-data.frame(
-    Model = c("GCAM"),
-    Version = c("v6.0_g20"),
-    Description = c("Integrated assessment model"),
-    Language = c("C++, R"),
-    DOI = c("https://doi.org/_________")
-    ) %>% 
-  kbl() %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
-```
-
-<br>
-
-<!-------------------------->
-<!-------------------------->
-# Data Inputs
-<!-------------------------->
-<!-------------------------->
-<p align="center"> <img src="images/divider.png"></p>
+## Features that differ from GCAM-Core
+### Electricity by power segment
+### Detailed industry
+### Rural / urban residential 
+### Features under development
+#### Coal vintaging in power sector 
+#### CDR technologies
 
 ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra)
@@ -121,11 +106,34 @@ data.frame(
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
 
+
 <br>
 
 <!-------------------------->
 <!-------------------------->
-# Data Outputs
+## Models Used
+<!-------------------------->
+<!-------------------------->
+<p align="center"> <img src="images/divider.png"></p>
+
+```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+library(kableExtra)
+data.frame(
+    Model = c("GCAM-China"),
+    Version = c("v6.0"),
+    Description = c("Integrated assessment model with subnational detail"),
+    Language = c("C++, R"),
+    DOI = c("https://doi.org/_________")
+    ) %>% 
+  kbl() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+<br>
+
+<!-------------------------->
+<!-------------------------->
+## Access
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
@@ -145,7 +153,7 @@ data.frame(
 
 <!-------------------------->
 <!-------------------------->
-# Workflow Overview
+# GCAM-China studies / references
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
@@ -158,7 +166,7 @@ knitr::include_graphics("images/workflow_summary.jpg")
 
 <!-------------------------->
 <!-------------------------->
-# Workflow 1 - Scenarios
+# Get Involved
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
@@ -175,7 +183,7 @@ For each valid SSP-RCP combination, five General Circulation Models (GCMs) are u
 
 <!-------------------------->
 <!-------------------------->
-# Workflow 2 - Model Runs
+# Delete: Workflow 2 - Model Runs
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
@@ -190,7 +198,7 @@ knitr::include_graphics("images/workflow2.jpg")
 
 <!-------------------------->
 <!-------------------------->
-# Workflow 3 - Spatial Downscaling
+# Delete: Workflow 3 - Spatial Downscaling
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
@@ -318,7 +326,7 @@ Note that 6 of the 434 region-basin intersections are so small that they are not
 
 <!-------------------------->
 <!-------------------------->
-# Workflow 4 - Temporal Downscaling
+# Delete: Workflow 4 - Temporal Downscaling
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
@@ -473,7 +481,7 @@ data.frame(
 
 <!-------------------------->
 <!-------------------------->
-# Workflow 5 - Results 
+# Delete: Workflow 5 - Results 
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
@@ -575,7 +583,7 @@ knitr::include_graphics("images/figure5.png")
 
 <!-------------------------->
 <!-------------------------->
-# Validation
+# Delete: Validation
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
@@ -685,7 +693,7 @@ knitr::include_graphics("images/comparison_temporal_alt.png")
 
 
 
-# Basin Examples
+# Delete: Basin Examples
 We have selected the following regions from literature to explore in more detail, as a way of showing the full resolution of this data set.
 ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Selected Regions"}
 knitr::include_graphics("images/overview_map.png")

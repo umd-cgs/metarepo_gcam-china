@@ -1,12 +1,12 @@
 ---
-pagetitle: G20 All-In
+pagetitle: Gcam-China
 ---
 
 <div class="header_logo">
-<img src="images/logo_gcims_white.png" style="float:right;height:30px; padding-top:10px;">
-<img src="images/logo_pnnl_white.png" style="float:right;height:40px;">
+Add logos if desired
 </div>
 
+**Adjust this**
 DISCLAIMER:
 
 This material was prepared as an account of work sponsored by an agency of the United States Government.  Neither the United States Government nor the United States Department of Energy, nor Battelle, nor any of their employees, nor any jurisdiction or organization that has cooperated in the development of these materials, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness or any information, apparatus, product, software, or process disclosed, or represents that its use would not infringe privately owned rights.

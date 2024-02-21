@@ -1,15 +1,14 @@
 ---
-pagetitle: G20 All-In
+pagetitle: GCAM-China
 ---
 
 <div class="header_logo">
-<img src="images/logo_gcims_white.png" style="float:right;height:30px; padding-top:10px;">
-<img src="images/logo_pnnl_white.png" style="float:right;height:40px;">
+Add logos if desired
 </div>
 
 <!-------------------------->
 <!-------------------------->
-### **Global monthly sectoral water use for 2010-2100 at 0.5° resolution across alternative futures**
+### **GCAM-China Community Edition - 6**
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
@@ -20,6 +19,14 @@ knitr::include_graphics("images/cover.png")
 ```
 </a>
 
-Future sectoral-specific water withdrawals at a temporal resolution capable of representing patterns in seasonality and a commonly used spatial resolution are an important factor to consider for energy, water, land and environmental research.  Projected water withdrawals that are harmonized with assumptions for alternate futures that capture socioeconomic and climatic variation are critical for many modeling studies on future global and regional dynamics. Here we generate a novel global gridded water withdrawals dataset by coupling Global Change Analysis Model (GCAM) with a land use spatial downscaling model (Demeter), a global hydrologic framework (Xanthos) and a water withdrawal downscaling model (Tethys) for the five Shared Socioeconomic Pathways (SSPs) and four Representative Concentration Pathways (RCPs) scenarios. The dataset provides sectoral monthly data at 0.5° resolution for years 2010 to 2100. The presented dataset will be useful for both global and regional analysis looking at the impacts of socioeconomic, climate and technological futures as well as in characterizing the uncertainties associated with these impacts.
+This will be an overview paragraph. This will be an overview paragraph. This will be an overview paragraph. This will be an overview paragraph. This will be an overview paragraph. This will be an overview paragraph. This will be an overview paragraph. This will be an overview paragraph. 
 
+**Developers**: Yang Liu (affiliation), Yang Ou (affiliation), Andy Miller (affiliation), Jay Fuhrman (affiliation)
+
+**Requested Citations**
+*Citation 1*
+*Citation 2*
+*Citation 3*
+
+**ADD logos here**
 <p align="center"> <img src="images/divider.png"></p>

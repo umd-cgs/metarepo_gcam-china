@@ -1,5 +1,5 @@
 navbar:
-  title: "G20_All-In"
+  title: "GCAM-China"
   left:
     - icon: fa-home
       href: index.html
@@ -9,7 +9,7 @@ navbar:
     - text: "Disclaimer"
       href: disclaimer.html
     - icon: fab fa-github
-      href: https://github.com/umd-cgs/g20_metarepo
+      href: https://github.com/umd-cgs/metarepo_gcam-china
 
 
 output:

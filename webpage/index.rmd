@@ -1,6 +1,10 @@
 ---
 pagetitle: GCAM-China
+output:
+  html_document:
+    keep_md: true
 ---
+
 
 <div class="header_logo">
 Add logos if desired
@@ -30,3 +34,51 @@ This will be an overview paragraph. This will be an overview paragraph. This wil
 
 **ADD logos here**
 <p align="center"> <img src="images/divider.png"></p>
+
+<style>
+  .photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .photo {
+    flex: 1 0 20%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .photo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-style: italic;
+  }
+</style>
+# Photo Gallery
+
+<div class="photo-gallery">
+  <div class="photo">
+    <img src="images/headshot.JPG" alt="Image 1">
+    <div class="description">Description for Image 1</div>
+  </div>
+
+  <div class="photo">
+    <img src="images/headshot.jpg" alt="Image 2">
+    <div class="description">Description for Image 2</div>
+  </div>
+
+  <div class="photo">
+    <img src="images/headshot.jpg" alt="Image 3">
+    <div class="description">Description for Image 3</div>
+  </div>
+
+  <div class="photo">
+    <img src="images/headshot.jpg" alt="Image 4">
+    <div class="description">Description for Image 4</div> 
+  </div>
+</div>

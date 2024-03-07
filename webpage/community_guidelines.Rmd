@@ -1,0 +1,25 @@
+---
+pagetitle: GCAM-China
+
+---
+
+<div class="header_logo">
+Add logos if desired
+</div>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+# Community Guidelines
+
+<div class="container">
+  <h2>Guidelines</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet erat sit amet lectus vehicula pellentesque. Duis ac lectus a purus maximus luctus. Nulla facilisi. Mauris nec libero at urna fringilla vestibulum. Nullam non lectus massa. 
+  </p>
+  <p>
+    Sed condimentum, lorem id aliquet vestibulum, nunc sapien ultricies libero, a scelerisque odio justo vitae lorem. Sed nec dictum mauris. Sed eget metus nec orci laoreet posuere. Vivamus tristique mauris quis suscipit eleifend. Integer eget enim quis libero vehicula ultrices. 
+  </p>
+</div>

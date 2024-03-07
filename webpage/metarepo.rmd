@@ -82,31 +82,96 @@ Upcoming. https://doi.org/____
 # Overview
 <!-------------------------->
 <!-------------------------->
-<p align="center"> <img src="images/divider.png"></p>
 
+
+
+<p align="center"> <img src="images/divider.png"></p>
 ## Features that differ from GCAM-Core
 
-### Electricity by power segment
+<script>
+function toggleDropdown(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 
-Sample text describing the feature of Electricity by power segment goes here.
+function toggleNestedDropdown(id) {
+  var x = document.getElementById(id);
+  if (x.open) {
+    x.open = false;
+  } else {
+    x.open = true;
+  }
+}
+</script>
 
-### Detailed industry
 
-Sample text describing the feature of Detailed Industry goes here.
+<details>
+  <summary onclick="toggleDropdown('electricity')">Electricity by Power Segment</summary>
+  <div id="electricity" style="display: none;">
+    <p>Sample text describing the feature of Electricity by power segment goes here.</p>
+  </div>
+</details>
 
-### Rural / urban residential 
+<details>
+  <summary onclick="toggleDropdown('detailed')">Detailed Industry</summary>
+  <div id="detailed" style="display: none;">
+    <p>Sample text describing the feature of Detailed Industry goes here.</p>
+  </div>
+</details>
 
-Sample text describing the feature of Rural / urban residential goes here.
+<details>
+  <summary onclick="toggleDropdown('rural')">Rural / Urban Residential</summary>
+  <div id="rural" style="display: none;">
+    <p>Sample text describing the feature of Rural / urban residential goes here.</p>
+  </div>
+</details>
 
-### Features under development
+<details>
+  <summary onclick="toggleDropdown('development')">Features under Development</summary>
+  <div id="development" style="display: none;">
 
-#### Coal vintaging in power sector 
+<details>
+    <summary onclick="toggleNestedDropdown('coal-details')">Coal vintaging in power sector</summary>
+    <div id="coal-details">
+      <p>Sample text describing the feature of Coal vintaging in power sector goes here.</p>
+    </div>
+  </details>
 
-Sample text describing the feature of Coal vintaging in power sector goes here.
+  <details>
+    <summary onclick="toggleNestedDropdown('cdr-details')">CDR technologies</summary>
+    <div id="cdr-details">
+      <p>Sample text describing the feature of CDR technologies goes here.</p>
+    </div>
+  </details>
+</details>
 
-#### CDR technologies
+<!-- ## Features that differ from GCAM-Core -->
 
-Sample text describing the feature of CDR technologies goes here.
+<!-- ### Electricity by power segment -->
+
+<!-- Sample text describing the feature of Electricity by power segment goes here. -->
+
+<!-- ### Detailed industry -->
+
+<!-- Sample text describing the feature of Detailed Industry goes here. -->
+
+<!-- ### Rural / urban residential  -->
+
+<!-- Sample text describing the feature of Rural / urban residential goes here. -->
+
+<!-- ### Features under development -->
+
+<!-- #### Coal vintaging in power sector  -->
+
+<!-- Sample text describing the feature of Coal vintaging in power sector goes here. -->
+
+<!-- #### CDR technologies -->
+
+<!-- Sample text describing the feature of CDR technologies goes here. -->
 
 ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra)

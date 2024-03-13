@@ -11,6 +11,10 @@ output:
     #inverse: true
 ---
 
+<div class="header_logo">
+  <img src="webpage/images/cgs-logo_0.png" alt="Logo" class="logo">
+</div>
+
 <!-- Allow href to tabsets --> 
 ```{js, echo=FALSE}
 function goToTab() {

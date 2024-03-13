@@ -4,10 +4,8 @@ output:
   html_document:
     keep_md: true
 ---
-
-
 <div class="header_logo">
-Add logos if desired
+  <img src="webpage/images/cgs-logo_0.png" alt="Logo" class="logo">
 </div>
 
 <!-------------------------->

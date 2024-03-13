@@ -12,7 +12,9 @@ navbar:
       href: disclaimer.html
     - icon: fab fa-github
       href: https://github.com/umd-cgs/metarepo_gcam-china
-
+  right:
+    - img: webpage/images/cgs-logo_0
+      alt: "Logo"
 
 output:
   html_document:

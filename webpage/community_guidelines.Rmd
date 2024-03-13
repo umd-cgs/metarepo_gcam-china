@@ -11,6 +11,10 @@ Add logos if desired
 knitr::opts_chunk$set(echo = TRUE)
 
 ```
+<div class="header_logo">
+  <img src="webpage/images/cgs-logo_0.png" alt="Logo" class="logo">
+</div>
+
 
 # Community Guidelines
 

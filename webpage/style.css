@@ -7,10 +7,16 @@
 
 .header_logo {
     position: fixed;
-    top: 5px;
+    top: 10px;
     right: 60px;
     z-index: 10000 !important;
 }
+
+.header_logo img {
+    width: 120px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
     color: white;

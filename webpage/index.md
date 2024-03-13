@@ -18,9 +18,7 @@ output:
 <p align="center"> <img src="images/divider.png"></p>
 
 <a href = "metarepo.html">
-```{r, echo=FALSE, out.width="100%", fig.align='enter'}
-knitr::include_graphics("images/Map_China_wide.png")
-```
+<img src="images/Map_China_wide.png" width="100%" />
 </a>
 <p style="text-align:center;">Click Here to enter meta-repository <a href="file:///C:/Users/Admin/CGS/metarepo_gcam-china/webpage/_site/metarepo.html">hyperlink</a>.</p>
 </a>

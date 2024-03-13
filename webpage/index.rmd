@@ -16,7 +16,7 @@ output:
 <p align="center"> <img src="images/divider.png"></p>
 
 <a href = "metarepo.html">
-```{r, echo=FALSE, out.width="80%", fig.align='right'}
+```{r, echo=FALSE, out.width="80%", fig.align='enter'}
 knitr::include_graphics("images/Map_China_wide.png")
 ```
 </a>
@@ -26,21 +26,6 @@ knitr::include_graphics("images/Map_China_wide.png")
 GCAM-China is developed based on the Global Change Analysis Model (GCAM, jgcri.github.io/gcam-doc/) and includes greater spatial detail in the China region. GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. 
 
 GCAM-China is jointly developed and maintained by the Institute of Carbon Neutrality at Tsinghua University, the College of Environmental Sciences and Engineering at Peking University, and the Center for Global Sustainability at University of Maryland.
-
-
-<!-- **Developers**: Yang Liu (affiliation), Yang Ou (affiliation), Andy Miller (affiliation), Jay Fuhrman (affiliation) -->
-
-<!-- # Requested Citations -->
-
-<!-- Please cite as GCAM-China-(release version number) as shown in: https://umd-cgs.github.io/metarepo_gcam-china/metarepo.html#Citation  -->
-
-# Acknowledgements
-
-Development and maintenance of GCAM-China has been supported by various funding sources, including xxx, Sequoia Climate Foundation, and Bloomberg Philanthropies.
-
-
-**ADD logos here**
-<p align="center"> <img src="images/divider.png"></p>
 
 <style>
   .photo-gallery {
@@ -84,8 +69,22 @@ Development and maintenance of GCAM-China has been supported by various funding 
     <div class="description">Description for Image 3</div>
   </div>
 
-  <div class="photo">
-    <img src="images/headshot.jpg" alt="Image 4">
-    <div class="description">Description for Image 4</div> 
-  </div>
 </div>
+
+Please cite as: GCAM-China-(release version number):
+
+<!-- **Developers**: Yang Liu (affiliation), Yang Ou (affiliation), Andy Miller (affiliation), Jay Fuhrman (affiliation) -->
+
+<!-- # Requested Citations -->
+
+<!-- Please cite as GCAM-China-(release version number) as shown in: https://umd-cgs.github.io/metarepo_gcam-china/metarepo.html#Citation  -->
+
+# Acknowledgements
+
+Development and maintenance of GCAM-China has been supported by various funding sources, including xxx, Sequoia Climate Foundation, and Bloomberg Philanthropies.
+
+
+
+<p align="center"> <img src="images/divider.png"></p>
+
+

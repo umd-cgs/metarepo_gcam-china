@@ -11,6 +11,23 @@ output:
     #inverse: true
 ---
 
+<div class="header_logo">
+  <img src="Webpage/images/cgs-logo_0.png" alt="Logo" class="logo">
+</div>
+
+<style>
+.header_logo {
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 150px; /* Adjust the width as needed */
+}
+</style>
+
 <!-- Allow href to tabsets --> 
 ```{js, echo=FALSE}
 function goToTab() {
@@ -62,9 +79,7 @@ scenario_names = c("ssp1_rcp26_gfdl"   = "SSP 1, RCP 2.6, gfdl",
                    "ssp5_rcp85_noresm" = "SSP 5, RCP 8.5, noresm")
 ```
 
-<div class="header_logo">
-Add logos if desired
-</div>
+
 
 <!-------------------------->
 <!-------------------------->
@@ -137,7 +152,7 @@ function toggleNestedDropdown(id) {
   </div>
 </details>
 
-#### Upcoming Features
+### Upcoming Features
 
 <details>
     <summary onclick="toggleNestedDropdown('coal-details')">Coal vintaging in power sector</summary>
@@ -178,27 +193,27 @@ function toggleNestedDropdown(id) {
 
 <!-- Sample text describing the feature of CDR technologies goes here. -->
 
-# ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
-# library(kableExtra)
-# data.frame(
-#   Data = c("GCAM Outputs",
-#            "Demeter Outputs"),
-#   Version = c("v4.3.chen http://doi.org/10.5281/zenodo.3713432",
-#               "v1.chen http://doi.org/10.5281/zenodo.3713378"),
-#   Location = c("https://doi.org/10.7910/DVN/DYV29J",
-#                "https://data.pnnl.gov/dataset/13192")
-#     ) %>% 
-#   kbl() %>%
-#   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
-# ```
+<!-- # ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
+<!-- # library(kableExtra) -->
+<!-- # data.frame( -->
+<!-- #   Data = c("GCAM Outputs", -->
+<!-- #            "Demeter Outputs"), -->
+<!-- #   Version = c("v4.3.chen http://doi.org/10.5281/zenodo.3713432", -->
+<!-- #               "v1.chen http://doi.org/10.5281/zenodo.3713378"), -->
+<!-- #   Location = c("https://doi.org/10.7910/DVN/DYV29J", -->
+<!-- #                "https://data.pnnl.gov/dataset/13192") -->
+<!-- #     ) %>%  -->
+<!-- #   kbl() %>% -->
+<!-- #   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
+<!-- # ``` -->
 
-## Citation
+# Citation
 
 DOI button
 Text citation for latest release 
 
 
-## Get Started
+# Get Started
 
 GCAM-China repository: https://github.com/umd-cgs/gcam-china
 
@@ -287,17 +302,21 @@ Contact Us
 Email address
 
 
-# ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"}
-# knitr::include_graphics("images/workflow1.jpg")
-# ```
-# 
-# For each valid SSP-RCP combination, five General Circulation Models (GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM combinations, which are fed into GCAM.
+<!-- # ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"} -->
+<!-- # knitr::include_graphics("images/workflow1.jpg") -->
+<!-- # ``` -->
+<!-- #  -->
+<!-- # For each valid SSP-RCP combination, five General Circulation Models (GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM combinations, which are fed into GCAM. -->
 
 <br>
 
-## Our Team
+# Our Team
 
-## Disclaimer
+## Advisory Committee
+
+![Advisory Committee](images/AdvisoryCommittee.jpg)
+
+# Disclaimer
 
 <!-- <!--------------------------> -->
 <!-- <!--------------------------> -->
@@ -359,7 +378,7 @@ Email address
 <!--   File = c("GPW_population.csv"), -->
 <!--   Reference = c("CIESIN, 2016"), -->
 <!--   Source = c("http://dx.doi.org/10.7927/H4X63JVC") -->
-<!--     ) %>%  -->
+<!--     ) %>% -->
 <!--   kbl() %>% -->
 <!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
 <!-- ``` -->
@@ -412,7 +431,7 @@ Email address
 <!--   Source = c("http://www.fao.org/docrep/010/a1259e/a1259e00.htm", -->
 <!--              "", -->
 <!--              "") -->
-<!--     ) %>%  -->
+<!--     ) %>% -->
 <!--   kbl() %>% -->
 <!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
 <!-- ``` -->

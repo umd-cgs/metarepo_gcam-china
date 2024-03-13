@@ -79,14 +79,21 @@ Upcoming. https://doi.org/____
 
 <!-------------------------->
 <!-------------------------->
-# Overview
+# GCAM-China-v6 Overview
+
+This documentation describes GCAM-China v6.0, which is developed based on GCAM v6 with selected updates from GCAM v7 and specific features for GCAM-China. 
+For documentation of GCAM, please go to: jgcri.github.io/gcam-doc/
+
+GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. Electricity generation and end-use energy demand (buildings, transportation, and industry) are modeled at the provincial level in GCAM-China, and the model allows for electricity trade within grid regions. Renewable energy resources (hydro, solar, and wind) and carbon storage resources are also provincial-specific. Primary production of fossil resources including oil, gas, and coal, as well as other energy transformation sectors (hydrogen, gas, and refined liquids production) are still modeled at the aggregate national level. Agricultural and land use activities, including the supply of biomass energy feedstocks (residues and dedicated energy crops), as well as water supply, are modeled at the level of 12 water basins in China. 
+
+
 <!-------------------------->
 <!-------------------------->
 
 
 
 <p align="center"> <img src="images/divider.png"></p>
-## Features that differ from GCAM-Core
+In addition to greater spatial detail, there are several unique features developed in GCAM-China, including:
 
 <script>
 function toggleDropdown(id) {
@@ -130,9 +137,7 @@ function toggleNestedDropdown(id) {
   </div>
 </details>
 
-<details>
-  <summary onclick="toggleDropdown('development')">Features under Development</summary>
-  <div id="development" style="display: none;">
+#### Upcoming Features
 
 <details>
     <summary onclick="toggleNestedDropdown('coal-details')">Coal vintaging in power sector</summary>
@@ -173,64 +178,82 @@ function toggleNestedDropdown(id) {
 
 <!-- Sample text describing the feature of CDR technologies goes here. -->
 
-```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
-library(kableExtra)
-data.frame(
-  Data = c("GCAM Outputs",
-           "Demeter Outputs"),
-  Version = c("v4.3.chen http://doi.org/10.5281/zenodo.3713432",
-              "v1.chen http://doi.org/10.5281/zenodo.3713378"),
-  Location = c("https://doi.org/10.7910/DVN/DYV29J",
-               "https://data.pnnl.gov/dataset/13192")
-    ) %>% 
-  kbl() %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
-```
+# ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+# library(kableExtra)
+# data.frame(
+#   Data = c("GCAM Outputs",
+#            "Demeter Outputs"),
+#   Version = c("v4.3.chen http://doi.org/10.5281/zenodo.3713432",
+#               "v1.chen http://doi.org/10.5281/zenodo.3713378"),
+#   Location = c("https://doi.org/10.7910/DVN/DYV29J",
+#                "https://data.pnnl.gov/dataset/13192")
+#     ) %>% 
+#   kbl() %>%
+#   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+# ```
+
+## Citation
+
+DOI button
+Text citation for latest release 
 
 
-<br>
+## Get Started
+
+GCAM-China repository: https://github.com/umd-cgs/gcam-china
+
+For quick start download a zipped version of the latest release from https://github.com/umd-cgs/gcam-china/releases for either PC or Mac and the prerequisite software. Then double click on the run-gcam executable file (run-gcam.bat for Windows / run-gcam.command for Mac) within the exe folder. This will run GCAM-China using the configuration.xml which is a copy of configuration_china.xml. Once the input files have been read into the model and the model has run through all the timesteps it will output a database to the output/database_basexdb folder. The results in this database can be accessed and queries using the model interface which is opened using the run-model-interface executable file (run-model-interface.bat for Windows / ModelInterface.app for Mac) within the ModelInterface folder. For analyzing the results, keep in mind that there is a ‘GCAM China’ section to the Main_queries.xml file, which is used by the model interface. This section contains primary energy, electricity, refined liquids, and aggregated final energy queries which should be used instead of the corresponding queries in the standard section (‘energy’). Additionally, in order to get results for China as a whole, select all of the provinces as well as the ‘China’ region when running a query. 
+
+For more detailed instructions and other related content see the core GCAM user guide: https://jgcri.github.io/gcam-doc/user-guide.html
+
+Pre-requisites
+Windows:
+Java 64-bit offline. Download here: 
+
+
+<!-- <br> -->
+
+<!-- <!--------------------------> -->
+<!-- <!--------------------------> -->
+<!-- ## Models Used -->
+<!-- <!--------------------------> -->
+<!-- <!--------------------------> -->
+<!-- <p align="center"> <img src="images/divider.png"></p> -->
+
+<!-- ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
+<!-- library(kableExtra) -->
+<!-- data.frame( -->
+<!--     Model = c("GCAM-China"), -->
+<!--     Version = c("v6.0"), -->
+<!--     Description = c("Integrated assessment model with subnational detail"), -->
+<!--     Language = c("C++, R"), -->
+<!--     DOI = c("https://doi.org/_________") -->
+<!--     ) %>%  -->
+<!--   kbl() %>% -->
+<!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
+<!-- ``` -->
+
+<!-- <br> -->
 
 <!-------------------------->
 <!-------------------------->
-## Models Used
-<!-------------------------->
-<!-------------------------->
-<p align="center"> <img src="images/divider.png"></p>
+<!-- ## Access -->
+<!-- <!--------------------------> -->
+<!-- <!--------------------------> -->
+<!-- <p align="center"> <img src="images/divider.png"></p> -->
 
-```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
-library(kableExtra)
-data.frame(
-    Model = c("GCAM-China"),
-    Version = c("v6.0"),
-    Description = c("Integrated assessment model with subnational detail"),
-    Language = c("C++, R"),
-    DOI = c("https://doi.org/_________")
-    ) %>% 
-  kbl() %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
-```
+<!-- ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
+<!-- library(kableExtra) -->
+<!-- data.frame( -->
+<!--   Dataset = c("Tethys Outputs"), -->
+<!--   Version = c("v1.3.0"), -->
+<!--   Location = c("https://doi.org/10.7910/DVN/VIQEAB") -->
+<!--     ) %>%  -->
+<!--   kbl() %>% -->
+<!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
+<!-- ``` -->
 
-<br>
-
-<!-------------------------->
-<!-------------------------->
-## Access
-<!-------------------------->
-<!-------------------------->
-<p align="center"> <img src="images/divider.png"></p>
-
-```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
-library(kableExtra)
-data.frame(
-  Dataset = c("Tethys Outputs"),
-  Version = c("v1.3.0"),
-  Location = c("https://doi.org/10.7910/DVN/VIQEAB")
-    ) %>% 
-  kbl() %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
-```
-
-<br>
+<!-- <br> -->
 
 <!-------------------------->
 <!-------------------------->
@@ -252,15 +275,29 @@ knitr::include_graphics("images/workflow_summary.jpg")
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-This data set contains water withdrawal projections under a range of socioeconomic and climate scenarios. Combinations of five Shared Socioeconomic Pathways (SSPs 1-5) and four Representative Concentration Pathways (RCPs 2.6, 4.5, 6, and 8.5) are used. However, RCP 2.6 is not considered possible for SSP 3, and RCP 8.5 is only considered possible for SSP 5. This leaves 15 valid SSP-RCP combinations, shown in the diagram below.
+This model is a collaborative, open-source model where we will follow these Community guidelines. Your collaboration is welcome through the following process: Clone or fork the umd-cgs/gcam-china repository, then make a branch with the new features and initiate a pull request and submit a core model proposal as specified in the CONTRIBUTING.md document. This document outlines the process that groups can follow to propose the addition of new features to the model. 
 
-```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"}
-knitr::include_graphics("images/workflow1.jpg")
-```
+Modes of communication:
+Issues tab within the Github 
+WeChat?
+Email list?
+Future conferences to bring many teams together to share applications, development
 
-For each valid SSP-RCP combination, five General Circulation Models (GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM combinations, which are fed into GCAM.
+Contact Us
+Email address
+
+
+# ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"}
+# knitr::include_graphics("images/workflow1.jpg")
+# ```
+# 
+# For each valid SSP-RCP combination, five General Circulation Models (GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM combinations, which are fed into GCAM.
 
 <br>
+
+## Our Team
+
+## Disclaimer
 
 <!-- <!--------------------------> -->
 <!-- <!--------------------------> -->

@@ -12,8 +12,21 @@ output:
 ---
 
 <div class="header_logo">
-  <img src="webpage/images/cgs-logo_0.png" alt="Logo" class="logo">
+  <img src="Webpage/images/cgs-logo_0.png" alt="Logo" class="logo">
 </div>
+
+<style>
+.header_logo {
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 150px; /* Adjust the width as needed */
+}
+</style>
 
 <!-- Allow href to tabsets --> 
 ```{js, echo=FALSE}
@@ -66,9 +79,7 @@ scenario_names = c("ssp1_rcp26_gfdl"   = "SSP 1, RCP 2.6, gfdl",
                    "ssp5_rcp85_noresm" = "SSP 5, RCP 8.5, noresm")
 ```
 
-<div class="header_logo">
-Add logos if desired
-</div>
+
 
 <!-------------------------->
 <!-------------------------->
@@ -141,7 +152,7 @@ function toggleNestedDropdown(id) {
   </div>
 </details>
 
-#### Upcoming Features
+### Upcoming Features
 
 <details>
     <summary onclick="toggleNestedDropdown('coal-details')">Coal vintaging in power sector</summary>
@@ -301,6 +312,10 @@ Email address
 
 # Our Team
 
+## Advisory Committee
+
+![Advisory Committee](images/AdvisoryCommittee.jpg)
+
 # Disclaimer
 
 <!-- <!--------------------------> -->
@@ -363,7 +378,7 @@ Email address
 <!--   File = c("GPW_population.csv"), -->
 <!--   Reference = c("CIESIN, 2016"), -->
 <!--   Source = c("http://dx.doi.org/10.7927/H4X63JVC") -->
-<!--     ) %>%  -->
+<!--     ) %>% -->
 <!--   kbl() %>% -->
 <!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
 <!-- ``` -->
@@ -416,7 +431,7 @@ Email address
 <!--   Source = c("http://www.fao.org/docrep/010/a1259e/a1259e00.htm", -->
 <!--              "", -->
 <!--              "") -->
-<!--     ) %>%  -->
+<!--     ) %>% -->
 <!--   kbl() %>% -->
 <!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
 <!-- ``` -->

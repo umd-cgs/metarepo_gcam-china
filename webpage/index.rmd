@@ -8,6 +8,8 @@ output:
   <img src="../images/cgs-logo_0.png" alt="Logo" class="logo">
 </div>
 
+<br>
+
 <!-------------------------->
 <!-------------------------->
 ## **GCAM-China**
@@ -19,6 +21,8 @@ output:
 ```{r, echo=FALSE, out.width="100%", fig.align='enter'}
 knitr::include_graphics("images/Map_China_wide.png")
 ```
+</a>
+<p style="text-align:center;">Click Here to enter meta-repository <a href="file:///C:/Users/Admin/CGS/metarepo_gcam-china/webpage/_site/metarepo.html">hyperlink</a>.</p>
 </a>
 
 ## About

@@ -8,6 +8,8 @@ output:
   <img src="../images/cgs-logo_0.png" alt="Logo" class="logo">
 </div>
 
+<br>
+
 <!-------------------------->
 <!-------------------------->
 ## **GCAM-China**
@@ -17,6 +19,8 @@ output:
 
 <a href = "metarepo.html">
 <img src="images/Map_China_wide.png" width="100%" />
+</a>
+<p style="text-align:center;">Click Here to enter meta-repository <a href="file:///C:/Users/Admin/CGS/metarepo_gcam-china/webpage/_site/metarepo.html">hyperlink</a>.</p>
 </a>
 
 ## About

@@ -15,6 +15,8 @@ output:
   <img src="../images/cgs-logo_0.png" alt="Logo" class="logo">
 </div>
 
+<br>
+
 <!-- Allow href to tabsets --> 
 ```{js, echo=FALSE}
 function goToTab() {
@@ -68,7 +70,7 @@ scenario_names = c("ssp1_rcp26_gfdl"   = "SSP 1, RCP 2.6, gfdl",
 
 <br>
 
-# GCAM-China-v6 Overview
+# GCAM-China v6 Overview
 <p align="center"> <img src="images/divider.png"></p>
 
 This documentation describes GCAM-China v6.0, which is developed based on GCAM v6 with selected updates from GCAM v7 and specific features for GCAM-China. 
@@ -108,7 +110,7 @@ Java 64-bit offline. Download [here](https://java.com/en/download/)
 
 <br>
 
-# GCAM-China publications
+# GCAM-China Publications
 <p align="center"> <img src="images/divider.png"></p>
 
 - Yu S., J. Behrendt, A. Miller, Y. Liu, J. Adams, R. Cui, W. Li, H. Zhang, J. Cheng, D. Tong, J. Song, Q. Zhang, N. Hultman (2023). Co-benefits between Air Quality and Climate Policies in Guangdong and Shandong Provinces in China. Center for Global Sustainability, University of Maryland & Tsinghua University. 42 pp.

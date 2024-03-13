@@ -7,13 +7,13 @@
 
 .header_logo {
     position: fixed;
-    top: 5px;
+    top: 10px;
     right: 60px;
     z-index: 10000 !important;
 }
 
 .header_logo img {
-    width: 100px; /* Adjust the width of the logo */
+    width: 120px; /* Adjust the width of the logo */
     height: auto; /* Maintain aspect ratio */
 }
 

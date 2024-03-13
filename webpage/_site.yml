@@ -6,6 +6,8 @@ navbar:
     - text: "Meta Repository"
       icon: fas fa-book
       href: metarepo.html
+    - text: "Community Guidelines"
+      href: community_guidelines.html
     - text: "Disclaimer"
       href: disclaimer.html
     - icon: fab fa-github

@@ -178,27 +178,27 @@ function toggleNestedDropdown(id) {
 
 <!-- Sample text describing the feature of CDR technologies goes here. -->
 
-# ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
-# library(kableExtra)
-# data.frame(
-#   Data = c("GCAM Outputs",
-#            "Demeter Outputs"),
-#   Version = c("v4.3.chen http://doi.org/10.5281/zenodo.3713432",
-#               "v1.chen http://doi.org/10.5281/zenodo.3713378"),
-#   Location = c("https://doi.org/10.7910/DVN/DYV29J",
-#                "https://data.pnnl.gov/dataset/13192")
-#     ) %>% 
-#   kbl() %>%
-#   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
-# ```
+<!-- # ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
+<!-- # library(kableExtra) -->
+<!-- # data.frame( -->
+<!-- #   Data = c("GCAM Outputs", -->
+<!-- #            "Demeter Outputs"), -->
+<!-- #   Version = c("v4.3.chen http://doi.org/10.5281/zenodo.3713432", -->
+<!-- #               "v1.chen http://doi.org/10.5281/zenodo.3713378"), -->
+<!-- #   Location = c("https://doi.org/10.7910/DVN/DYV29J", -->
+<!-- #                "https://data.pnnl.gov/dataset/13192") -->
+<!-- #     ) %>%  -->
+<!-- #   kbl() %>% -->
+<!-- #   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
+<!-- # ``` -->
 
-## Citation
+# Citation
 
 DOI button
 Text citation for latest release 
 
 
-## Get Started
+# Get Started
 
 GCAM-China repository: https://github.com/umd-cgs/gcam-china
 
@@ -287,17 +287,17 @@ Contact Us
 Email address
 
 
-# ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"}
-# knitr::include_graphics("images/workflow1.jpg")
-# ```
-# 
-# For each valid SSP-RCP combination, five General Circulation Models (GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM combinations, which are fed into GCAM.
+<!-- # ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"} -->
+<!-- # knitr::include_graphics("images/workflow1.jpg") -->
+<!-- # ``` -->
+<!-- #  -->
+<!-- # For each valid SSP-RCP combination, five General Circulation Models (GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM combinations, which are fed into GCAM. -->
 
 <br>
 
-## Our Team
+# Our Team
 
-## Disclaimer
+# Disclaimer
 
 <!-- <!--------------------------> -->
 <!-- <!--------------------------> -->

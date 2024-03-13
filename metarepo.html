@@ -13,7 +13,7 @@
 
 <title>GCAM-China</title>
 
-<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -29,16 +29,14 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -363,8 +361,9 @@ div.tocify {
 <div class="header_logo">
 <p><img src="../images/cgs-logo_0.png" alt="Logo" class="logo"></p>
 </div>
+<p><br></p>
 <!-- Allow href to tabsets -->
-<script>
+<script type="text/javascript">
 function goToTab() {
   var hash = String(window.location.href.match("#.*$"));
   var target = document.querySelector("a[role = 'tab'][href='" + hash + "']");
@@ -384,23 +383,12 @@ window.onload = function() {
 
 window.onhashchange = goToTab;
 </script>
-<!-------------------------->
-<!-------------------------->
-<div id="citation" class="section level1">
-<h1>Citation</h1>
-<!-------------------------->
-<!-------------------------->
+<p><br></p>
+<div id="gcam-china-v6-overview" class="section level1">
+<h1>GCAM-China v6 Overview</h1>
 <p align="center">
 <img src="images/divider.png">
 </p>
-<p>Upcoming. <a href="https://doi.org/____"
-class="uri">https://doi.org/____</a></p>
-<p><br></p>
-<!-------------------------->
-<!-------------------------->
-</div>
-<div id="gcam-china-v6-overview" class="section level1">
-<h1>GCAM-China-v6 Overview</h1>
 <p>This documentation describes GCAM-China v6.0, which is developed
 based on GCAM v6 with selected updates from GCAM v7 and specific
 features for GCAM-China. For documentation of GCAM, please go to:
@@ -419,107 +407,28 @@ aggregate national level. Agricultural and land use activities,
 including the supply of biomass energy feedstocks (residues and
 dedicated energy crops), as well as water supply, are modeled at the
 level of 12 water basins in China.</p>
-<!-------------------------->
-<!-------------------------->
 <p align="center">
-<img src="images/divider.png">
+<img src="images/Map_China_long.png">
 </p>
 <p>In addition to greater spatial detail, there are several unique
 features developed in GCAM-China, including:</p>
-<script>
-function toggleDropdown(id) {
-  var x = document.getElementById(id);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-
-function toggleNestedDropdown(id) {
-  var x = document.getElementById(id);
-  if (x.open) {
-    x.open = false;
-  } else {
-    x.open = true;
-  }
-}
-</script>
-<details>
-<summary onclick="toggleDropdown(&#39;electricity&#39;)">
-Electricity by Power Segment
-</summary>
-<div id="electricity" style="display: none;">
-<pre><code>&lt;p&gt;Sample text describing the feature of Electricity by power segment goes here.&lt;/p&gt;</code></pre>
-</div>
-</details>
-<details>
-<summary onclick="toggleDropdown(&#39;detailed&#39;)">
-Detailed Industry
-</summary>
-<div id="detailed" style="display: none;">
-<pre><code>&lt;p&gt;Sample text describing the feature of Detailed Industry goes here.&lt;/p&gt;</code></pre>
-</div>
-</details>
-<details>
-<summary onclick="toggleDropdown(&#39;rural&#39;)">
-Rural / Urban Residential
-</summary>
-<div id="rural" style="display: none;">
-<pre><code>&lt;p&gt;Sample text describing the feature of Rural / urban residential goes here.&lt;/p&gt;</code></pre>
-</div>
-</details>
-<div id="upcoming-features" class="section level3">
-<h3>Upcoming Features</h3>
-<details>
-<summary onclick="toggleNestedDropdown(&#39;coal-details&#39;)">
-Coal vintaging in power sector
-</summary>
-<div id="coal-details">
-<pre><code>  &lt;p&gt;Sample text describing the feature of Coal vintaging in power sector goes here.&lt;/p&gt;
-&lt;/div&gt;</code></pre>
-</details>
-<details>
-<summary onclick="toggleNestedDropdown(&#39;cdr-details&#39;)">
-CDR technologies
-</summary>
-<div id="cdr-details">
-<pre><code>  &lt;p&gt;Sample text describing the feature of CDR technologies goes here.&lt;/p&gt;
-&lt;/div&gt;</code></pre>
-</details>
-</details>
-<!-- ## Features that differ from GCAM-Core -->
-<!-- ### Electricity by power segment -->
-<!-- Sample text describing the feature of Electricity by power segment goes here. -->
-<!-- ### Detailed industry -->
-<!-- Sample text describing the feature of Detailed Industry goes here. -->
-<!-- ### Rural / urban residential  -->
-<!-- Sample text describing the feature of Rural / urban residential goes here. -->
-<!-- ### Features under development -->
-<!-- #### Coal vintaging in power sector  -->
-<!-- Sample text describing the feature of Coal vintaging in power sector goes here. -->
-<!-- #### CDR technologies -->
-<!-- Sample text describing the feature of CDR technologies goes here. -->
-<!-- # ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
-<!-- # library(kableExtra) -->
-<!-- # data.frame( -->
-<!-- #   Data = c("GCAM Outputs", -->
-<!-- #            "Demeter Outputs"), -->
-<!-- #   Version = c("v4.3.chen http://doi.org/10.5281/zenodo.3713432", -->
-<!-- #               "v1.chen http://doi.org/10.5281/zenodo.3713378"), -->
-<!-- #   Location = c("https://doi.org/10.7910/DVN/DYV29J", -->
-<!-- #                "https://data.pnnl.gov/dataset/13192") -->
-<!-- #     ) %>%  -->
-<!-- #   kbl() %>% -->
-<!-- #   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
-<!-- # ``` -->
-<!-- # Citation -->
-<!-- DOI button -->
-<!-- Text citation for latest release  -->
-</div>
+<ul>
+<li>Electricity by power segment</li>
+<li>Detailed industry (China specific version)</li>
+<li>Rural / urban in residential building</li>
+</ul>
+<p>Features under development but not included in this release</p>
+<ul>
+<li>Coal vintaging in power sector</li>
+<li>CDR technologies</li>
+</ul>
+<p><br></p>
 </div>
 <div id="get-started" class="section level1">
 <h1>Get Started</h1>
+<p align="center">
+<img src="images/divider.png">
+</p>
 <p>GCAM-China repository: <a
 href="https://github.com/umd-cgs/gcam-china"
 class="uri">https://github.com/umd-cgs/gcam-china</a></p>
@@ -532,74 +441,68 @@ for Mac) within the exe folder. This will run GCAM-China using the
 configuration.xml which is a copy of configuration_china.xml. Once the
 input files have been read into the model and the model has run through
 all the timesteps it will output a database to the
-output/database_basexdb folder. The results in this database can be
-accessed and queries using the model interface which is opened using the
-run-model-interface executable file (run-model-interface.bat for Windows
-/ ModelInterface.app for Mac) within the ModelInterface folder. For
-analyzing the results, keep in mind that there is a ‘GCAM China’ section
-to the Main_queries.xml file, which is used by the model interface. This
-section contains primary energy, electricity, refined liquids, and
-aggregated final energy queries which should be used instead of the
-corresponding queries in the standard section (‘energy’). Additionally,
-in order to get results for China as a whole, select all of the
-provinces as well as the ‘China’ region when running a query.</p>
+output/database_basexdb folder.</p>
+<p>The results in this database can be accessed and queries using the
+model interface which is opened using the run-model-interface executable
+file (run-model-interface.bat for Windows / ModelInterface.app for Mac)
+within the ModelInterface folder. For analyzing the results, keep in
+mind that there is a ‘GCAM China’ section to the Main_queries.xml file,
+which is used by the model interface. This section contains primary
+energy, electricity, refined liquids, and aggregated final energy
+queries which should be used instead of the corresponding queries in the
+standard section (‘energy’). Additionally, in order to get results for
+China as a whole, select all of the provinces as well as the ‘China’
+region when running a query.</p>
 <p>For more detailed instructions and other related content see the core
 GCAM user guide: <a
 href="https://jgcri.github.io/gcam-doc/user-guide.html"
 class="uri">https://jgcri.github.io/gcam-doc/user-guide.html</a></p>
-<p>Pre-requisites Windows: Java 64-bit offline. Download here:</p>
-<!-- <br> -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- <!--------------------------> –&gt;
-<!-- ## Models Used --> <!-- <!--------------------------> –&gt;
-<!-- <!--------------------------> –&gt;
-<!-- <p align="center"> <img src="images/divider.png"></p> --></p>
-<!-- ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
-<!-- library(kableExtra) -->
-<!-- data.frame( -->
-<!--     Model = c("GCAM-China"), -->
-<!--     Version = c("v6.0"), -->
-<!--     Description = c("Integrated assessment model with subnational detail"), -->
-<!--     Language = c("C++, R"), -->
-<!--     DOI = c("https://doi.org/_________") -->
-<!--     ) %>%  -->
-<!--   kbl() %>% -->
-<!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
-<!-- ``` -->
-<!-- <br> -->
-<!-------------------------->
-<!-------------------------->
-<!-- ## Access -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- <!--------------------------> –&gt;
-<!-- <p align="center"> <img src="images/divider.png"></p> --></p>
-<!-- ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
-<!-- library(kableExtra) -->
-<!-- data.frame( -->
-<!--   Dataset = c("Tethys Outputs"), -->
-<!--   Version = c("v1.3.0"), -->
-<!--   Location = c("https://doi.org/10.7910/DVN/VIQEAB") -->
-<!--     ) %>%  -->
-<!--   kbl() %>% -->
-<!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
-<!-- ``` -->
-<!-- <br> -->
-<!-------------------------->
-<!-------------------------->
+<p>Pre-requisites</p>
+<ul>
+<li>Windows: Java 64-bit offline. Download <a
+href="https://java.com/en/download/">here</a></li>
+</ul>
+<p><br></p>
 </div>
-<div id="gcam-china-studies-references" class="section level1">
-<h1>GCAM-China studies / references</h1>
-<!-------------------------->
-<!-------------------------->
+<div id="gcam-china-publications" class="section level1">
+<h1>GCAM-China Publications</h1>
 <p align="center">
 <img src="images/divider.png">
 </p>
-<div class="figure" style="text-align: center">
-<img src="images/workflow_summary.jpg" alt="Workflow Summary" width="40%" />
-<p class="caption">
-Workflow Summary
-</p>
-</div>
+<ul>
+<li><p>Yu S., J. Behrendt, A. Miller, Y. Liu, J. Adams, R. Cui, W. Li,
+H. Zhang, J. Cheng, D. Tong, J. Song, Q. Zhang, N. Hultman (2023).
+Co-benefits between Air Quality and Climate Policies in Guangdong and
+Shandong Provinces in China. Center for Global Sustainability,
+University of Maryland &amp; Tsinghua University. 42 pp.</p></li>
+<li><p>Cheng, J., Tong, D., Liu, Y., Geng, G., Davis, S. J., He, K.,
+&amp; Zhang, Q. (2023). A synergistic approach to air pollution control
+and carbon neutrality in China can avoid millions of premature deaths
+annually by 2060. One Earth, 6(8), 978-989.</p></li>
+<li><p>Liu, Y., Tong, D., Cheng, J., Davis, S. J., Yu, S., Yarlagadda,
+B., … &amp; Zhang, Q. (2022). Role of climate goals and clean-air
+policies on reducing future air pollution deaths in China: a modelling
+study. The Lancet Planetary Health, 6(2), e92-e99.</p></li>
+<li><p>Cui, R.Y., Hultman, N., Cui, D. et al. A plant-by-plant strategy
+for high-ambition coal power phaseout in China. Nat Commun 12, 1468
+(2021). <a href="https://doi.org/10.1038/s41467-021-21786-0"
+class="uri">https://doi.org/10.1038/s41467-021-21786-0</a></p></li>
+<li><p>Cheng, J., Tong, D., Zhang, Q., Liu, Y., Lei, Y., Yan, G., …
+&amp; He, K. (2021). Pathways of China’s PM2. 5 air quality 2015–2060 in
+the context of carbon neutrality. National Science Review, 8(12),
+nwab078.</p></li>
+<li><p>Yu, S., Yarlagadda, B., Siegel, J. E., Zhou, S. &amp; Kim, S. The
+role of nuclear in China’s energy future: insights from integrated
+assessment. Energy Policy 139, 111344 (2020).</p></li>
+<li><p>Tong, D., Cheng, J., Liu, Y., Yu, S., Yan, L., Hong, C., … &amp;
+Zhang, Q. (2020). Dynamic projection of anthropogenic emissions in
+China: methodology and 2015–2050 emission pathways under a range of
+socio-economic, climate policy, and pollution control scenarios.
+Atmospheric Chemistry and Physics, 20(9), 5729-5757.</p></li>
+<li><p>Yu, S. et al. CCUS in China’s mitigation strategy: insights from
+integrated assessment modeling. Int. J. Greenh. Gas. Control 84, 204–218
+(2019).</p></li>
+</ul>
 <p><br></p>
 <!-------------------------->
 <!-------------------------->
@@ -612,16 +515,21 @@ Workflow Summary
 <img src="images/divider.png">
 </p>
 <p>This model is a collaborative, open-source model where we will follow
-these Community guidelines. Your collaboration is welcome through the
-following process: Clone or fork the umd-cgs/gcam-china repository, then
-make a branch with the new features and initiate a pull request and
-submit a core model proposal as specified in the CONTRIBUTING.md
-document. This document outlines the process that groups can follow to
-propose the addition of new features to the model.</p>
-<p>Modes of communication: Issues tab within the Github WeChat? Email
-list? Future conferences to bring many teams together to share
-applications, development</p>
-<p>Contact Us Email address</p>
+these Community guidelines: <a
+href="GCAM-China%20community%20guideline_Chinese.pdf">Community
+Guidelines-Chinese</a> or <a
+href="GCAM-China%20community%20guideline_English.pdf">Community
+Guidelines-English</a> . Your participation collaboration is welcome
+through the following process: clone or fork the <a
+href="https://github.com/umd-cgs/gcam-china">umd-cgs/gcam-china
+repository</a>, then make a branch with the new features and initiate a
+pull request and submit a core model proposal as specified in the
+CONTRIBUTING.md document. This document outlines the process that groups
+can follow to propose the addition of new features to the model. Any
+issues / bugs / proposed features can be discussed through the Issues
+tab within the repository.</p>
+<p>Contact Us: <a href="mailto:yang.ou@pku.edu.cn"
+class="email">yang.ou@pku.edu.cn</a></p>
 <!-- # ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"} -->
 <!-- # knitr::include_graphics("images/workflow1.jpg") -->
 <!-- # ``` -->
@@ -629,605 +537,22 @@ applications, development</p>
 <!-- # For each valid SSP-RCP combination, five General Circulation Models (GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM combinations, which are fed into GCAM. -->
 <p><br></p>
 </div>
-<div id="our-team" class="section level1">
-<h1>Our Team</h1>
-<div id="advisory-committee" class="section level2">
-<h2>Advisory Committee</h2>
-<div class="float">
-<img src="images/AdvisoryCommittee.jpg" alt="Advisory Committee" />
-<div class="figcaption">Advisory Committee</div>
-</div>
-</div>
+<div id="advisory-committee" class="section level1">
+<h1>Advisory Committee</h1>
+<p align="center">
+<img src="images/divider.png">
+</p>
+<p><img src="images/AdvisoryCommittee.jpg" /></p>
+<p><br></p>
 </div>
 <div id="disclaimer" class="section level1">
 <h1>Disclaimer</h1>
-<!-- <!-------------------------->
-<p>–&gt; <!-- <!--------------------------> –&gt;
-<!-- # Delete: Workflow 2 - Model Runs -->
-<!-- <!--------------------------> –&gt;
-<!-- <!--------------------------> –&gt;
-<!-- <p align="center"> <img src="images/divider.png"></p> --></p>
-<!-- GCAM is run for each SSP-RCP-GCM combination. The GCAM outputs are at the resolution of 32 geopolitical regions, and 235 water basins, with 5-year timesteps. The sectoral water withdrawal outputs from GCAM are the primary inputs to Tethys, which will be downscaled to the target resolution. Crop outputs from GCAM are sent to Demeter for downscaling, to be used by Tethys for the irrigation sector. -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 2"} -->
-<!-- knitr::include_graphics("images/workflow2.jpg") -->
-<!-- ``` -->
-<!-- <br> -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- <!--------------------------> –&gt;
-<!-- # Delete: Workflow 3 - Spatial Downscaling -->
-<!-- <!--------------------------> –&gt;
-<!-- <!--------------------------> –&gt;
-<!-- <p align="center"> <img src="images/divider.png"></p> --></p>
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center', fig.cap="Spatial Workflow"} -->
-<!-- knitr::include_graphics("images/spatialworkflow.png") -->
-<!-- ``` -->
-<!-- Water withdrawals and consumption data for each sector are downscaled spatially first, from GCAM's 32 regions (or in the case of irrigation, 434 region-basin intersections) to a 0.5 degree gridded format. Of the 259,200 possible grid cells at this resolution (360 x 720), only the 67,420 cells categorized as land are considered. -->
-<!-- Different sectors use different algorithms to allocate a region's water withdrawals and consumption among its constituent grid cells, but in principle they are very similar: use gridded values of some proxy quantity to approximate the spatial distribution (i.e., divide each cell's value by the total of all cells belonging to that region), then apply that distribution to GCAM's value. These algorithms were derived from research by Edmonds and Reilly, 1985. -->
-<!-- For spatial downscaling, the workflow is divided into three parts: -->
-<!-- * A. Nonagricultural Sectors -->
-<!-- * B. Livestock -->
-<!-- * C. Irrigation -->
-<!-- These are explained in detail in their respective subsections. Keep in mind that downscaling occurs not just for all regions in a single slice of time, but for every 5 years from 2010 to 2100, across 75 alternative futures (SSP-RCP-GCM combinations). -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 3"} -->
-<!-- knitr::include_graphics("images/workflow3.jpg") -->
-<!-- ``` -->
-<!-- <br> -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ## Workflow 3A - Nonagricultural Sectors -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- For nonagricultural sectors (domestic, electricity, manufacturing, and mining), water withdrawals and consumption in each grid cell are assumed to be proportional to that cell’s population. The population data set used for this paper is from Gridded Population of the World (CIESIN, 2016). Tethys uses the nearest available year, which for this paper was 2010 in 2010, and 2015 in all other years. -->
-<!-- Each region's population is determined by taking the sum of population over all cells belonging to that region. For each of these sectors, Tethys calculates the withdrawal for a given cell by -->
-<!-- $$\text{withdrawal}_\text{cell} = \text{withdrawal}_\text{region} \times \frac{\text{population}_\text{cell}}{\text{population}_\text{region}}.$$ -->
-<!-- An analogous formula is used for consumption: -->
-<!-- $$\text{consumption}_\text{cell} = \text{consumption}_\text{region} \times \frac{\text{population}_\text{cell}}{\text{population}_\text{region}}.$$ -->
-<!-- ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
-<!-- library(kableExtra) -->
-<!-- data.frame( -->
-<!--   Name = c("Gridded Population of the World, Version 4"), -->
-<!--   File = c("GPW_population.csv"), -->
-<!--   Reference = c("CIESIN, 2016"), -->
-<!--   Source = c("http://dx.doi.org/10.7927/H4X63JVC") -->
-<!--     ) %>% -->
-<!--   kbl() %>% -->
-<!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
-<!-- ``` -->
-<!-- <br> -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ## Workflow 3B - Livestock -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- Gridded global maps (Wint and Robinson, 2007) for six types of livestock (cattle, buffalo, sheep, goats, pigs, and poultry) are used as a proxy to downscale livestock water withdrawal and consumption. GCAM outputs are organized into five types (beef, dairy, pork, poultry, and "sheepgoat"), so these are first reorganized to match the six maps using ratios for each region, estimated from FAO gridded livestock of the world. These are stored in the files bfracFAO2005.csv ("buffalo fraction") and gfracFAO2005.csv ("goat fraction"). The following formulas are used for each region: -->
-<!-- $$\begin{align} -->
-<!-- \text{buffalo} &= (\text{beef} + \text{dairy}) \times \text{bfrac}\\ -->
-<!-- \text{cattle} &= (\text{beef} + \text{dairy}) \times (1-\text{bfrac})\\ -->
-<!-- \text{goat} &= \text{sheepgoat} \times \text{gfrac}\\ -->
-<!-- \text{sheep} &= \text{sheepgoat} \times (1-\text{gfrac}) -->
-<!-- \end{align}$$ -->
-<!-- No adjustment is required for pork (pigs) or poultry. After this, downscaling for each livestock type is very similar to downscaling the nonagricultural sectors, except the respective livestock population (heads) is used as the proxy instead of human population. -->
-<!-- $$\text{withdrawal}_\text{animal, cell} = \text{withdrawal}_\text{animal, region} \times \frac{\text{heads}_\text{animal, cell}}{\text{heads}_\text{animal, region}}.$$ -->
-<!-- The results for each of the six types are then added together to get the total livestock withdrawal for each cell: -->
-<!-- $$\begin{align} -->
-<!-- \text{withdrawal}_\text{livestock, cell} = -->
-<!-- &\phantom{{}+{}}\text{withdrawal}_\text{cattle, cell}\\ -->
-<!-- &+ \text{withdrawal}_\text{buffalo, cell}\\ -->
-<!-- &+ \text{withdrawal}_\text{sheep, cell}\\ -->
-<!-- &+ \text{withdrawal}_\text{goat, cell}\\ -->
-<!-- &+ \text{withdrawal}_\text{pig, cell}\\ -->
-<!-- &+ \text{withdrawal}_\text{poultry, cell} -->
-<!-- \end{align}$$ -->
-<!-- Again, analogous formulas follow for consumption. -->
-<!-- ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
-<!-- library(kableExtra) -->
-<!-- data.frame( -->
-<!--   Name = c("Gridded Livestock of the World", -->
-<!--            "Buffalo Fraction", -->
-<!--            "Goat Fraction"), -->
-<!--   File = c("livestock_<animal>.csv", -->
-<!--            "bfracFAO2005.csv", -->
-<!--            "gfracFAO2005.csv"), -->
-<!--   Reference = c("Wint and Robinson, 2007", -->
-<!--                 '"estimated from FAO gridded livestock of the world"', -->
-<!--                 '"estimated from FAO gridded livestock of the world"'), -->
-<!--   Source = c("http://www.fao.org/docrep/010/a1259e/a1259e00.htm", -->
-<!--              "", -->
-<!--              "") -->
-<!--     ) %>% -->
-<!--   kbl() %>% -->
-<!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
-<!-- ``` -->
-<!-- <br> -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ## Workflow 3C - Irrigation -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- GCAM irrigation withdrawal and consumption outputs are organized by 13 crop types: Biomass, Corn, Fiber Crop, Misc Crop, Oil Crop, Other Grain, Palm Fruit, Rice, Root Tuber, Sugar Crop, Wheat, Fodder Herb, and Fodder Grass. Demeter provides a spatial landcover breakdown by all crop types except biomass, which is downscaled uniformly within a region-basin intersection (with respect to land area). -->
-<!-- $$\text{withdrawal}_\text{biomass, cell} = \text{withdrawal}_\text{biomass, region} \times \frac{\text{area}_\text{cell}}{\text{area}_\text{region}},$$ -->
-<!-- When possible, the other 12 crops are downscaled in proportion to the crop land area maps from Demeter, which have been reaggregated to the target resolution of 0.5 degrees. There are certain exceptions. If the GCAM withdrawal or consumption value for a crop in some region-basin is nonzero, but Demeter does not show any cells with that crop type in that region-basin, it will be downscaled uniformly, the same as biomass. -->
-<!-- Additionally, it is possible for GCAM and Demeter have different total crop irrigation areas for a region basin intersection, so applying the raw Demeter ratios to irrigation withdrawals or consumption (which are directly related to irrigation areas) could result in cell withdrawal values that imply larger irrigation area than total cell area. In order to avoid this nonphysical situation, excess irrigation area in cells that are above capacity is assigned evenly among irrigated cells with capacity remaining if there are any, otherwise it is assigned evenly among the remaining cells in the region-basin. Should there still be excess after those cells have been filled, it would be dropped. -->
-<!-- Using these adjusted irrigation area values for each crop, cell withdrawal values are given by -->
-<!-- $$\text{withdrawal}_\text{crop, cell} = \text{withdrawal}_\text{crop, region} \times \frac{\text{area}_\text{crop, cell}}{\text{area}_\text{crop, region}},$$ -->
-<!-- and the analogous formula is used for consumption. The total irrigation sector value for a cell is the sum of that cell's values for all 13 crops. -->
-<!-- Note that 6 of the 434 region-basin intersections are so small that they are not represented in the 0.5 degree mapping, causing any of their irrigation withdrawals or consumption to be dropped, though these values are correspondingly small. -->
-<!-- <br> -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- <!--------------------------> –&gt;
-<!-- # Delete: Workflow 4 - Temporal Downscaling -->
-<!-- <!--------------------------> –&gt;
-<!-- <!--------------------------> –&gt;
-<!-- <p align="center"> <img src="images/divider.png"></p> --></p>
-<!-- At this stage GCAM values have been downscaled spatially to 0.5 degree grids, but are still in 5 year timesteps. First, linear interpolation is applied to produce annual data. Then, downscaling algorithms are applied to each sector to produce monthly data with seasonal variation. -->
-<!-- For spatial downscaling, the workflow is divided into four parts: -->
-<!-- * A. Livestock, Manufacturing, and Mining -->
-<!-- * B. Domestic -->
-<!-- * C. Electricity Generation -->
-<!-- * D. Irrigation -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 4"} -->
-<!-- knitr::include_graphics("images/workflow4.jpg") -->
-<!-- ``` -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Temporal Workflow"} -->
-<!-- knitr::include_graphics("images/temporalworkflow.png") -->
-<!-- ``` -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ## Workflow 4a - Domestic -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- Temporally downscaling domestic withdrawal uses a formula from Wada et al., 2011 (http://dx.doi.org/10.1029/2010WR009792), with data from Huang et al., 2018 (https://doi.org/10.5194/hess-22-2117-2018). Withdrawals for each month of a year for some cell are given by the formula -->
-<!-- $$\text{withdrawal}_\text{month} = \frac{\text{withdrawal}_\text{year}}{12} \times \left(\frac{\text{temperature}_\text{month} - \text{temperature}_\text{mean}}{\text{temperature}_\text{max} - \text{temperature}_\text{min}}R + 1\right).$$ -->
-<!-- Here $\text{temperature}_\text{month}$ is the average temperature that month, $\text{temperature}_\text{mean}$, $\text{temperature}_\text{max}$, and $\text{temperature}_\text{min}$ are the mean, maximum, and minimum among monthly average temperatures for that year. $R$ is a parameter representing the relative difference of water withdrawals between the warmest and coolest months of the year. Note that the monthly values given by this formula add back up to the total for the year (at least conceptually, since floating point arithmetic doesn't work out perfectly). -->
-<!-- ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
-<!-- library(kableExtra) -->
-<!-- data.frame( -->
-<!--   Name = c("Domestic R", -->
-<!--            "WFDEI"), -->
-<!--   File = c("DomesticR.csv", -->
-<!--            "watch_wfdei_monthly_1971_2010.npz"), -->
-<!--   Reference = c("Huang et al., 2018", -->
-<!--                 "Weedon et al., 2014"), -->
-<!--   Source = c("https://doi.org/10.5194/hess-22-2117-2018", -->
-<!--              "https://doi.org/10.1002/2014WR015638") -->
-<!--     ) %>%  -->
-<!--   kbl() %>% -->
-<!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
-<!-- ``` -->
-<!-- <br> -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ## Workflow 4B - Electricity Generation -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- Water withdrawal and consumption for electricity generation each month are assumed to be proportional to the amount of electricity generated, using the formula developed in Voisin et al., 2013 (https://doi.org/10.5194/hess-17-4555-2013). -->
-<!-- $$\text{withdrawal}_\text{month} = \text{withdrawal}_\text{year} \times \left[p_\text{b}\times\left(p_\text{h}\frac{\text{HDD}_\text{month}}{\text{HDD}_\text{year}} + p_\text{c}\frac{\text{CDD}_\text{month}}{\text{CDD}_\text{year}}+p_\text{u}\frac{1}{12}\right) + p_\text{it}\frac{1}{12}\right].$$ -->
-<!-- Here $p_\text{b}$ and $p_\text{it}$ are the proportions of electricity used for buildings and industry/transportation respectively, with $p_\text{b} + p_\text{it} = 1$. The electricity use for industry and transportation is assumed to be uniform throughout the year, while building electricity is further broken down by heating ($p_\text{h}$), cooling ($p_\text{c}$), and other ($p_\text{u}$), with $p_\text{h} + p_\text{c} + p_\text{u} = 1$. -->
-<!-- Heating degree days (HDD) and cooling degree days (CDD) are indicators for the amount of electricity used to heat and cool buildings, and are calculated from mean daily outdoor air temperature. HDD for a month is the sum of $(18-\text{temperature}_\text{day})$ across all days where temperature is less than 18 degrees Celsius. CDD is the sum of $(\text{temperature}_\text{day} - 18)$ across all days where temperature is greater than 18. Annual HDD and CDD are the sum of their respective monthly values. -->
-<!-- Tethys uses HDD, CDD, and $p$ values for each cell from the nearest available year in the input files listed at the end of this subsection, which is 2010 for this data set. -->
-<!-- The formula is modified for cells with low annual HDD or CDD as described in Huang et al., 2018, since these may not have heating or cooling services despite nonzero values of $p_\text{h}$ or $p_\text{c}$. When $\text{HDD}_\text{year} < 650$, The HDD term is removed and $p_\text{h}$ is reallocated to the cooling proportion, giving -->
-<!-- $$\text{withdrawal}_\text{month} = \text{withdrawal}_\text{year} \times \left[p_\text{b}\times\left((p_\text{h} + p_\text{c})\frac{\text{CDD}_\text{month}}{\text{CDD}_\text{year}}+p_\text{u}\frac{1}{12}\right) + p_\text{it}\frac{1}{12}\right].$$ -->
-<!-- Likewise, when $\text{CDD}_\text{year} < 450$, the formula becomes -->
-<!-- $$\text{withdrawal}_\text{month} = \text{withdrawal}_\text{year} \times \left[p_\text{b}\times\left((p_\text{h} + p_\text{c})\frac{\text{HDD}_\text{month}}{\text{HDD}_\text{year}}+p_\text{u}\frac{1}{12}\right) + p_\text{it}\frac{1}{12}\right].$$ -->
-<!-- When annual HDD and CDD are both below their respective thresholds, all sources of monthly variation vanish and the formula reduces to -->
-<!-- $$\text{withdrawal}_\text{month} = \frac{\text{withdrawal}_\text{year}}{12}.$$ -->
-<!-- Analogous formulas follow for consumption. -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;">
-Name
-</th>
-<th style="text-align:left;">
-File
-</th>
-<th style="text-align:left;">
-Reference
-</th>
-<th style="text-align:left;">
-Source
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Building Proportion
-</td>
-<td style="text-align:left;">
-ElecBuilding_1971_2010.csv
-</td>
-<td style="text-align:left;">
-IEA historical data, Huang et al., 2018
-</td>
-<td style="text-align:left;">
-<a href="https://doi.org/10.5194/hess-22-2117-2018"
-class="uri">https://doi.org/10.5194/hess-22-2117-2018</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Industry/Technology Proportion
-</td>
-<td style="text-align:left;">
-ElecIndustry_1971_2010.csv
-</td>
-<td style="text-align:left;">
-IEA historical data, Huang et al., 2018
-</td>
-<td style="text-align:left;">
-<a href="https://doi.org/10.5194/hess-22-2117-2018"
-class="uri">https://doi.org/10.5194/hess-22-2117-2018</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Heating Proportion
-</td>
-<td style="text-align:left;">
-ElecBuildingHeat_1971_2010.csv
-</td>
-<td style="text-align:left;">
-IEA historical data, Huang et al., 2018
-</td>
-<td style="text-align:left;">
-<a href="https://doi.org/10.5194/hess-22-2117-2018"
-class="uri">https://doi.org/10.5194/hess-22-2117-2018</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Cooling Proportion
-</td>
-<td style="text-align:left;">
-ElecBuildingCool_1971_2010.csv
-</td>
-<td style="text-align:left;">
-IEA historical data, Huang et al., 2018
-</td>
-<td style="text-align:left;">
-<a href="https://doi.org/10.5194/hess-22-2117-2018"
-class="uri">https://doi.org/10.5194/hess-22-2117-2018</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Other Proportion
-</td>
-<td style="text-align:left;">
-ElecBuildingOthers_1971_2010.csv
-</td>
-<td style="text-align:left;">
-IEA historical data, Huang et al., 2018
-</td>
-<td style="text-align:left;">
-<a href="https://doi.org/10.5194/hess-22-2117-2018"
-class="uri">https://doi.org/10.5194/hess-22-2117-2018</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-WFDEI
-</td>
-<td style="text-align:left;">
-watch_wfdei_monthly_1971_2010.npz
-</td>
-<td style="text-align:left;">
-Weedon et al., 2014
-</td>
-<td style="text-align:left;">
-<a href="https://doi.org/10.1002/2014WR015638"
-class="uri">https://doi.org/10.1002/2014WR015638</a>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- <br> -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ## Workflow 4C - Livestock, Manufacturing, and Mining -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- For livestock, manufacturing, and mining, a uniform distribution is applied. The withdrawal or consumption for the year is divided between months according to the number of days. -->
-<!-- $$\text{withdrawal}_\text{month} = \text{withdrawal}_\text{year} \times \frac{\text{days}_\text{month}}{\text{days}_\text{year}}.$$ -->
-<!-- $$\text{consumption}_\text{month} = \text{consumption}_\text{year} \times \frac{\text{days}_\text{month}}{\text{days}_\text{year}}.$$ -->
-<!-- <br> -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ## Workflow 4D - Irrigation -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- Temporal downscaling for irrigation water withdrawal and consumption is based on weighted irrigation profiles for each of the 235 basins. Monthly irrigation withdrawal values from the PCR-GLOBWB global hydrological model are averaged across the years 1971-2010, then aggregated to the basin scale. The monthly irrigation withdrawal percentages for a basin are applied to all crops in each of its cells: -->
-<!-- $$\text{withdrawal}_\text{month} = \text{withdrawal}_\text{year} \times \text{percent}_\text{basin, month}.$$ -->
-<!-- In the event that the model has no monthly data for a basin with nonzero irrigation, the profile of the nearest available basin is used. -->
-<!-- ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
-<!-- library(kableExtra) -->
-<!-- data.frame( -->
-<!--   Name = c("PCR‐GLOBWB", -->
-<!--            "Basin Distances"), -->
-<!--   File = c("pcrglobwb_wfdei_varsoc_pirrww_global_monthly_1971_2010.nc", -->
-<!--            "dist.csv"), -->
-<!--   Reference = c("Van Beek et al., 2011; Wada et al., 2011", -->
-<!--                 ""), -->
-<!--   Source = c("original data files were obtained from ISI‐MIP (Warszawski et al., 2014), then processed into gridded monthly percentage values", -->
-<!--              "calculated from basin locations") -->
-<!--     ) %>%  -->
-<!--   kbl() %>% -->
-<!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
-<!-- ``` -->
-<!-- <br> -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- <!--------------------------> –&gt;
-<!-- # Delete: Workflow 5 - Results  -->
-<!-- <!--------------------------> –&gt;
-<!-- <!--------------------------> –&gt;
-<!-- <p align="center"> <img src="images/divider.png"></p> --></p>
-<!-- <!-------------------------->
-<p>–&gt; <!-- ## Annual {.tabset} --> <!-- <!-------------------------->
-–&gt;</p>
-<!-- ### Total {.tabset .tabset-pills}            -->
-<!-- #### Withdrawal -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Total Annual Water Withdrawal by SSP-RCP-GCM"} -->
-<!-- knitr::include_graphics("images/figure1.png") -->
-<!-- ``` -->
-<!-- #### Consumption -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Total Annual Water Consumption by SSP-RCP-GCM"} -->
-<!-- knitr::include_graphics("images/figure1_c.png") -->
-<!-- ``` -->
-<!-- ### By Sector {.tabset .tabset-pills} -->
-<!-- #### Withdrawal -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Global Annual Water Withdrawal by SSP-RCP-GCM and Sector"} -->
-<!-- knitr::include_graphics("images/figure2.png") -->
-<!-- ``` -->
-<!-- #### Consumption -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Global Annual Water Consumption by SSP-RCP-GCM and Sector"} -->
-<!-- knitr::include_graphics("images/figure2_c.png") -->
-<!-- ``` -->
-<!-- ### Crops {.tabset .tabset-pills} -->
-<!-- #### Withdrawal -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Global Annual Water Withdrawal by SSP-RCP-GCM and Crop"} -->
-<!-- knitr::include_graphics("images/figure6.png") -->
-<!-- ``` -->
-<!-- #### Consumption -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Global Annual Water Consumption by SSP-RCP-GCM and Crop"} -->
-<!-- knitr::include_graphics("images/figure6_c.png") -->
-<!-- ``` -->
-<!-- ### GCMs {.tabset .tabset-pills} -->
-<!-- #### GFDL -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Global Annual Water Withdrawal by SSP-RCP-Sector, GCM: gfdl"} -->
-<!-- knitr::include_graphics("images/figure3a.png") -->
-<!-- ``` -->
-<!-- #### HADGEM -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="TGlobal Annual Water Withdrawal by SSP-RCP-Sector, GCM: hadgem"} -->
-<!-- knitr::include_graphics("images/figure3b.png") -->
-<!-- ``` -->
-<!-- #### IPSL -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Global Annual Water Withdrawal by SSP-RCP-Sector, GCM: ipsl"} -->
-<!-- knitr::include_graphics("images/figure3c.png") -->
-<!-- ``` -->
-<!-- #### MIROC -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Global Annual Water Withdrawal by SSP-RCP-Sector, GCM: miroc"} -->
-<!-- knitr::include_graphics("images/figure3d.png") -->
-<!-- ``` -->
-<!-- #### NORESM -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Global Annual Water Withdrawal by SSP-RCP-Sector, GCM: noresm"} -->
-<!-- knitr::include_graphics("images/figure3e.png") -->
-<!-- ``` -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ## Monthly {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- ### All Sectors -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Monthly Example"} -->
-<!-- knitr::include_graphics("images/figure4a.png") -->
-<!-- ``` -->
-<!-- ### No Irrigation -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Without Irrigation"} -->
-<!-- knitr::include_graphics("images/figure4b.png") -->
-<!-- ``` -->
-<!-- ### Crops -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Without Irrigation"} -->
-<!-- knitr::include_graphics("images/figure5.png") -->
-<!-- ``` -->
-<!-- <!-- <!-------------------------->
-<p>–&gt; –&gt; <!-- <!-- ## Maps {.tabset} --> –&gt;
-<!-- <!-- <!--------------------------> –&gt; –&gt;
-<!-- <!-- ```{r, echo=FALSE, out.width="100%", fig.align='center'} -->
-–&gt; <!-- <!-- knitr::include_graphics("images/facetmapannual.png") -->
-–&gt; <!-- <!-- ``` --> –&gt;
-<!-- <!-- ```{r, echo=FALSE, out.width="100%", fig.align='center'} -->
-–&gt;
-<!-- <!-- knitr::include_graphics("images/facetmapmonthly.png") -->
-–&gt; <!-- <!-- ``` --> –&gt;</p>
-<!-- <br> -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- <!--------------------------> –&gt;
-<!-- # Delete: Validation --> <!-- <!--------------------------> –&gt;
-<!-- <!--------------------------> –&gt;
-<!-- <p align="center"> <img src="images/divider.png"></p> --></p>
-<!-- It is important to confirm that the water withdrawal and consumption totals are preserved at all stages of the downscaling process. Floating point calculations lead to some loss of precision, but the downscaling algorithms themselves should not meaningfully change the totals. -->
-<!-- While this is a necessary check, it does not necessarily say anything about the "correctness" of our downscaled results. Validation for the downscaling algorithms used by Tethys can be found in their respective sources. Additionally, we compare the spatial and temporal distributions of our results with those of similar data sets. -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ## Spatial {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- For each region (or region-basin intersection), year, sector (or crop), and scenario, we plot the withdrawal and consumption value from GCAM compared to the value reaggregated from Tethys annual outputs. -->
-<!-- 6 of the 434 region-basin intersections are smaller than the output resolution, and are dropped, causing a correspondingly small loss of water in the irrigation sector. -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Withdrawals {.tabset .tabset-pills} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- #### Sectors -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center', fig.cap="GCAM inputs vs grids Reaggregated"} -->
-<!-- knitr::include_graphics("images/validation1.png") -->
-<!-- ``` -->
-<!-- #### Crops -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center', fig.cap="GCAM inputs vs grids Reaggregated"} -->
-<!-- knitr::include_graphics("images/validation2.png") -->
-<!-- ``` -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Consumption {.tabset .tabset-pills} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- #### Sectors -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center', fig.cap="GCAM inputs vs grids Reaggregated"} -->
-<!-- knitr::include_graphics("images/validation5.png") -->
-<!-- ``` -->
-<!-- #### Crops -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center', fig.cap="GCAM inputs vs grids Reaggregated"} -->
-<!-- knitr::include_graphics("images/validation6.png") -->
-<!-- ``` -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ## Temporal {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- For each of the same categories as above, we compare the GCAM value with the value reaggregated from Tethys monthly outputs. -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Withdrawals {.tabset .tabset-pills} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- #### Sectors -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center', fig.cap="Annual vs Reaggregated Monthly"} -->
-<!-- knitr::include_graphics("images/validation3.png") -->
-<!-- ``` -->
-<!-- #### Crops -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center', fig.cap="Annual vs Reaggregated Monthly"} -->
-<!-- knitr::include_graphics("images/validation4.png") -->
-<!-- ``` -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Consumption {.tabset .tabset-pills} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- #### Sectors -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center', fig.cap="Annual vs Reaggregated Monthly"} -->
-<!-- knitr::include_graphics("images/validation7.png") -->
-<!-- ``` -->
-<!-- #### Crops -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center', fig.cap="Annual vs Reaggregated Monthly"} -->
-<!-- knitr::include_graphics("images/validation8.png") -->
-<!-- ``` -->
-<!-- ## Similar Data Sets -->
-<!-- There are inherent challenges with validating water demand projections across alternative futures. Since this work is primarily concerned with the downscaling of existing projections to a gridded monthly scale, we look at how spatial and temporal patterns in our year 2010 outputs (for which all scenarios are identical) compare to those of similar data sets. -->
-<!-- The first data set we look at is from Huang et al. (2018), which used an earlier version of Tethys on historical data from 1971-2010. The underlying data have more regions and different totals, but many of the downscaling methods are identical, leading to similar results. -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center'} -->
-<!-- knitr::include_graphics("images/comparisonHuang.png") -->
-<!-- ``` -->
-<!-- The second data set we compared is from Mekonnen, M.M. and Hoekstra, A.Y. (2011). It contains monthly total blue water consumption values representing an average of years 1996-2005, which is close enough to 2010 to compare with our data set, though this probably accounts for some of the differences. The sectoral breakdown is also different, but the data are at the same spatial resolution, so we can compare monthly totals for each grid cell. -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center'} -->
-<!-- knitr::include_graphics("images/comparisonWaterfootprint.png") -->
-<!-- ``` -->
-<!-- Directly comparing cell values between data sets shows the differences, but gives a somewhat limited picture of the overall distributions. To get a sense for the spatial patterns we map the 2010 (or 1996-2005) withdrawal and consumption totals from each set. -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center'} -->
-<!-- knitr::include_graphics("images/comparison_spatial.png") -->
-<!-- ``` -->
-<!-- To compare seasonal water demand changes, we plot the monthly global totals for each data set. -->
-<!-- ```{r, echo=FALSE, out.width="75%", fig.align='center'} -->
-<!-- knitr::include_graphics("images/comparison_temporal_alt.png") -->
-<!-- ``` -->
-<!-- # Delete: Basin Examples -->
-<!-- We have selected the following regions from literature to explore in more detail, as a way of showing the full resolution of this data set. -->
-<!-- ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Selected Regions"} -->
-<!-- knitr::include_graphics("images/overview_map.png") -->
-<!-- ``` -->
-<!-- ## Indus -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Crop Withdrawals {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- ```{r, echo=FALSE, results = 'asis'} -->
-<!-- for(scenario in c("ssp1_rcp26_gfdl", "ssp2_rcp45_hadgem", "ssp3_rcp60_ipsl", "ssp4_rcp45_miroc", "ssp5_rcp85_noresm")){ -->
-<!--   cat("\n####", scenario_names[scenario], "\n") -->
-<!--   cat("![](images/regional/most_crop_Indus_w_", scenario, ".png)", sep="") -->
-<!--   cat("![](images/regional/crops_annual_Indus_w_", scenario, ".png)", sep="") -->
-<!--   cat('\n') -->
-<!-- } -->
-<!-- ``` -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Withdrawals by Sector {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- ```{r, echo=FALSE, results = 'asis'} -->
-<!-- for(sector in c("total", "dom", "elec", "mfg", "min", "liv", "irr", "Corn", "FiberCrop", "MiscCrop", "OilCrop", "OtherGrain", "Rice", "Root_Tuber", "SugarCrop", "Wheat", "biomass")){ -->
-<!--   cat("\n####", sector_names[sector], "{.tabset .tabset-pills}\n") -->
-<!--   for(scenario in c("ssp1_rcp26_gfdl", "ssp2_rcp45_hadgem", "ssp3_rcp60_ipsl", "ssp4_rcp45_miroc", "ssp5_rcp85_noresm")){ -->
-<!--     cat("\n#####", scenario_names[scenario], "\n") -->
-<!--     cat("![](images/regional/spatial_Indus_w", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat("![](images/regional/temporal_Indus_w", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat('\n') -->
-<!--   } -->
-<!-- } -->
-<!-- ``` -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Consumption by Sector {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- ```{r, echo=FALSE, results = 'asis'} -->
-<!-- for(sector in c("total", "dom", "elec", "mfg", "min", "liv", "irr", "Corn", "FiberCrop", "MiscCrop", "OilCrop", "OtherGrain", "Rice", "Root_Tuber", "SugarCrop", "Wheat", "biomass")){ -->
-<!--   cat("\n####", sector_names[sector], "{.tabset .tabset-pills}\n") -->
-<!--   for(scenario in c("ssp1_rcp26_gfdl", "ssp2_rcp45_hadgem", "ssp3_rcp60_ipsl", "ssp4_rcp45_miroc", "ssp5_rcp85_noresm")){ -->
-<!--     cat("\n#####", scenario_names[scenario], "\n") -->
-<!--     cat("![](images/regional/spatial_Indus_c", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat("![](images/regional/temporal_Indus_c", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat('\n') -->
-<!--   } -->
-<!-- } -->
-<!-- ``` -->
-<!-- ## Nile -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Crop Withdrawals {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- ```{r, echo=FALSE, results = 'asis'} -->
-<!-- for(scenario in c("ssp1_rcp26_gfdl", "ssp2_rcp45_hadgem", "ssp3_rcp60_ipsl", "ssp4_rcp45_miroc", "ssp5_rcp85_noresm")){ -->
-<!--   cat("\n####", scenario_names[scenario], "\n") -->
-<!--   cat("![](images/regional/most_crop_Nile_w_", scenario, ".png)", sep="") -->
-<!--   cat("![](images/regional/crops_annual_Nile_w_", scenario, ".png)", sep="") -->
-<!--   cat('\n') -->
-<!-- } -->
-<!-- ``` -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Withdrawals by Sector {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- ```{r, echo=FALSE, results = 'asis'} -->
-<!-- for(sector in c("total", "dom", "elec", "mfg", "min", "liv", "irr", "Corn", "FiberCrop", "FodderHerb", "MiscCrop", "OilCrop", "OtherGrain", "Rice", "Root_Tuber", "SugarCrop", "Wheat", "biomass")){ -->
-<!--   cat("\n####", sector_names[sector], "{.tabset .tabset-pills}\n") -->
-<!--   for(scenario in c("ssp1_rcp26_gfdl", "ssp2_rcp45_hadgem", "ssp3_rcp60_ipsl", "ssp4_rcp45_miroc", "ssp5_rcp85_noresm")){ -->
-<!--     cat("\n#####", scenario_names[scenario], "\n") -->
-<!--     cat("![](images/regional/spatial_Nile_w", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat("![](images/regional/temporal_Nile_w", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat('\n') -->
-<!--   } -->
-<!-- } -->
-<!-- ``` -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Consumption by Sector {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- ```{r, echo=FALSE, results = 'asis'} -->
-<!-- for(sector in c("total", "dom", "elec", "mfg", "min", "liv", "irr", "Corn", "FiberCrop", "FodderHerb", "MiscCrop", "OilCrop", "OtherGrain", "Rice", "Root_Tuber", "SugarCrop", "Wheat", "biomass")){ -->
-<!--   cat("\n####", sector_names[sector], "{.tabset .tabset-pills}\n") -->
-<!--   for(scenario in c("ssp1_rcp26_gfdl", "ssp2_rcp45_hadgem", "ssp3_rcp60_ipsl", "ssp4_rcp45_miroc", "ssp5_rcp85_noresm")){ -->
-<!--     cat("\n#####", scenario_names[scenario], "\n") -->
-<!--     cat("![](images/regional/spatial_Nile_c", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat("![](images/regional/temporal_Nile_c", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat('\n') -->
-<!--   } -->
-<!-- } -->
-<!-- ``` -->
-<!-- ## Colorado -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Crop Withdrawals {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- ```{r, echo=FALSE, results = 'asis'} -->
-<!-- for(scenario in c("ssp1_rcp26_gfdl", "ssp2_rcp45_hadgem", "ssp3_rcp60_ipsl", "ssp4_rcp45_miroc", "ssp5_rcp85_noresm")){ -->
-<!--   cat("\n####", scenario_names[scenario], "\n") -->
-<!--   cat("![](images/regional/most_crop_Upper_Colorado_River_w_", scenario, ".png)", sep="") -->
-<!--   cat("![](images/regional/crops_annual_Upper_Colorado_River_w_", scenario, ".png)", sep="") -->
-<!--   cat('\n') -->
-<!-- } -->
-<!-- ``` -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Withdrawals by Sector {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- ```{r, echo=FALSE, results = 'asis'} -->
-<!-- for(sector in c("total", "dom", "elec", "mfg", "min", "liv", "irr", "Corn", "FodderHerb", "MiscCrop", "OilCrop", "OtherGrain", "Root_Tuber", "SugarCrop", "Wheat", "biomass")){ -->
-<!--   cat("\n####", sector_names[sector], "{.tabset .tabset-pills}\n") -->
-<!--   for(scenario in c("ssp1_rcp26_gfdl", "ssp2_rcp45_hadgem", "ssp3_rcp60_ipsl", "ssp4_rcp45_miroc", "ssp5_rcp85_noresm")){ -->
-<!--     cat("\n#####", scenario_names[scenario], "\n") -->
-<!--     cat("![](images/regional/spatial_Upper_Colorado_River_w", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat("![](images/regional/temporal_Upper_Colorado_River_w", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat('\n') -->
-<!--   } -->
-<!-- } -->
-<!-- ``` -->
-<!-- <!-------------------------->
-<p>–&gt; <!-- ### Consumption by Sector {.tabset} -->
-<!-- <!--------------------------> –&gt;</p>
-<!-- ```{r, echo=FALSE, results = 'asis'} -->
-<!-- for(sector in c("total", "dom", "elec", "mfg", "min", "liv", "irr", "Corn", "FodderHerb", "MiscCrop", "OilCrop", "OtherGrain", "Root_Tuber", "SugarCrop", "Wheat", "biomass")){ -->
-<!--   cat("\n####", sector_names[sector], "{.tabset .tabset-pills}\n") -->
-<!--   for(scenario in c("ssp1_rcp26_gfdl", "ssp2_rcp45_hadgem", "ssp3_rcp60_ipsl", "ssp4_rcp45_miroc", "ssp5_rcp85_noresm")){ -->
-<!--     cat("\n#####", scenario_names[scenario], "\n") -->
-<!--     cat("![](images/regional/spatial_Upper_Colorado_River_c", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat("![](images/regional/temporal_Upper_Colorado_River_c", sector, "_", scenario, ".png)", sep="") -->
-<!--     cat('\n') -->
-<!--   } -->
-<!-- } -->
-<!-- ``` -->
+<p align="center">
+<img src="images/divider.png">
+</p>
+<p>GCAM-China is for educational purposes only. See the license here: <a
+href="https://github.com/umd-cgs/gcam-china/blob/main/LICENSE.md">umd-cgs/gcam-china/LICENSE.md</a>.</p>
+<p><br></p>
 </div>
 
 

@@ -13,7 +13,7 @@
 
 <title>GCAM-China</title>
 
-<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -29,7 +29,7 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
@@ -362,7 +362,7 @@ div.tocify {
 <p><img src="../images/cgs-logo_0.png" alt="Logo" class="logo"></p>
 </div>
 <!-- Allow href to tabsets -->
-<script>
+<script type="text/javascript">
 function goToTab() {
   var hash = String(window.location.href.match("#.*$"));
   var target = document.querySelector("a[role = 'tab'][href='" + hash + "']");
@@ -382,8 +382,12 @@ window.onload = function() {
 
 window.onhashchange = goToTab;
 </script>
+<p><br></p>
 <div id="gcam-china-v6-overview" class="section level1">
 <h1>GCAM-China-v6 Overview</h1>
+<p align="center">
+<img src="images/divider.png">
+</p>
 <p>This documentation describes GCAM-China v6.0, which is developed
 based on GCAM v6 with selected updates from GCAM v7 and specific
 features for GCAM-China. For documentation of GCAM, please go to:
@@ -411,15 +415,19 @@ features developed in GCAM-China, including:</p>
 <li>Electricity by power segment</li>
 <li>Detailed industry (China specific version)</li>
 <li>Rural / urban in residential building</li>
-<li>Features under development but not included in this release
+</ul>
+<p>Features under development but not included in this release</p>
 <ul>
 <li>Coal vintaging in power sector</li>
 <li>CDR technologies</li>
-</ul></li>
 </ul>
+<p><br></p>
 </div>
 <div id="get-started" class="section level1">
 <h1>Get Started</h1>
+<p align="center">
+<img src="images/divider.png">
+</p>
 <p>GCAM-China repository: <a
 href="https://github.com/umd-cgs/gcam-china"
 class="uri">https://github.com/umd-cgs/gcam-china</a></p>
@@ -432,22 +440,27 @@ for Mac) within the exe folder. This will run GCAM-China using the
 configuration.xml which is a copy of configuration_china.xml. Once the
 input files have been read into the model and the model has run through
 all the timesteps it will output a database to the
-output/database_basexdb folder. The results in this database can be
-accessed and queries using the model interface which is opened using the
-run-model-interface executable file (run-model-interface.bat for Windows
-/ ModelInterface.app for Mac) within the ModelInterface folder. For
-analyzing the results, keep in mind that there is a ‘GCAM China’ section
-to the Main_queries.xml file, which is used by the model interface. This
-section contains primary energy, electricity, refined liquids, and
-aggregated final energy queries which should be used instead of the
-corresponding queries in the standard section (‘energy’). Additionally,
-in order to get results for China as a whole, select all of the
-provinces as well as the ‘China’ region when running a query.</p>
+output/database_basexdb folder.</p>
+<p>The results in this database can be accessed and queries using the
+model interface which is opened using the run-model-interface executable
+file (run-model-interface.bat for Windows / ModelInterface.app for Mac)
+within the ModelInterface folder. For analyzing the results, keep in
+mind that there is a ‘GCAM China’ section to the Main_queries.xml file,
+which is used by the model interface. This section contains primary
+energy, electricity, refined liquids, and aggregated final energy
+queries which should be used instead of the corresponding queries in the
+standard section (‘energy’). Additionally, in order to get results for
+China as a whole, select all of the provinces as well as the ‘China’
+region when running a query.</p>
 <p>For more detailed instructions and other related content see the core
 GCAM user guide: <a
 href="https://jgcri.github.io/gcam-doc/user-guide.html"
 class="uri">https://jgcri.github.io/gcam-doc/user-guide.html</a></p>
-<p>Pre-requisites Windows: Java 64-bit offline. Download here:</p>
+<p>Pre-requisites</p>
+<ul>
+<li>Windows: Java 64-bit offline. Download here:</li>
+</ul>
+<p><br></p>
 </div>
 <div id="gcam-china-publications" class="section level1">
 <h1>GCAM-China publications</h1>
@@ -500,21 +513,21 @@ integrated assessment modeling. Int. J. Greenh. Gas. Control 84, 204–218
 <img src="images/divider.png">
 </p>
 <p>This model is a collaborative, open-source model where we will follow
-these Community guidelines. Your collaboration is welcome through the
-following process: clone or fork the umd-cgs/gcam-china repository, then
-make a branch with the new features and initiate a pull request and
-submit a core model proposal as specified in the CONTRIBUTING.md
-document. This document outlines the process that groups can follow to
-propose the addition of new features to the model.</p>
-<p>Modes of communication:</p>
-<ul>
-<li>Issues tab within the Github</li>
-</ul>
-<p>Contact Us</p>
-<ul>
-<li>Email address: <a href="mailto:yang.ou@pku.edu.cn"
-class="email">yang.ou@pku.edu.cn</a></li>
-</ul>
+these Community guidelines: <a
+href="GCAM-China%20community%20guideline_Chinese.pdf">Community
+Guidelines-Chinese</a> or <a
+href="GCAM-China%20community%20guideline_English.pdf">Community
+Guidelines-English</a> . Your participation collaboration is welcome
+through the following process: clone or fork the <a
+href="https://github.com/umd-cgs/gcam-china">umd-cgs/gcam-china
+repository</a>, then make a branch with the new features and initiate a
+pull request and submit a core model proposal as specified in the
+CONTRIBUTING.md document. This document outlines the process that groups
+can follow to propose the addition of new features to the model. Any
+issues / bugs / proposed features can be discussed through the Issues
+tab within the repository.</p>
+<p>Contact Us: <a href="mailto:yang.ou@pku.edu.cn"
+class="email">yang.ou@pku.edu.cn</a></p>
 <!-- # ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"} -->
 <!-- # knitr::include_graphics("images/workflow1.jpg") -->
 <!-- # ``` -->
@@ -522,17 +535,22 @@ class="email">yang.ou@pku.edu.cn</a></li>
 <!-- # For each valid SSP-RCP combination, five General Circulation Models (GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM combinations, which are fed into GCAM. -->
 <p><br></p>
 </div>
-<div id="our-team" class="section level1">
-<h1>Our Team</h1>
-<div class="float">
-<img src="images/AdvisoryCommittee.jpg" alt="Advisory Committee" />
-<div class="figcaption">Advisory Committee</div>
-</div>
+<div id="advisory-committee" class="section level1">
+<h1>Advisory Committee</h1>
+<p align="center">
+<img src="images/divider.png">
+</p>
+<p><img src="images/AdvisoryCommittee.jpg" /></p>
+<p><br></p>
 </div>
 <div id="disclaimer" class="section level1">
 <h1>Disclaimer</h1>
-<p>This repository is for educational purposes only. See the license
-here:</p>
+<p align="center">
+<img src="images/divider.png">
+</p>
+<p>GCAM-China is for educational purposes only. See the license here: <a
+href="https://github.com/umd-cgs/gcam-china/blob/main/LICENSE.md">umd-cgs/gcam-china/LICENSE.md</a>.</p>
+<p><br></p>
 </div>
 
 

@@ -10,16 +10,17 @@ output:
 
 <!-------------------------->
 <!-------------------------->
-### **GCAM-China**
+## **GCAM-China**
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
 <a href = "metarepo.html">
-<img src="images/Map_China_wide.png" width="80%" />
+<img src="images/Map_China_wide.png" width="100%" />
 </a>
 
-# About
+## About
+<p align="center"> <img src="images/divider.png"></p>
 
 GCAM-China is developed based on the Global Change Analysis Model (GCAM, jgcri.github.io/gcam-doc/) and includes greater spatial detail in the China region. GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. 
 
@@ -71,18 +72,17 @@ GCAM-China is jointly developed and maintained by the Institute of Carbon Neutra
 
 Please cite as: GCAM-China-(release version number):
 
+<br>
+
 <!-- **Developers**: Yang Liu (affiliation), Yang Ou (affiliation), Andy Miller (affiliation), Jay Fuhrman (affiliation) -->
 
 <!-- # Requested Citations -->
 
 <!-- Please cite as GCAM-China-(release version number) as shown in: https://umd-cgs.github.io/metarepo_gcam-china/metarepo.html#Citation  -->
 
-# Acknowledgements
+## Acknowledgements
+<p align="center"> <img src="images/divider.png"></p>
 
 Development and maintenance of GCAM-China has been supported by various funding sources, including xxx, Sequoia Climate Foundation, and Bloomberg Philanthropies.
-
-
-
-<p align="center"> <img src="images/divider.png"></p>
 
 

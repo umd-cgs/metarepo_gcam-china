@@ -66,8 +66,10 @@ scenario_names = c("ssp1_rcp26_gfdl"   = "SSP 1, RCP 2.6, gfdl",
                    "ssp5_rcp85_noresm" = "SSP 5, RCP 8.5, noresm")
 ```
 
+<br>
 
 # GCAM-China-v6 Overview
+<p align="center"> <img src="images/divider.png"></p>
 
 This documentation describes GCAM-China v6.0, which is developed based on GCAM v6 with selected updates from GCAM v7 and specific features for GCAM-China. 
 For documentation of GCAM, please go to: jgcri.github.io/gcam-doc/
@@ -80,22 +82,31 @@ In addition to greater spatial detail, there are several unique features develop
 - Electricity by power segment
 - Detailed industry (China specific version)
 - Rural / urban in residential building
-- Features under development but not included in this release
-  - Coal vintaging in power sector
-  - CDR technologies
+
+Features under development but not included in this release
+
+- Coal vintaging in power sector
+- CDR technologies
+
+<br>
 
 # Get Started
+<p align="center"> <img src="images/divider.png"></p>
 
 GCAM-China repository: https://github.com/umd-cgs/gcam-china
 
-For quick start download a zipped version of the latest release from https://github.com/umd-cgs/gcam-china/releases for either PC or Mac and the prerequisite software. Then double click on the run-gcam executable file (run-gcam.bat for Windows / run-gcam.command for Mac) within the exe folder. This will run GCAM-China using the configuration.xml which is a copy of configuration_china.xml. Once the input files have been read into the model and the model has run through all the timesteps it will output a database to the output/database_basexdb folder. The results in this database can be accessed and queries using the model interface which is opened using the run-model-interface executable file (run-model-interface.bat for Windows / ModelInterface.app for Mac) within the ModelInterface folder. For analyzing the results, keep in mind that there is a ‘GCAM China’ section to the Main_queries.xml file, which is used by the model interface. This section contains primary energy, electricity, refined liquids, and aggregated final energy queries which should be used instead of the corresponding queries in the standard section (‘energy’). Additionally, in order to get results for China as a whole, select all of the provinces as well as the ‘China’ region when running a query. 
+For quick start download a zipped version of the latest release from https://github.com/umd-cgs/gcam-china/releases for either PC or Mac and the prerequisite software. Then double click on the run-gcam executable file (run-gcam.bat for Windows / run-gcam.command for Mac) within the exe folder. This will run GCAM-China using the configuration.xml which is a copy of configuration_china.xml. Once the input files have been read into the model and the model has run through all the timesteps it will output a database to the output/database_basexdb folder. 
+
+The results in this database can be accessed and queries using the model interface which is opened using the run-model-interface executable file (run-model-interface.bat for Windows / ModelInterface.app for Mac) within the ModelInterface folder. For analyzing the results, keep in mind that there is a ‘GCAM China’ section to the Main_queries.xml file, which is used by the model interface. This section contains primary energy, electricity, refined liquids, and aggregated final energy queries which should be used instead of the corresponding queries in the standard section (‘energy’). Additionally, in order to get results for China as a whole, select all of the provinces as well as the ‘China’ region when running a query. 
 
 For more detailed instructions and other related content see the core GCAM user guide: https://jgcri.github.io/gcam-doc/user-guide.html
 
 Pre-requisites
-Windows:
-Java 64-bit offline. Download here: 
 
+- Windows:
+Java 64-bit offline. Download [here](https://java.com/en/download/)
+
+<br>
 
 # GCAM-China publications
 <p align="center"> <img src="images/divider.png"></p>
@@ -125,15 +136,9 @@ Java 64-bit offline. Download here:
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-This model is a collaborative, open-source model where we will follow these Community guidelines. Your collaboration is welcome through the following process: clone or fork the umd-cgs/gcam-china repository, then make a branch with the new features and initiate a pull request and submit a core model proposal as specified in the CONTRIBUTING.md document. This document outlines the process that groups can follow to propose the addition of new features to the model. 
+This model is a collaborative, open-source model where we will follow these Community guidelines: [Community Guidelines-Chinese](GCAM-China community guideline_Chinese.pdf) or [Community Guidelines-English](GCAM-China community guideline_English.pdf) . Your participation collaboration is welcome through the following process: clone or fork the [umd-cgs/gcam-china repository](https://github.com/umd-cgs/gcam-china), then make a branch with the new features and initiate a pull request and submit a core model proposal as specified in the CONTRIBUTING.md document. This document outlines the process that groups can follow to propose the addition of new features to the model. Any issues / bugs / proposed features can be discussed through the Issues tab within the repository.  
 
-Modes of communication:
-
-- Issues tab within the Github 
-
-Contact Us
-
-- Email address: yang.ou@pku.edu.cn 
+Contact Us:  yang.ou@pku.edu.cn 
 
 
 <!-- # ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"} -->
@@ -144,10 +149,17 @@ Contact Us
 
 <br>
 
-# Our Team
+# Advisory Committee
+<p align="center"> <img src="images/divider.png"></p>
 
-![Advisory Committee](images/AdvisoryCommittee.jpg)
+![](images/AdvisoryCommittee.jpg)
+
+<br>
 
 # Disclaimer
+<p align="center"> <img src="images/divider.png"></p>
 
-This repository is for educational purposes only. See the license here:
+GCAM-China is for educational purposes only. See the license here: [umd-cgs/gcam-china/LICENSE.md](https://github.com/umd-cgs/gcam-china/blob/main/LICENSE.md).
+
+<br>
+

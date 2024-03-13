@@ -414,22 +414,22 @@ region into 31 province-level sub-regions and six electricity grid
 regions that are also embedded in the global GCAM model. Electricity
 generation and end-use energy demand (buildings, transportation, and
 industry) are modeled at the provincial level in GCAM-China, and the
-model allows for electricity trade with in grid regions. Renewable
-energy resources (hydro, solar, and wind) and carbon storage resources
-are also provincial-specific. Primary production of fossil resources
-including oil, gas, and coal, as well as other energy transformation
-sectors (hydrogen, gas, and refined liquids production) are still
-modeled at the aggregate national level. Agricultural and land use
-activities, including the supply of biomass energy feedstocks (residues
-and dedicated energy crops), as well as water supply, are modeled at the
+model allows for electricity trade within grid regions. Renewable energy
+resources (hydro, solar, and wind) and carbon storage resources are also
+provincial-specific. Primary production of fossil resources including
+oil, gas, and coal, as well as other energy transformation sectors
+(hydrogen, gas, and refined liquids production) are still modeled at the
+aggregate national level. Agricultural and land use activities,
+including the supply of biomass energy feedstocks (residues and
+dedicated energy crops), as well as water supply, are modeled at the
 level of 12 water basins in China.</p>
 <!-------------------------->
 <!-------------------------->
 <p align="center">
 <img src="images/divider.png">
 </p>
-<div id="features-that-differ-from-gcam-core" class="section level2">
-<h2>Features that differ from GCAM-Core</h2>
+<p>In addition to greater spatial detail, there are several unique
+features developed in GCAM-China, including:</p>
 <script>
 function toggleDropdown(id) {
   var x = document.getElementById(id);
@@ -473,9 +473,8 @@ Rural / Urban Residential
 <pre><code>&lt;p&gt;Sample text describing the feature of Rural / urban residential goes here.&lt;/p&gt;</code></pre>
 </div>
 </details>
-</div>
-<div id="upcoming-features" class="section level2">
-<h2>Upcoming Features</h2>
+<div id="upcoming-features" class="section level4">
+<h4>Upcoming Features</h4>
 <details>
 <summary onclick="toggleNestedDropdown(&#39;coal-details&#39;)">
 Coal vintaging in power sector
@@ -505,145 +504,93 @@ CDR technologies
 <!-- Sample text describing the feature of Coal vintaging in power sector goes here. -->
 <!-- #### CDR technologies -->
 <!-- Sample text describing the feature of CDR technologies goes here. -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;">
-Data
-</th>
-<th style="text-align:left;">
-Version
-</th>
-<th style="text-align:left;">
-Location
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-GCAM Outputs
-</td>
-<td style="text-align:left;">
-v4.3.chen <a href="http://doi.org/10.5281/zenodo.3713432"
-class="uri">http://doi.org/10.5281/zenodo.3713432</a>
-</td>
-<td style="text-align:left;">
-<a href="https://doi.org/10.7910/DVN/DYV29J"
-class="uri">https://doi.org/10.7910/DVN/DYV29J</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Demeter Outputs
-</td>
-<td style="text-align:left;">
-v1.chen <a href="http://doi.org/10.5281/zenodo.3713378"
-class="uri">http://doi.org/10.5281/zenodo.3713378</a>
-</td>
-<td style="text-align:left;">
-<a href="https://data.pnnl.gov/dataset/13192"
-class="uri">https://data.pnnl.gov/dataset/13192</a>
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<!-------------------------->
-<!-------------------------->
+<!-- # ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
+<!-- # library(kableExtra) -->
+<!-- # data.frame( -->
+<!-- #   Data = c("GCAM Outputs", -->
+<!-- #            "Demeter Outputs"), -->
+<!-- #   Version = c("v4.3.chen http://doi.org/10.5281/zenodo.3713432", -->
+<!-- #               "v1.chen http://doi.org/10.5281/zenodo.3713378"), -->
+<!-- #   Location = c("https://doi.org/10.7910/DVN/DYV29J", -->
+<!-- #                "https://data.pnnl.gov/dataset/13192") -->
+<!-- #     ) %>%  -->
+<!-- #   kbl() %>% -->
+<!-- #   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
+<!-- # ``` -->
 </div>
-<div id="models-used" class="section level2">
-<h2>Models Used</h2>
-<!-------------------------->
-<!-------------------------->
-<p align="center">
-<img src="images/divider.png">
-</p>
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;">
-Model
-</th>
-<th style="text-align:left;">
-Version
-</th>
-<th style="text-align:left;">
-Description
-</th>
-<th style="text-align:left;">
-Language
-</th>
-<th style="text-align:left;">
-DOI
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-GCAM-China
-</td>
-<td style="text-align:left;">
-v6.0
-</td>
-<td style="text-align:left;">
-Integrated assessment model with subnational detail
-</td>
-<td style="text-align:left;">
-C++, R
-</td>
-<td style="text-align:left;">
-<a href="https://doi.org/_________"
-class="uri">https://doi.org/_________</a>
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<!-------------------------->
-<!-------------------------->
 </div>
-<div id="access" class="section level2">
-<h2>Access</h2>
-<!-------------------------->
-<!-------------------------->
-<p align="center">
-<img src="images/divider.png">
-</p>
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;">
-Dataset
-</th>
-<th style="text-align:left;">
-Version
-</th>
-<th style="text-align:left;">
-Location
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Tethys Outputs
-</td>
-<td style="text-align:left;">
-v1.3.0
-</td>
-<td style="text-align:left;">
-<a href="https://doi.org/10.7910/DVN/VIQEAB"
-class="uri">https://doi.org/10.7910/DVN/VIQEAB</a>
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<!-------------------------->
-<!-------------------------->
+<div id="citation-1" class="section level1">
+<h1>Citation</h1>
+<p>DOI button Text citation for latest release</p>
 </div>
+<div id="get-started" class="section level1">
+<h1>Get Started</h1>
+<p>GCAM-China repository: <a
+href="https://github.com/umd-cgs/gcam-china"
+class="uri">https://github.com/umd-cgs/gcam-china</a></p>
+<p>For quick start download a zipped version of the latest release from
+<a href="https://github.com/umd-cgs/gcam-china/releases"
+class="uri">https://github.com/umd-cgs/gcam-china/releases</a> for
+either PC or Mac and the prerequisite software. Then double click on the
+run-gcam executable file (run-gcam.bat for Windows / run-gcam.command
+for Mac) within the exe folder. This will run GCAM-China using the
+configuration.xml which is a copy of configuration_china.xml. Once the
+input files have been read into the model and the model has run through
+all the timesteps it will output a database to the
+output/database_basexdb folder. The results in this database can be
+accessed and queries using the model interface which is opened using the
+run-model-interface executable file (run-model-interface.bat for Windows
+/ ModelInterface.app for Mac) within the ModelInterface folder. For
+analyzing the results, keep in mind that there is a ‘GCAM China’ section
+to the Main_queries.xml file, which is used by the model interface. This
+section contains primary energy, electricity, refined liquids, and
+aggregated final energy queries which should be used instead of the
+corresponding queries in the standard section (‘energy’). Additionally,
+in order to get results for China as a whole, select all of the
+provinces as well as the ‘China’ region when running a query.</p>
+<p>For more detailed instructions and other related content see the core
+GCAM user guide: <a
+href="https://jgcri.github.io/gcam-doc/user-guide.html"
+class="uri">https://jgcri.github.io/gcam-doc/user-guide.html</a></p>
+<p>Pre-requisites Windows: Java 64-bit offline. Download here:</p>
+<!-- <br> -->
+<!-- <!-------------------------->
+<p>–&gt; <!-- <!--------------------------> –&gt;
+<!-- ## Models Used --> <!-- <!--------------------------> –&gt;
+<!-- <!--------------------------> –&gt;
+<!-- <p align="center"> <img src="images/divider.png"></p> --></p>
+<!-- ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
+<!-- library(kableExtra) -->
+<!-- data.frame( -->
+<!--     Model = c("GCAM-China"), -->
+<!--     Version = c("v6.0"), -->
+<!--     Description = c("Integrated assessment model with subnational detail"), -->
+<!--     Language = c("C++, R"), -->
+<!--     DOI = c("https://doi.org/_________") -->
+<!--     ) %>%  -->
+<!--   kbl() %>% -->
+<!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
+<!-- ``` -->
+<!-- <br> -->
+<!-------------------------->
+<!-------------------------->
+<!-- ## Access -->
+<!-- <!-------------------------->
+<p>–&gt; <!-- <!--------------------------> –&gt;
+<!-- <p align="center"> <img src="images/divider.png"></p> --></p>
+<!-- ```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE} -->
+<!-- library(kableExtra) -->
+<!-- data.frame( -->
+<!--   Dataset = c("Tethys Outputs"), -->
+<!--   Version = c("v1.3.0"), -->
+<!--   Location = c("https://doi.org/10.7910/DVN/VIQEAB") -->
+<!--     ) %>%  -->
+<!--   kbl() %>% -->
+<!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
+<!-- ``` -->
+<!-- <br> -->
+<!-------------------------->
+<!-------------------------->
 </div>
 <div id="gcam-china-studies-references" class="section level1">
 <h1>GCAM-China studies / references</h1>
@@ -669,23 +616,29 @@ Workflow Summary
 <p align="center">
 <img src="images/divider.png">
 </p>
-<p>This data set contains water withdrawal projections under a range of
-socioeconomic and climate scenarios. Combinations of five Shared
-Socioeconomic Pathways (SSPs 1-5) and four Representative Concentration
-Pathways (RCPs 2.6, 4.5, 6, and 8.5) are used. However, RCP 2.6 is not
-considered possible for SSP 3, and RCP 8.5 is only considered possible
-for SSP 5. This leaves 15 valid SSP-RCP combinations, shown in the
-diagram below.</p>
-<div class="figure" style="text-align: center">
-<img src="images/workflow1.jpg" alt="Workflow 1" width="100%" />
-<p class="caption">
-Workflow 1
-</p>
-</div>
-<p>For each valid SSP-RCP combination, five General Circulation Models
-(GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM
-combinations, which are fed into GCAM.</p>
+<p>This model is a collaborative, open-source model where we will follow
+these Community guidelines. Your collaboration is welcome through the
+following process: Clone or fork the umd-cgs/gcam-china repository, then
+make a branch with the new features and initiate a pull request and
+submit a core model proposal as specified in the CONTRIBUTING.md
+document. This document outlines the process that groups can follow to
+propose the addition of new features to the model.</p>
+<p>Modes of communication: Issues tab within the Github WeChat? Email
+list? Future conferences to bring many teams together to share
+applications, development</p>
+<p>Contact Us Email address</p>
+<!-- # ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"} -->
+<!-- # knitr::include_graphics("images/workflow1.jpg") -->
+<!-- # ``` -->
+<!-- #  -->
+<!-- # For each valid SSP-RCP combination, five General Circulation Models (GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM combinations, which are fed into GCAM. -->
 <p><br></p>
+</div>
+<div id="our-team" class="section level1">
+<h1>Our Team</h1>
+</div>
+<div id="disclaimer" class="section level1">
+<h1>Disclaimer</h1>
 <!-- <!-------------------------->
 <p>–&gt; <!-- <!--------------------------> –&gt;
 <!-- # Delete: Workflow 2 - Model Runs -->

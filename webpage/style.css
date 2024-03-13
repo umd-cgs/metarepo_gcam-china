@@ -12,6 +12,12 @@
     z-index: 10000 !important;
 }
 
+.header_logo img {
+    width: 100px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
     color: white;
     background-color: black;

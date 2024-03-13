@@ -13,7 +13,7 @@
 
 <title>GCAM-China</title>
 
-<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -29,7 +29,7 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
@@ -37,8 +37,8 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -326,13 +326,13 @@ div.tocify {
         <li>
   <a href="index.html">
     <span class="fa fa-home"></span>
-
+     
   </a>
 </li>
 <li>
   <a href="metarepo.html">
     <span class="fas fa-book"></span>
-
+     
     Meta Repository
   </a>
 </li>
@@ -345,12 +345,14 @@ div.tocify {
 <li>
   <a href="https://github.com/umd-cgs/metarepo_gcam-china">
     <span class="fab fa-github"></span>
-
+     
   </a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-
+        <li>
+  <a></a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -364,8 +366,23 @@ div.tocify {
 </div>
 
 
+<div class="header_logo">
+<p><img src="Webpage/images/cgs-logo_0.png" alt="Logo" class="logo"></p>
+</div>
+<style>
+.header_logo {
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 150px; /* Adjust the width as needed */
+}
+</style>
 <!-- Allow href to tabsets -->
-<script type="text/javascript">
+<script>
 function goToTab() {
   var hash = String(window.location.href.match("#.*$"));
   var target = document.querySelector("a[role = 'tab'][href='" + hash + "']");
@@ -385,9 +402,6 @@ window.onload = function() {
 
 window.onhashchange = goToTab;
 </script>
-<div class="header_logo">
-<p>Add logos if desired</p>
-</div>
 <!-------------------------->
 <!-------------------------->
 <div id="citation" class="section level1">
@@ -473,8 +487,8 @@ Rural / Urban Residential
 <pre><code>&lt;p&gt;Sample text describing the feature of Rural / urban residential goes here.&lt;/p&gt;</code></pre>
 </div>
 </details>
-<div id="upcoming-features" class="section level4">
-<h4>Upcoming Features</h4>
+<div id="upcoming-features" class="section level3">
+<h3>Upcoming Features</h3>
 <details>
 <summary onclick="toggleNestedDropdown(&#39;coal-details&#39;)">
 Coal vintaging in power sector
@@ -636,6 +650,13 @@ applications, development</p>
 </div>
 <div id="our-team" class="section level1">
 <h1>Our Team</h1>
+<div id="advisory-committee" class="section level2">
+<h2>Advisory Committee</h2>
+<div class="float">
+<img src="images/AdvisoryCommittee.jpg" alt="Advisory Committee" />
+<div class="figcaption">Advisory Committee</div>
+</div>
+</div>
 </div>
 <div id="disclaimer" class="section level1">
 <h1>Disclaimer</h1>
@@ -685,7 +706,7 @@ applications, development</p>
 <!--   File = c("GPW_population.csv"), -->
 <!--   Reference = c("CIESIN, 2016"), -->
 <!--   Source = c("http://dx.doi.org/10.7927/H4X63JVC") -->
-<!--     ) %>%  -->
+<!--     ) %>% -->
 <!--   kbl() %>% -->
 <!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
 <!-- ``` -->
@@ -728,7 +749,7 @@ applications, development</p>
 <!--   Source = c("http://www.fao.org/docrep/010/a1259e/a1259e00.htm", -->
 <!--              "", -->
 <!--              "") -->
-<!--     ) %>%  -->
+<!--     ) %>% -->
 <!--   kbl() %>% -->
 <!--   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
 <!-- ``` -->

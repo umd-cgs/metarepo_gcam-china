@@ -11,10 +11,9 @@ output:
     #inverse: true
 ---
 
-<div class="header_logo">
+<a href="https://cgs.umd.edu/" class="header_logo">
   <img src="../images/cgs-logo_0.png" alt="Logo" class="logo">
-</div>
-
+</a>
 <br>
 
 <!-- Allow href to tabsets --> 
@@ -74,11 +73,11 @@ scenario_names = c("ssp1_rcp26_gfdl"   = "SSP 1, RCP 2.6, gfdl",
 <p align="center"> <img src="images/divider.png"></p>
 
 This documentation describes GCAM-China v6.0, which is developed based on GCAM v6 with selected updates from GCAM v7 and specific features for GCAM-China. 
-For documentation of GCAM, please go to: jgcri.github.io/gcam-doc/
+For documentation of GCAM, please go [here](jgcri.github.io/gcam-doc/)
 
 GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. Electricity generation and end-use energy demand (buildings, transportation, and industry) are modeled at the provincial level in GCAM-China, and the model allows for electricity trade within grid regions. Renewable energy resources (hydro, solar, and wind) and carbon storage resources are also provincial-specific. Primary production of fossil resources including oil, gas, and coal, as well as other energy transformation sectors (hydrogen, gas, and refined liquids production) are still modeled at the aggregate national level. Agricultural and land use activities, including the supply of biomass energy feedstocks (residues and dedicated energy crops), as well as water supply, are modeled at the level of 12 water basins in China. 
 
-<p align="center"> <img src="images/Map_China_long.png"></p>
+<p align="center"> <img src="images/Map_China_wide.png"></p>
 In addition to greater spatial detail, there are several unique features developed in GCAM-China, including:
 
 - Electricity by power segment
@@ -90,12 +89,14 @@ Features under development but not included in this release
 - Coal vintaging in power sector
 - CDR technologies
 
+Details for each of the features are forthcoming.
+
 <br>
 
 # Get Started
 <p align="center"> <img src="images/divider.png"></p>
 
-GCAM-China repository: https://github.com/umd-cgs/gcam-china
+<span style="font-size: larger;">GCAM-China repository: [https://github.com/umd-cgs/gcam-china](https://github.com/umd-cgs/gcam-china)</span>
 
 For quick start download a zipped version of the latest release from https://github.com/umd-cgs/gcam-china/releases for either PC or Mac and the prerequisite software. Then double click on the run-gcam executable file (run-gcam.bat for Windows / run-gcam.command for Mac) within the exe folder. This will run GCAM-China using the configuration.xml which is a copy of configuration_china.xml. Once the input files have been read into the model and the model has run through all the timesteps it will output a database to the output/database_basexdb folder. 
 
@@ -119,7 +120,7 @@ Java 64-bit offline. Download [here](https://java.com/en/download/)
 
 - Liu, Y., Tong, D., Cheng, J., Davis, S. J., Yu, S., Yarlagadda, B., ... & Zhang, Q. (2022). Role of climate goals and clean-air policies on reducing future air pollution deaths in China: a modelling study. The Lancet Planetary Health, 6(2), e92-e99.
 
-- Cui, R.Y., Hultman, N., Cui, D. et al. A plant-by-plant strategy for high-ambition coal power phaseout in China. Nat Commun 12, 1468 (2021). https://doi.org/10.1038/s41467-021-21786-0
+- Cui, R.Y., Hultman, N., Cui, D. et al. A plant-by-plant strategy for high-ambition coal power phaseout in China. Nat Commun 12, 1468 (2021). `https://doi.org/10.1038/s41467-021-21786-0`
 
 - Cheng, J., Tong, D., Zhang, Q., Liu, Y., Lei, Y., Yan, G., ... & He, K. (2021). Pathways of China's PM2. 5 air quality 2015–2060 in the context of carbon neutrality. National Science Review, 8(12), nwab078.
 
@@ -138,7 +139,7 @@ Java 64-bit offline. Download [here](https://java.com/en/download/)
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-This model is a collaborative, open-source model where we will follow these Community guidelines: [Community Guidelines-Chinese](GCAM-China community guideline_Chinese.pdf) or [Community Guidelines-English](GCAM-China community guideline_English.pdf) . Your participation collaboration is welcome through the following process: clone or fork the [umd-cgs/gcam-china repository](https://github.com/umd-cgs/gcam-china), then make a branch with the new features and initiate a pull request and submit a core model proposal as specified in the CONTRIBUTING.md document. This document outlines the process that groups can follow to propose the addition of new features to the model. Any issues / bugs / proposed features can be discussed through the Issues tab within the repository.  
+This model is a collaborative, open-source model where we will follow these Community guidelines: [Community Guidelines-Chinese](GCAM-China community guideline_Chinese.pdf) or [Community Guidelines-English](GCAM-China community guideline_English.pdf) . Your participation collaboration is welcome through the following process: clone or fork the [umd-cgs/gcam-china repository](https://github.com/umd-cgs/gcam-china), then make a branch with the new features and initiate a pull request and submit a core model proposal as specified in the [CONTRIBUTING.md](https://github.com/umd-cgs/gcam-china/blob/main/CONTRIBUTING.md) document. This document outlines the process that groups can follow to propose the addition of new features to the model. Any issues / bugs / proposed features can be discussed through the Issues tab within the repository.  
 
 Contact Us:  yang.ou@pku.edu.cn 
 

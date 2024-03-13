@@ -11,6 +11,12 @@ output:
     #inverse: true
 ---
 
+```{r}
+# All defaults
+library(knitr)
+include_graphics("images/cgs-logo_0.png")
+```
+
 <div class="header_logo">
   <img src="Webpage/images/cgs-logo_0.png" alt="Logo" class="logo">
 </div>
@@ -207,10 +213,10 @@ function toggleNestedDropdown(id) {
 <!-- #   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) -->
 <!-- # ``` -->
 
-# Citation
+<!-- # Citation -->
 
-DOI button
-Text citation for latest release 
+<!-- DOI button -->
+<!-- Text citation for latest release  -->
 
 
 # Get Started

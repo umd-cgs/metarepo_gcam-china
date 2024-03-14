@@ -77,7 +77,7 @@ For documentation of GCAM, please go to: [jgcri.github.io/gcam-doc/](https://jgc
 
 GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. Electricity generation and end-use energy demand (buildings, transportation, and industry) are modeled at the provincial level in GCAM-China, and the model allows for electricity trade within grid regions. Renewable energy resources (hydro, solar, and wind) and carbon storage resources are also provincial-specific. Primary production of fossil resources including oil, gas, and coal, as well as other energy transformation sectors (hydrogen, gas, and refined liquids production) are still modeled at the aggregate national level. Agricultural and land use activities, including the supply of biomass energy feedstocks (residues and dedicated energy crops), as well as water supply, are modeled at the level of 12 water basins in China. 
 
-![](images/Map_China_wide.PNG)
+![](images/Map_China_wide.png)
 
 In addition to greater spatial detail, there are several unique features developed in GCAM-China, including:
 

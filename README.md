@@ -4,9 +4,8 @@
 # GCAM-China Meta Repository
 
 Meta-repository for: [umd-cgs/gcam-china](https://github.com/umd-cgs/gcam-china) 
-
 <br>
 **v6** : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10819115.svg)](https://doi.org/10.5281/zenodo.10819115)
-
+<br>
 Produces [GCAM-China landing page](https://umd-cgs.github.io/metarepo_gcam-china/index.html)
 

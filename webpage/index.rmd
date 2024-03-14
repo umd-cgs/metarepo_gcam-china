@@ -66,7 +66,7 @@ GCAM-China is jointly developed and maintained by the Department of Earth System
 
 <br>
 
-Please cite as: GCAM-China-(release version number):
+Please cite as: GCAM-China-(release version number): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10819115.svg)](https://doi.org/10.5281/zenodo.10819115)
 
 <br>
 

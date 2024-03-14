@@ -73,7 +73,7 @@ scenario_names = c("ssp1_rcp26_gfdl"   = "SSP 1, RCP 2.6, gfdl",
 <p align="center"> <img src="images/divider.png"></p>
 
 This documentation describes GCAM-China v6.0, which is developed based on GCAM v6 with selected updates from GCAM v7 and specific features for GCAM-China. 
-For documentation of GCAM, please go [here](jgcri.github.io/gcam-doc/)
+For documentation of GCAM, please go to: [jgcri.github.io/gcam-doc/](jgcri.github.io/gcam-doc/).
 
 GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. Electricity generation and end-use energy demand (buildings, transportation, and industry) are modeled at the provincial level in GCAM-China, and the model allows for electricity trade within grid regions. Renewable energy resources (hydro, solar, and wind) and carbon storage resources are also provincial-specific. Primary production of fossil resources including oil, gas, and coal, as well as other energy transformation sectors (hydrogen, gas, and refined liquids production) are still modeled at the aggregate national level. Agricultural and land use activities, including the supply of biomass energy feedstocks (residues and dedicated energy crops), as well as water supply, are modeled at the level of 12 water basins in China. 
 
@@ -139,7 +139,7 @@ Java 64-bit offline. Download [here](https://java.com/en/download/)
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-This model is a collaborative, open-source model where we will follow these Community guidelines: [Community Guidelines-Chinese](GCAM-China community guideline_Chinese.pdf) or [Community Guidelines-English](GCAM-China community guideline_English.pdf) . Your participation collaboration is welcome through the following process: clone or fork the [umd-cgs/gcam-china repository](https://github.com/umd-cgs/gcam-china), then make a branch with the new features and initiate a pull request and submit a core model proposal as specified in the [CONTRIBUTING.md](https://github.com/umd-cgs/gcam-china/blob/main/CONTRIBUTING.md) document. This document outlines the process that groups can follow to propose the addition of new features to the model. Any issues / bugs / proposed features can be discussed through the Issues tab within the repository.  
+This model is a collaborative, open-source model where we will follow these Community guidelines: [Community Guidelines-Chinese](GCAM-China community guideline_Chinese.pdf) or [Community Guidelines-English](GCAM-China community guideline_English.pdf) . Your participation collaboration is welcome through the following process: clone or fork the [umd-cgs/gcam-china repository](https://github.com/umd-cgs/gcam-china), then make a branch with the new features and initiate a pull request and submit a core model proposal as specified in the [umd-cgs/gcam-china/CONTRIBUTING.md](https://github.com/umd-cgs/gcam-china/blob/main/CONTRIBUTING.md) document. This document outlines the process that groups can follow to propose the addition of new features to the model. Any issues / bugs / proposed features can be discussed through the Issues tab within the repository.  
 
 Contact Us:  yang.ou@pku.edu.cn 
 

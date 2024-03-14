@@ -13,7 +13,7 @@
 
 <title>GCAM-China</title>
 
-<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -29,14 +29,14 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -362,7 +362,7 @@ div.tocify {
 <img src="../images/cgs-logo_0.png" alt="Logo" class="logo"> </a>
 <br></p>
 <!-- Allow href to tabsets -->
-<script type="text/javascript">
+<script>
 function goToTab() {
   var hash = String(window.location.href.match("#.*$"));
   var target = document.querySelector("a[role = 'tab'][href='" + hash + "']");
@@ -390,8 +390,8 @@ window.onhashchange = goToTab;
 </p>
 <p>This documentation describes GCAM-China v6.0, which is developed
 based on GCAM v6 with selected updates from GCAM v7 and specific
-features for GCAM-China. For documentation of GCAM, please go to:
-jgcri.github.io/gcam-doc/</p>
+features for GCAM-China. For documentation of GCAM, please go to: <a
+href="jgcri.github.io/gcam-doc/">jgcri.github.io/gcam-doc/</a>.</p>
 <p>GCAM-China disaggregates the energy-economic system of the China
 region into 31 province-level sub-regions and six electricity grid
 regions that are also embedded in the global GCAM model. Electricity
@@ -407,7 +407,7 @@ including the supply of biomass energy feedstocks (residues and
 dedicated energy crops), as well as water supply, are modeled at the
 level of 12 water basins in China.</p>
 <p align="center">
-<img src="images/Map_China_long.png">
+<img src="images/Map_China_wide.png">
 </p>
 <p>In addition to greater spatial detail, there are several unique
 features developed in GCAM-China, including:</p>
@@ -522,7 +522,7 @@ through the following process: clone or fork the <a
 href="https://github.com/umd-cgs/gcam-china">umd-cgs/gcam-china
 repository</a>, then make a branch with the new features and initiate a
 pull request and submit a core model proposal as specified in the <a
-href="https://github.com/umd-cgs/gcam-china/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>
+href="https://github.com/umd-cgs/gcam-china/blob/main/CONTRIBUTING.md">umd-cgs/gcam-china/CONTRIBUTING.md</a>
 document. This document outlines the process that groups can follow to
 propose the addition of new features to the model. Any issues / bugs /
 proposed features can be discussed through the Issues tab within the

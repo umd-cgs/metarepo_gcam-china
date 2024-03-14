@@ -30,7 +30,7 @@ knitr::include_graphics("images/Map_China_wide.png")
 ## About
 <p align="center"> <img src="images/divider.png"></p>
 
-GCAM-China is developed based on the Global Change Analysis Model (GCAM, jgcri.github.io/gcam-doc/) and includes greater spatial detail in the China region. GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. 
+GCAM-China is developed based on the Global Change Analysis Model (GCAM, [jgcri.github.io/gcam-doc/](https://jgcri.github.io/gcam-doc/)) and includes greater spatial detail in the China region. GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. 
 
 GCAM-China is jointly developed and maintained by the Department of Earth System Science, Tsinghua University; Institute for Carbon Neutrality, Tsinghua University; the College of Environmental Sciences and Engineering at Peking University; and the Center for Global Sustainability at University of Maryland.
 

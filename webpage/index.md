@@ -4,9 +4,10 @@ output:
   html_document:
     keep_md: true
 ---
-<div class="header_logo">
+
+<a href="https://cgs.umd.edu/" class="header_logo">
   <img src="../images/cgs-logo_0.png" alt="Logo" class="logo">
-</div>
+</a>
 
 <br>
 
@@ -19,8 +20,9 @@ output:
 
 <a href = "metarepo.html">
 <img src="images/Map_China_wide.png" width="100%" />
+
 </a>
-<p style="text-align:center;">Click Here to enter meta-repository <a href="file:///C:/Users/Admin/CGS/metarepo_gcam-china/webpage/_site/metarepo.html">hyperlink</a>.</p>
+<p style="text-align:center;">Click [Here](https://umd-cgs.github.io/metarepo_gcam-china/metarepo.html) to enter meta-repository.</p>
 </a>
 
 ## About

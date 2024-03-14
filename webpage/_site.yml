@@ -8,9 +8,6 @@ navbar:
       href: metarepo.html
     - icon: fab fa-github
       href: https://github.com/umd-cgs/metarepo_gcam-china
-  right:
-    - img: images/cgs-logo_0.png
-      alt: "Logo"
 
 output:
   html_document:

@@ -27,7 +27,7 @@ output:
 </style>
 
 <a href="https://cgs.umd.edu/" class="header_logo">
-  <img src="../images/cgs-logo_0.png" alt="Logo" class="logo">
+  <img src="images/cgs-logo_0.png" alt="Logo" class="logo">
 </a>
 
 <br>

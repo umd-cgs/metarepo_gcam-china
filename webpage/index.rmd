@@ -79,6 +79,6 @@ Please cite as: GCAM-China-(release version number):
 ## Acknowledgements
 <p align="center"> <img src="images/divider.png"></p>
 
-Development and maintenance of GCAM-China has been supported by various funding sources, includingthe National Key Research and Development Program of China, National Natural Science Foundation of China (NSFC),  Energy Foundation, Sequoia Climate Foundation, and Bloomberg Philanthropies.
+Development and maintenance of GCAM-China has been supported by various funding sources, including the National Key Research and Development Program of China, National Natural Science Foundation of China (NSFC),  Energy Foundation, Sequoia Climate Foundation, and Bloomberg Philanthropies.
 
 

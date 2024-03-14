@@ -65,8 +65,9 @@ GCAM-China is jointly developed and maintained by the Department of Earth System
 
 <br>
 
-Please cite as: GCAM-China-(release version number):
+In publications, please refer to the model as GCAM-China v(release version number) and cite as shown on the Zenodo site, accessed by clicking the DOI number button: \
 
+| **v6** : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10819115.svg)](https://doi.org/10.5281/zenodo.10819115)
 <br>
 
 <!-- **Developers**: Yang Liu (affiliation), Yang Ou (affiliation), Andy Miller (affiliation), Jay Fuhrman (affiliation) -->

@@ -40,7 +40,7 @@ output:
 <p align="center"> <img src="images/divider.png"></p>
 
 <a href = "metarepo.html">
-<img src="images/Map_China_wide.png" width="100%" />
+<img src="images/Map_China_wide.PNG" width="100%" />
 
 </a>
 <p style="text-align:center;">Click [Here](metarepo.html) to enter meta-repository.</p>

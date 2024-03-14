@@ -40,7 +40,7 @@ output:
 
 <a href = "metarepo.html">
 ```{r, echo=FALSE, out.width="100%", fig.align='enter'}
-knitr::include_graphics("images/Map_China_wide.png")
+knitr::include_graphics("images/Map_China_wide.PNG")
 ```
 
 </a>

@@ -5,6 +5,26 @@ output:
     keep_md: true
 ---
 
+```{css, echo=FALSE}
+```{css, echo=FALSE}
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -10px; /* Adjust as needed */
+}
+
+.gallery img {
+  width: calc(49% - 20px); /* Adjust as needed */
+  margin: 10px; /* Adjust as needed */
+}
+```
+
 <a href="https://cgs.umd.edu/" class="header_logo">
   <img src="../images/cgs-logo_0.png" alt="Logo" class="logo">
 </a>
@@ -30,58 +50,21 @@ knitr::include_graphics("images/Map_China_wide.png")
 ## About
 <p align="center"> <img src="images/divider.png"></p>
 
+<p>
 GCAM-China is developed based on the Global Change Analysis Model (GCAM, [jgcri.github.io/gcam-doc/](https://jgcri.github.io/gcam-doc/)) and includes greater spatial detail in the China region. GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. 
 
 GCAM-China is jointly developed and maintained by the Department of Earth System Science, Tsinghua University; Institute for Carbon Neutrality, Tsinghua University; the College of Environmental Sciences and Engineering at Peking University; and the Center for Global Sustainability at University of Maryland.
-
-<style>
-  .photo-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .photo {
-    flex: 1 0 20%;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .photo img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .description {
-    margin-top: 10px;
-    font-style: italic;
-  }
-</style>
+</p>
 
 
-<div class="photo-gallery">
-  <div class="photo">
-    <img src="images/thu_dess_logo.png" alt="Image 1">
-    <div class="description">THU Dept. of Earth System Sciences</div>
-  </div>
-
-  <div class="photo">
-    <img src="images/thu_icn_logo.png" alt="Image 2">
-    <div class="description">Description for Image 2</div>
-  </div>
-
-  <div class="photo">
-    <img src="images/headshot.jpg" alt="Image 3">
-    <div class="description">Description for Image 3</div>
-  </div>
-
-  <div class="photo">
-    <img src="images/cgs-logo_0.png" alt="Image 4">
-    <div class="description">Description for Image 4</div>
-  </div>
-
+<div class="gallery">
+  <img src="images/thu_dess_logo.png" alt="Image 1">
+  <img src="images/thu_icn_logo.png" alt="Image 2">
+  <img src="images/PKU logo.png" alt="Image 3">
+  <img src="images/cgs-logo_0.png" alt="Image 4">
 </div>
+
+<br>
 
 Please cite as: GCAM-China-(release version number):
 

@@ -51,4 +51,25 @@
   opacity: 0.5;
 }
 
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
 
+.photo {
+    flex: 1 0 20%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.photo_img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    margin-top: 10px;
+    font-style: italic;
+}

@@ -282,6 +282,26 @@ $(document).ready(function () {
 </div>
 
 
+<style type="text/css">
+</style>
+<style type="text/css">
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -10px; /* Adjust as needed */
+}
+
+.gallery img {
+  width: calc(49% - 20px); /* Adjust as needed */
+  margin: 10px; /* Adjust as needed */
+}
+</style>
 <p><a href="https://cgs.umd.edu/" class="header_logo">
 <img src="../images/cgs-logo_0.png" alt="Logo" class="logo"> </a></p>
 <p><br></p>
@@ -307,6 +327,7 @@ Click <a href="metarepo.html">Here</a> to enter meta-repository.
 <p align="center">
 <img src="images/divider.png">
 </p>
+<p>
 <p>GCAM-China is developed based on the Global Change Analysis Model
 (GCAM, <a
 href="https://jgcri.github.io/gcam-doc/">jgcri.github.io/gcam-doc/</a>)
@@ -314,53 +335,19 @@ and includes greater spatial detail in the China region. GCAM-China
 disaggregates the energy-economic system of the China region into 31
 province-level sub-regions and six electricity grid regions that are
 also embedded in the global GCAM model.</p>
-<p>GCAM-China is jointly developed and maintained by the Department of
+GCAM-China is jointly developed and maintained by the Department of
 Earth System Science, Tsinghua University; Institute for Carbon
 Neutrality, Tsinghua University; the College of Environmental Sciences
 and Engineering at Peking University; and the Center for Global
-Sustainability at University of Maryland.</p>
-<style>
-  .photo-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .photo {
-    flex: 1 0 20%;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .photo img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .description {
-    margin-top: 10px;
-    font-style: italic;
-  }
-</style>
-<div class="photo-gallery">
-<div class="photo">
-<pre><code>&lt;img src=&quot;images/thu_dess_logo.png&quot; alt=&quot;Image 1&quot;&gt;
-&lt;div class=&quot;description&quot;&gt;THU Dept. of Earth System Sciences&lt;/div&gt;</code></pre>
+Sustainability at University of Maryland.
+</p>
+<div class="gallery">
+<p><img src="images/thu_dess_logo.png" alt="Image 1">
+<img src="images/thu_icn_logo.png" alt="Image 2">
+<img src="images/PKU%20logo.png" alt="Image 3">
+<img src="images/cgs-logo_0.png" alt="Image 4"></p>
 </div>
-<div class="photo">
-<pre><code>&lt;img src=&quot;images/thu_icn_logo.png&quot; alt=&quot;Image 2&quot;&gt;
-&lt;div class=&quot;description&quot;&gt;Description for Image 2&lt;/div&gt;</code></pre>
-</div>
-<div class="photo">
-<pre><code>&lt;img src=&quot;images/headshot.jpg&quot; alt=&quot;Image 3&quot;&gt;
-&lt;div class=&quot;description&quot;&gt;Description for Image 3&lt;/div&gt;</code></pre>
-</div>
-<div class="photo">
-<pre><code>&lt;img src=&quot;images/cgs-logo_0.png&quot; alt=&quot;Image 4&quot;&gt;
-&lt;div class=&quot;description&quot;&gt;Description for Image 4&lt;/div&gt;</code></pre>
-</div>
-</div>
+<p><br></p>
 <p>Please cite as: GCAM-China-(release version number):</p>
 <p><br></p>
 <!-- **Developers**: Yang Liu (affiliation), Yang Ou (affiliation), Andy Miller (affiliation), Jay Fuhrman (affiliation) -->
@@ -373,7 +360,7 @@ Sustainability at University of Maryland.</p>
 <img src="images/divider.png">
 </p>
 <p>Development and maintenance of GCAM-China has been supported by
-various funding sources, includingthe National Key Research and
+various funding sources, including the National Key Research and
 Development Program of China, National Natural Science Foundation of
 China (NSFC), Energy Foundation, Sequoia Climate Foundation, and
 Bloomberg Philanthropies.</p>

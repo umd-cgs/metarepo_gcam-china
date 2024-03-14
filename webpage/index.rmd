@@ -38,7 +38,7 @@ output:
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-![](images/Map_China_wide.png)
+![](images/Map_China_wide.PNG)
 
 </a>
 <p style="text-align:center;">Click [Here](metarepo.html) to enter meta-repository.</p>

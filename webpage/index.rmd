@@ -38,9 +38,7 @@ output:
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-<a href = "metarepo.html">
-  <img src="images/cgs-logo_0.png" alt="Logo" class="logo">
-</a>
+![](images/Map_China_wide.png)
 
 </a>
 <p style="text-align:center;">Click [Here](metarepo.html) to enter meta-repository.</p>

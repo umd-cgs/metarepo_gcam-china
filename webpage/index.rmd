@@ -39,9 +39,8 @@ output:
 <p align="center"> <img src="images/divider.png"></p>
 
 <a href = "metarepo.html">
-```{r, echo=FALSE, out.width="100%", fig.align='enter'}
-knitr::include_graphics("images/Map_China_wide.png")
-```
+  <img src="images/cgs-logo_0.png" alt="Logo" class="logo">
+</a>
 
 </a>
 <p style="text-align:center;">Click [Here](metarepo.html) to enter meta-repository.</p>

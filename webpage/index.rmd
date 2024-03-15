@@ -20,7 +20,7 @@ output:
 
 .gallery img {
   width: 435px; /* Set a fixed width */
-  height: 135px; /* Set a fixed height */
+  height: 95px; /* Set a fixed height */
   object-fit: cover; /* Maintain aspect ratio */
   margin: 10px; /* Adjust as needed */
 }

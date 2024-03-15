@@ -6,8 +6,6 @@ output:
 ---
 
 <style type="text/css">
-</style>
-<style type="text/css">
 .gallery-container {
   display: flex;
   justify-content: center;
@@ -57,7 +55,7 @@ GCAM-China is jointly developed and maintained by the Center for Global Sustaina
 
 
 <div class="gallery">
-  <img src="images/cgs-logo_0.png" alt="Image 1">
+  <img src="images/cgs-logo_wide2.png" alt="Image 1">
   <img src="images/PKU logo.png" alt="Image 2">
   <img src="images/thu_dess_logo.png" alt="Image 3">
   <img src="images/thu_icn_logo.png" alt="Image 4">

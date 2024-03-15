@@ -52,15 +52,15 @@ output:
 <p>
 GCAM-China is developed based on the Global Change Analysis Model (GCAM, [jgcri.github.io/gcam-doc/](https://jgcri.github.io/gcam-doc/)) and includes greater spatial detail in the China region. GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. 
 
-GCAM-China is jointly developed and maintained by the Department of Earth System Science, Tsinghua University; Institute for Carbon Neutrality, Tsinghua University; the College of Environmental Sciences and Engineering at Peking University; and the Center for Global Sustainability at University of Maryland.
+GCAM-China is jointly developed and maintained by the Center for Global Sustainability at University of Maryland; the College of Environmental Sciences and Engineering at Peking University; the Department of Earth System Science, Tsinghua University; and the Institute for Carbon Neutrality, Tsinghua University.
 </p>
 
 
 <div class="gallery">
-  <img src="images/thu_dess_logo.png" alt="Image 1">
-  <img src="images/thu_icn_logo.png" alt="Image 2">
-  <img src="images/PKU logo.png" alt="Image 3">
-  <img src="images/cgs-logo_0.png" alt="Image 4">
+  <img src="images/cgs-logo_0.png" alt="Image 1">
+  <img src="images/PKU logo.png" alt="Image 2">
+  <img src="images/thu_dess_logo.png" alt="Image 3">
+  <img src="images/thu_icn_logo.png" alt="Image 4">
 </div>
 
 <br>

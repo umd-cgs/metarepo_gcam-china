@@ -16,7 +16,7 @@ output:
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: -10px; /* Adjust as needed */
+  margin: -15px; /* Adjust as needed */
 }
 
 .gallery img {

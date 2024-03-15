@@ -6,7 +6,6 @@ output:
 ---
 
 ```{css, echo=FALSE}
-```{css, echo=FALSE}
 .gallery-container {
   display: flex;
   justify-content: center;
@@ -16,11 +15,13 @@ output:
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: -15px; /* Adjust as needed */
+  margin: -10px; /* Adjust as needed */
 }
 
 .gallery img {
-  width: calc(49% - 20px); /* Adjust as needed */
+  width: 200px; /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
   margin: 10px; /* Adjust as needed */
 }
 ```

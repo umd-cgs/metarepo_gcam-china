@@ -13,7 +13,7 @@
 
 <title>GCAM-China</title>
 
-<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -35,8 +35,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -331,7 +331,7 @@ div.tocify {
   <a href="metarepo.html">
     <span class="fas fa-book"></span>
      
-    Manual
+    Meta Repository
   </a>
 </li>
 <li>
@@ -380,14 +380,14 @@ window.onload = function() {
 window.onhashchange = goToTab;
 </script>
 <p><br></p>
-<div id="gcam-china-v7-overview" class="section level1">
-<h1>GCAM-China v7 Overview</h1>
+<div id="gcam-china-v6-overview" class="section level1">
+<h1>GCAM-China v6 Overview</h1>
 <p align="center">
 <img src="images/divider.png">
 </p>
-<p>This documentation describes GCAM-China v7, which is developed based
-on GCAM v7.1 with selected updates from GCAM v7 and specific features
-for GCAM-China. For documentation of GCAM, please go to: <a
+<p>This documentation describes GCAM-China v6.0, which is developed
+based on GCAM v6 with selected updates from GCAM v7 and specific
+features for GCAM-China. For documentation of GCAM, please go to: <a
 href="https://jgcri.github.io/gcam-doc/">jgcri.github.io/gcam-doc/</a>.</p>
 <p>GCAM-China disaggregates the energy-economic system of the China
 region into 31 province-level sub-regions and six electricity grid
@@ -401,19 +401,24 @@ oil, gas, and coal, as well as other energy transformation sectors
 (hydrogen, gas, and refined liquids production) are still modeled at the
 aggregate national level. Agricultural and land use activities,
 including the supply of biomass energy feedstocks (residues and
-dedicated energy crops) are modeled at the level of 12 water basins in
-China.</p>
+dedicated energy crops), as well as water supply, are modeled at the
+level of 12 water basins in China.</p>
 <p align="center">
 <img src="images/Map_China_wide.png">
 </p>
-<p>Updates from GCAM-China v6:</p>
+<p>In addition to greater spatial detail, there are several unique
+features developed in GCAM-China, including:</p>
 <ul>
-<li>Harmonized with core GCAM v7.1 features</li>
-<li>Multiple income groups in residential building sector</li>
-<li>Provincial CH4 and N2O emissions in energy end-use sectors</li>
-<li>Provincial biomass markets</li>
-<li>Provincial wind and solar resource curves</li>
+<li>Electricity by power segment</li>
+<li>Detailed industry (China specific version)</li>
+<li>Rural / urban in residential building</li>
 </ul>
+<p>Features under development but not included in this release</p>
+<ul>
+<li>Coal vintaging in power sector</li>
+<li>CDR technologies</li>
+</ul>
+<p>Details for each of the features are forthcoming.</p>
 <p><br></p>
 </div>
 <div id="get-started" class="section level1">
@@ -461,29 +466,6 @@ href="https://java.com/en/download/">here</a></li>
 <img src="images/divider.png">
 </p>
 <ul>
-<li><p>Lou, J., S. Yu., R. Cui, A. Miller, N. Hultman. “A Provincial
-Analysis on Wind and Solar Investment Needs towards China’s Carbon
-Neutrality.” Applied Energy 378 (January 15, 2025): 124841. <a
-href="https://doi.org/10.1016/j.apenergy.2024.124841"
-class="uri">https://doi.org/10.1016/j.apenergy.2024.124841</a></p></li>
-<li><p>Dong, J., Li, S., Sun, Y., Gong, W., Song, G., Ding, Y., … &amp;
-Gong, W. (2024). Provincial equity and enhanced health are key drivers
-for China’s 2060 carbon neutrality. Journal of Cleaner Production, 473,
-143531.</p></li>
-<li><p>Kim, H., Y. Qiu, H. McJeon, A. Clarens, P. Javadi, C. Wang, R.
-Wang, et al. “Provincial-Scale Assessment of Direct Air Capture to Meet
-China’s Climate Neutrality Goal under Limited Bioenergy Supply.”
-Environmental Research Letters 19, no. 11 (October 2024): 114021. <a
-href="https://doi.org/10.1088/1748-9326/ad77e7"
-class="uri">https://doi.org/10.1088/1748-9326/ad77e7</a></p></li>
-<li><p>Sun, Y., Jiang, Y., Xing, J., Ou, Y., Wang, S., Loughlin, D. H.,
-… &amp; Hao, J. (2024). Air quality, health, and equity benefits of
-carbon neutrality and clean air pathways in China. Environmental Science
-&amp; Technology, 58(34), 15027-15037.</p></li>
-<li><p>Yan, X., Tong, D., Zheng, Y., Liu, Y., Chen, S., Qin, X., Chen,
-C., Xu, R., Cheng, J., Shi, Q., Zheng, D., He, K., Zhang, Q., Lei, Y.,
-2024. Cost-effectiveness uncertainty may bias the decision of coal power
-transitions in China. Nat Commun 15, 2272</p></li>
 <li><p>Yu S., J. Behrendt, A. Miller, Y. Liu, J. Adams, R. Cui, W. Li,
 H. Zhang, J. Cheng, D. Tong, J. Song, Q. Zhang, N. Hultman (2023).
 Co-benefits between Air Quality and Climate Policies in Guangdong and

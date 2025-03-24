@@ -39,32 +39,58 @@ window.onhashchange = goToTab;
 ```
 
 ```{r setup, echo=FALSE}
-# sector_names = c("elec"        = "Electricity",
-#                  "MiscCrop"    = "Misc Crop")
-# 
-# scenario_names = c("ssp1_rcp26_gfdl"   = "SSP 1, RCP 2.6, gfdl",
-#                    "ssp5_rcp85_noresm" = "SSP 5, RCP 8.5, noresm")
+sector_names = c("total"       = "Total",
+                 "dom"         = "Domestic",
+                 "elec"        = "Electricity",
+                 "mfg"         = "Manufacturing",
+                 "min"         = "Mining",
+                 "liv"         = "Livestock",
+                 "irr"         = "Irrigation",
+                 "Corn"        = "Corn",
+                 "FiberCrop"   = "Fiber Crop",
+                 "MiscCrop"    = "Misc Crop",
+                 "OilCrop"     = "Oil Crop",
+                 "OtherGrain"  = "Other Grain",
+                 "PalmFruit"   = "Palm Fruit",
+                 "Rice"        = "Rice",
+                 "Root_Tuber"  = "Root Tuber",
+                 "SugarCrop"   = "Sugar Crop",
+                 "Wheat"       = "Wheat",
+                 "FodderHerb"  = "Fodder Herb",
+                 "FodderGrass" = "Fodder Grass",
+                 "biomass"     = "Biomass")
+
+scenario_names = c("ssp1_rcp26_gfdl"   = "SSP 1, RCP 2.6, gfdl",
+                   "ssp2_rcp45_hadgem" = "SSP 2, RCP 4.5, hadgem",
+                   "ssp3_rcp60_ipsl"   = "SSP 3, RCP 6.0, ipsl",
+                   "ssp4_rcp45_miroc"  = "SSP 4, RCP 4.5, miroc",
+                   "ssp5_rcp85_noresm" = "SSP 5, RCP 8.5, noresm")
 ```
 
 <br>
 
-# GCAM-China v7 Overview
+# GCAM-China v6 Overview
 <p align="center"> <img src="images/divider.png"></p>
 
-This documentation describes GCAM-China v7, which is developed based on GCAM v7.1 with selected updates from GCAM v7 and specific features for GCAM-China. 
+This documentation describes GCAM-China v6.0, which is developed based on GCAM v6 with selected updates from GCAM v7 and specific features for GCAM-China. 
 For documentation of GCAM, please go to: [jgcri.github.io/gcam-doc/](https://jgcri.github.io/gcam-doc/).
 
-GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. Electricity generation and end-use energy demand (buildings, transportation, and industry) are modeled at the provincial level in GCAM-China, and the model allows for electricity trade within grid regions. Renewable energy resources (hydro, solar, and wind) and carbon storage resources are also provincial-specific. Primary production of fossil resources including oil, gas, and coal, as well as other energy transformation sectors (hydrogen, gas, and refined liquids production) are still modeled at the aggregate national level. Agricultural and land use activities, including the supply of biomass energy feedstocks (residues and dedicated energy crops) are modeled at the level of 12 water basins in China. 
+GCAM-China disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. Electricity generation and end-use energy demand (buildings, transportation, and industry) are modeled at the provincial level in GCAM-China, and the model allows for electricity trade within grid regions. Renewable energy resources (hydro, solar, and wind) and carbon storage resources are also provincial-specific. Primary production of fossil resources including oil, gas, and coal, as well as other energy transformation sectors (hydrogen, gas, and refined liquids production) are still modeled at the aggregate national level. Agricultural and land use activities, including the supply of biomass energy feedstocks (residues and dedicated energy crops), as well as water supply, are modeled at the level of 12 water basins in China. 
 
 <p align="center"> <img src="images/Map_China_wide.png"></p>
 
-Updates from GCAM-China v6:
+In addition to greater spatial detail, there are several unique features developed in GCAM-China, including:
 
-- Harmonized with core GCAM v7.1 features
-- Multiple income groups in residential building sector
-- Provincial CH4 and N2O emissions in energy end-use sectors
-- Provincial biomass markets
-- Provincial wind and solar resource curves
+- Electricity by power segment
+- Detailed industry (China specific version)
+- Rural / urban in residential building
+
+Features under development but not included in this release
+
+- Coal vintaging in power sector
+- CDR technologies
+
+Details for each of the features are forthcoming.
 
 <br>
 
@@ -88,16 +114,6 @@ Java 64-bit offline. Download [here](https://java.com/en/download/)
 
 # GCAM-China Publications
 <p align="center"> <img src="images/divider.png"></p>
-
-- Lou, J., S. Yu., R. Cui, A. Miller, N. Hultman. “A Provincial Analysis on Wind and Solar Investment Needs towards China’s Carbon Neutrality.” Applied Energy 378 (January 15, 2025): 124841. https://doi.org/10.1016/j.apenergy.2024.124841
-
-- Dong, J., Li, S., Sun, Y., Gong, W., Song, G., Ding, Y., ... & Gong, W. (2024). Provincial equity and enhanced health are key drivers for China's 2060 carbon neutrality. Journal of Cleaner Production, 473, 143531.
-
-- Kim, H., Y. Qiu, H. McJeon, A. Clarens, P. Javadi, C. Wang, R. Wang, et al. “Provincial-Scale Assessment of Direct Air Capture to Meet China’s Climate Neutrality Goal under Limited Bioenergy Supply.” Environmental Research Letters 19, no. 11 (October 2024): 114021. https://doi.org/10.1088/1748-9326/ad77e7
-
-- Sun, Y., Jiang, Y., Xing, J., Ou, Y., Wang, S., Loughlin, D. H., ... & Hao, J. (2024). Air quality, health, and equity benefits of carbon neutrality and clean air pathways in China. Environmental Science & Technology, 58(34), 15027-15037.
-
-- Yan, X., Tong, D., Zheng, Y., Liu, Y., Chen, S., Qin, X., Chen, C., Xu, R., Cheng, J., Shi, Q., Zheng, D., He, K., Zhang, Q., Lei, Y., 2024. Cost-effectiveness uncertainty may bias the decision of coal power transitions in China. Nat Commun 15, 2272
 
 - Yu S., J. Behrendt, A. Miller, Y. Liu, J. Adams, R. Cui, W. Li, H. Zhang, J. Cheng, D. Tong, J. Song, Q. Zhang, N. Hultman (2023). Co-benefits between Air Quality and Climate Policies in Guangdong and Shandong Provinces in China. Center for Global Sustainability, University of Maryland & Tsinghua University. 42 pp.
 

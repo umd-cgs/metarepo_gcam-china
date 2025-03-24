@@ -3,7 +3,7 @@ navbar:
   left:
     - icon: fa-home
       href: index.html
-    - text: "Manual"
+    - text: "Meta Repository"
       icon: fas fa-book
       href: metarepo.html
     - icon: fab fa-github

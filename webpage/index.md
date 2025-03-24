@@ -41,7 +41,8 @@ output:
 <img src="images/Map_China_wide.png" width="100%" />
 
 </a>
-
+<p style="text-align:center;">Click [Here](metarepo.html) to enter meta-repository.</p>
+</a>
 
 ## About
 <p align="center"> <img src="images/divider.png"></p>
@@ -55,7 +56,7 @@ GCAM-China is jointly developed and maintained by the Center for Global Sustaina
 
 <div class="gallery">
   <img src="images/cgs-logo_wide2.png" alt="Image 1">
-  <img src="images/PKU logo green.png" alt="Image 2">
+  <img src="images/PKU logo.png" alt="Image 2">
   <img src="images/thu_dess_logo.png" alt="Image 3">
   <img src="images/thu_icn_logo.png" alt="Image 4">
 </div>
@@ -72,9 +73,6 @@ In publications, please refer to the model as GCAM-China v(release version numbe
 <!-- # Requested Citations -->
 
 <!-- Please cite as GCAM-China-(release version number) as shown in: https://umd-cgs.github.io/metarepo_gcam-china/metarepo.html#Citation  -->
-
-<p style="text-align:center;">[DOWNLOAD](https://github.com/umd-cgs/gcam-china/releases) and [Get Started](metarepo.html#Get_Started) within the [Manual](metarepo.html)</p>
-</a>
 
 ## Acknowledgements
 <p align="center"> <img src="images/divider.png"></p>

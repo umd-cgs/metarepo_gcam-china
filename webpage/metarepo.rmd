@@ -71,7 +71,7 @@ Updates from GCAM-China v6:
 - Added provincial biomass markets
 - Added provincial wind and solar resource curves
 
-GCAM-China is jointly developed and maintained by the College of Environmental Sciences and Engineering at Peking University; the Department of Earth System Science, Tsinghua University; Institute for Carbon Neutrality, Tsinghua University; and the Center for Global Sustainability at University of Maryland.
+GCAM-China is jointly developed and maintained by the Center for Global Sustainability at University of Maryland; the College of Environmental Sciences and Engineering at Peking University; the Institute of Carbon Neutrality at Peking University; the Department of Earth System Science, Tsinghua University; and the Institute for Carbon Neutrality, Tsinghua University.
 
 <br>
 

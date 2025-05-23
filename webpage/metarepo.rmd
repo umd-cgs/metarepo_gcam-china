@@ -51,7 +51,7 @@ window.onhashchange = goToTab;
 # Overview
 <p align="center"> <img src="images/divider.png"></p>
 
-This documentation describes GCAM-China v7, which is developed based on the core Global Change Analysis Model version 7.1 (GCAM v7.1). GCAM is a multisector model developed and maintained at the Pacific Northwest National Laboratory’s Joint Global Change Research Institute (JGCRI, 2023). Both GCAM and GCAM-China are open-source community models. The documentation of the core GCAM is available at the GCAM documentation page 
+This documentation describes GCAM-China v7.1, which is developed based on the core Global Change Analysis Model version 7.1 (GCAM v7.1). GCAM is a multisector model developed and maintained at the Pacific Northwest National Laboratory’s Joint Global Change Research Institute (JGCRI, 2023). Both GCAM and GCAM-China are open-source community models. The documentation of the core GCAM is available at the GCAM documentation page 
 <a target="_blank" rel="noopener noreferrer" href="https://jgcri.github.io/gcam-doc/"> jgcri.github.io/gcam-doc/</a>
 , and this GCAM-China manual serves as supplementary documentation of the distinctions of GCAM-China from the core GCAM. GCAM includes representations of: economy, energy, agriculture, and water supply in 32 geopolitical regions across the globe; their GHG and air pollutant emissions and global GHG concentrations, radiative forcing, and temperature change; and the associated land allocation, water use, and agriculture production across 384 land sub-regions and 235 water basins. 
 
@@ -79,9 +79,11 @@ GCAM-China is jointly developed and maintained by the Center for Global Sustaina
 
 In publications, please refer to the model as GCAM-China v(release version number) and cite as shown on the Zenodo site, accessed by clicking the DOI number button: \
 
-| **v7** : <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.15098771"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15098771.svg" alt="DOI"></a>
+| **v7.1** : &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.15499108"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15499108.svg" alt="DOI"></a>
 
-| **v6** : <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.10819115"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10819115.svg" alt="DOI"></a>
+| **v7** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.15098771"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15098771.svg" alt="DOI"></a>
+
+| **v6** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.10819115"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10819115.svg" alt="DOI"></a>
 
 <br>
 

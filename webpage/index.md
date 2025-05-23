@@ -67,9 +67,12 @@ GCAM-China is jointly developed and maintained by the Center for Global Sustaina
 
 In publications, please refer to the model as GCAM-China v(release version number) and cite as shown on the Zenodo site, accessed by clicking the DOI number button: \
 
-| **v7** : <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.15098771"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15098771.svg" alt="DOI"></a>
+| **v7.1** : &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.15499108"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15499108.svg" alt="DOI"></a>
 
-| **v6** : <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.10819115"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10819115.svg" alt="DOI"></a>
+| **v7** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.15098771"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15098771.svg" alt="DOI"></a>
+
+| **v6** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.10819115"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10819115.svg" alt="DOI"></a>
+
 
 <br>
 

@@ -357,7 +357,8 @@ div.tocify {
 
 
 <p><a target="_blank" rel="noopener noreferrer" href="https://cgs.umd.edu/" class="header_logo">
-<img src="images/cgs-logo_0.png" alt="Logo" class="logo"> </a> <br></p>
+<img src="images/cgs-new-logo_1.png" alt="Logo" class="logo"> </a>
+<br></p>
 <!-- Allow href to tabsets -->
 <script>
 function goToTab() {
@@ -380,18 +381,30 @@ window.onload = function() {
 window.onhashchange = goToTab;
 </script>
 <p><br></p>
+<div id="download" class="section level1">
+<h1>Download</h1>
+<p align="center">
+<img src="images/divider.png">
+</p>
+<p style="text-align:center;">
+<a href="https://github.com/umd-cgs/gcam-china/releases" target="_blank"><img src="images/molumen_download_button_1.svg" height="50"/></a>
+<span style="font-size: x-large;">and <a
+href="metarepo.html#Get_Started">Get Started</a> </span>
+</p>
+<p><br></p>
+</div>
 <div id="overview" class="section level1">
 <h1>Overview</h1>
 <p align="center">
 <img src="images/divider.png">
 </p>
-<p>This documentation describes GCAM-China v7.1, which is developed
-based on the core Global Change Analysis Model version 7.1 (GCAM v7.1).
-GCAM is a multisector model developed and maintained at the Pacific
-Northwest National Laboratory’s Joint Global Change Research Institute
-(JGCRI, 2023). Both GCAM and GCAM-China are open-source community
-models. The documentation of the core GCAM is available at the GCAM
-documentation page
+<p>This documentation describes GCAM-China v8, which is developed based
+on the core Global Change Analysis Model version 8.2 (GCAM v8.2). GCAM
+is a multisector model developed and maintained at the Pacific Northwest
+National Laboratory’s Joint Global Change Research Institute (JGCRI,
+2023). Both GCAM and GCAM-China are open-source community models. The
+documentation of the core GCAM is available at the GCAM documentation
+page
 <a target="_blank" rel="noopener noreferrer" href="https://jgcri.github.io/gcam-doc/">
 jgcri.github.io/gcam-doc/</a> , and this GCAM-China manual serves as
 supplementary documentation of the distinctions of GCAM-China from the
@@ -403,9 +416,9 @@ associated land allocation, water use, and agriculture production across
 384 land sub-regions and 235 water basins.</p>
 <p>Reference:</p>
 <ul>
-<li>Joint Global Change Research Institute. (2024). GCAM Documentation
-(gcam-v7.1). Zenodo.
-<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.13760699">https://doi.org/10.5281/zenodo.13760699</a></li>
+<li>Joint Global Change Research Institute. (2025). GCAM Documentation
+(gcam-v8.2). Zenodo.
+<a target="_blank" rel="noopener noreferrer" href="https://zenodo.org/records/15581183">https://zenodo.org/records/15581183</a></li>
 </ul>
 <p>GCAM-China is a China-focused version of GCAM that disaggregates the
 energy-economic system of the China region into 31 province-level
@@ -424,14 +437,16 @@ the level of 12 water basins in China.</p>
 <p align="center">
 <img src="images/Map_China_wide.png">
 </p>
-<p>Updates from GCAM-China v6:</p>
+<p>Updates from GCAM-China v7.1:</p>
 <ul>
-<li>Harmonized with core GCAM v7.1 features</li>
-<li>Distinguished income groups in residential building sector</li>
-<li>Added provincial CH4 and N2O emissions in energy end-use
-sectors</li>
-<li>Added provincial biomass markets</li>
-<li>Added provincial wind and solar resource curves</li>
+<li>Harmonized features with core GCAM v8.2</li>
+<li>Updated model base year from 2015 to 2021</li>
+<li>Added provincial non-CO2 emissions</li>
+<li>Added subnational water module</li>
+<li>Disaggregated coal power technologies by vintage (year of
+construction)</li>
+<li>Added provincial policy module (with example representation of
+nuclear power incentive policy)</li>
 </ul>
 <p>GCAM-China is jointly developed and maintained by the Center for
 Global Sustainability at University of Maryland; the College of
@@ -447,6 +462,8 @@ Neutrality, Tsinghua University.</p>
 version number) and cite as shown on the Zenodo site, accessed by
 clicking the DOI number button:<br />
 </p>
+<div class="line-block"><strong>v8</strong> :      
+<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.19471594"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.19471594.svg" alt="DOI"></a></div>
 <div class="line-block"><strong>v7.1</strong> :  
 <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.15499108"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15499108.svg" alt="DOI"></a></div>
 <div class="line-block"><strong>v7</strong> :      
@@ -460,38 +477,56 @@ clicking the DOI number button:<br />
 <p align="center">
 <img src="images/divider.png">
 </p>
-<p><span style="font-size: larger;">GCAM-China repository:
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/umd-cgs/gcam-china">github.com/umd-cgs/gcam-china</a>
-</span></p>
-<p>For a quick start, download a zipped version of the latest release
-from
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/umd-cgs/gcam-china/releases">umd-cgs/gcam-china/releases</a>
-for either PC or Mac and the prerequisite software. Then double click on
-the run-gcam executable file (run-gcam.bat for Windows /
-run-gcam.command for Mac) within the exe folder. This will run
-GCAM-China using the configuration.xml which is a copy of
-configuration_china.xml. Once the input files have been read into the
-model and the model has run through all the timesteps it will output a
-database to the output/database_basexdb folder.</p>
-<p>The results in this database can be accessed and queried using the
-model interface which is opened using the run-model-interface executable
-file (run-model-interface.bat for Windows / ModelInterface.app for Mac)
-within the ModelInterface folder. For analyzing the results, keep in
-mind that there is a ‘GCAM China’ section to the Main_queries.xml file,
-which is used by the model interface. This section contains primary
-energy, electricity, refined liquids, and aggregated final energy
-queries which should be used instead of the corresponding queries in the
-standard section (‘energy’). Additionally, in order to get results for
-China as a whole, select all of the provinces as well as the ‘China’
-region when running a query.</p>
-<p>For more detailed instructions for running the model and accessing
-the results see the core GCAM user guide:
-<a target="_blank" rel="noopener noreferrer" href="https://jgcri.github.io/gcam-doc/user-guide.html">jgcri.github.io/gcam-doc/user-guide.html</a></p>
-<p>Pre-requisites</p>
+<ol style="list-style-type: decimal">
+<li><p>Visit the GCAM-China repository:
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/umd-cgs/gcam-china">github.com/umd-cgs/gcam-china</a></p></li>
+<li><p>Download the latest release for Windows or Mac from:
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/umd-cgs/gcam-china/releases">github.com/umd-cgs/gcam-china/releases</a></p></li>
+<li><p>Install the required prerequisite software (Java).</p>
 <ul>
-<li>Windows: Java 64-bit offline. Download
-<a target="_blank" rel="noopener noreferrer" href="https://java.com/en/download/">here</a></li>
-</ul>
+<li><p>Windows: Java 64-bit offline. Download
+<a target="_blank" rel="noopener noreferrer" href="https://java.com/en/download/">here</a></p></li>
+<li><p>Mac: Download
+<a target="_blank" rel="noopener noreferrer" href="https://adoptium.net/temurin/releases?version=25&os=mac&arch=aarch64&mode=filter">here</a></p></li>
+</ul></li>
+<li><p>Run the model using:</p>
+<ul>
+<li><p>Windows: exe/run-gcam.bat</p></li>
+<li><p>Mac: exe/run-gcam.command</p></li>
+</ul></li>
+<li><p>This runs GCAM-China using configuration.xml, which is initially
+a copy of configuration_china.xml.</p></li>
+<li><p>After the model finishes running, output databases will be
+available in: output/database_basexdb</p></li>
+<li><p>Open the model interface using:</p>
+<ul>
+<li><p>Windows: ModelInterface/run-model-interface.bat</p></li>
+<li><p>Mac: ModelInterface/ModelInterface.app</p></li>
+</ul></li>
+</ol>
+<ins>
+Note on province abbreviations:
+</ins>
+<p>Two-letter abbreviations for sub-national regions and the power grid
+region to which each pertains is shown here:
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/umd-cgs/gcam-china/blob/main/input/gcamdata/inst/extdata/gcam-china/province_names_mappings.csv">input/gcamdata/inst/extdata/gcam-china/province_names_mappings.csv</a></p>
+<ins>
+Notes on the queries:
+</ins>
+<p>There is a <code>GCAM China</code> section at the bottom of the
+<code>Main_queries.xml</code> file, which is displayed by the model
+interface. This section contains some energy (primary energy,
+electricity, refined liquids, and aggregated final energy), water, and
+CO2 emissions queries which should be used instead of the corresponding
+queries in the standard sections (e.g. <code>energy</code>). However,
+most of the other queries should work for Chinese regions, and they
+should work for regions outside of China.</p>
+<p>Additionally, in order to get results for China as a whole, select
+all of the provinces and power grid regions, as well as the
+<code>China</code> region when running a query, and then sum up the
+results. This is necessary, since the <code>China</code> region is often
+the residual of the national value compared to the sum of the provincial
+values.</p>
 <p><br></p>
 </div>
 <div id="gcam-china-publications" class="section level1">
@@ -500,6 +535,16 @@ the results see the core GCAM user guide:
 <img src="images/divider.png">
 </p>
 <ul>
+<li><p>Wang, H., Liu, Y., Wu, F., Dai, H., Duan, H., Guo, F., Hultman,
+N., Lu, X., McJeon, H., Miller, A., Tong, D., Yu, S., Yuan, W., Zhang,
+D., Cui, R., Zhang, Q., Ou, Y., 2026. Bridging China’s Climate Targets
+and Mitigation Capacity through Sectoral Policy Implementation. Environ.
+Sci. Technol.
+<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1021/acs.est.5c11232">https://doi.org/10.1021/acs.est.5c11232</a></p></li>
+<li><p>Yin, Z., Lu, X., Nielsen, C. P., Cui, R. Y., Ou, Y., Han, M., …
+&amp; He, K. (2026). Mitigating inequity risks in China’s net-zero
+energy transition via an enhanced renewable-guided industrial spatial
+reconfiguration. The Innovation.</p></li>
 <li><p>Lou, J., S. Yu., R. Cui, A. Miller, N. Hultman. “A Provincial
 Analysis on Wind and Solar Investment Needs towards China’s Carbon
 Neutrality.” Applied Energy 378 (January 15, 2025): 124841.
@@ -517,10 +562,6 @@ Environmental Research Letters 19, no. 11 (October 2024): 114021.
 … &amp; Hao, J. (2024). Air quality, health, and equity benefits of
 carbon neutrality and clean air pathways in China. Environmental Science
 &amp; Technology, 58(34), 15027-15037.</p></li>
-<li><p>Yan, X., Tong, D., Zheng, Y., Liu, Y., Chen, S., Qin, X., Chen,
-C., Xu, R., Cheng, J., Shi, Q., Zheng, D., He, K., Zhang, Q., Lei, Y.,
-2024. Cost-effectiveness uncertainty may bias the decision of coal power
-transitions in China. Nat Commun 15, 2272</p></li>
 <li><p>Yu S., J. Behrendt, A. Miller, Y. Liu, J. Adams, R. Cui, W. Li,
 H. Zhang, J. Cheng, D. Tong, J. Song, Q. Zhang, N. Hultman (2023).
 Co-benefits between Air Quality and Climate Policies in Guangdong and
@@ -555,6 +596,62 @@ integrated assessment modeling. Int. J. Greenh. Gas. Control 84, 204–218
 (2019).</p></li>
 </ul>
 <p><br></p>
+<!-- # ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"} -->
+<!-- # knitr::include_graphics("images/workflow1.jpg") -->
+<!-- # ``` -->
+<!-- #  -->
+<!-- # For each valid SSP-RCP combination, five General Circulation Models (GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM combinations, which are fed into GCAM. -->
+</div>
+<div id="advisory-committee" class="section level1">
+<h1>Advisory Committee</h1>
+<p align="center">
+<img src="images/divider.png">
+</p>
+<p><img src="images/AdvisoryCommittee.jpg" /></p>
+<p><br></p>
+</div>
+<div id="community-contributors" class="section level1">
+<h1>Community Contributors</h1>
+<table>
+<colgroup>
+<col width="58%" />
+<col width="13%" />
+<col width="28%" />
+</colgroup>
+<thead>
+<tr>
+<th align="left">Profile</th>
+<th align="left">Name</th>
+<th align="left">Affiliation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a
+href="https://github.com/ouyang363">ouyang363</a></td>
+<td align="left">Yang Ou</td>
+<td align="left"><sup>1</sup>,<sup>2</sup></td>
+</tr>
+<tr>
+<td align="left"><a
+href="https://github.com/thuliuyang">thuliuyang</a></td>
+<td align="left">Yang Liu</td>
+<td align="left"><sup>3</sup>,<sup>4</sup></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/andym331">andym331</a></td>
+<td align="left">Andy Miller</td>
+<td align="left"><sup>5</sup></td>
+</tr>
+</tbody>
+</table>
+<p><br> <sup>1</sup> College of Environmental Sciences and Engineering
+at Peking University <br> <sup>2</sup> Institute of Carbon Neutrality at
+Peking University <br> <sup>3</sup> Department of Earth System Science,
+Tsinghua University <br> <sup>4</sup> Institute for Carbon Neutrality,
+Tsinghua University <br> <sup>5</sup> Center for Global Sustainability
+at University of Maryland</p>
+<p><br></p>
 <!-------------------------->
 <!-------------------------->
 </div>
@@ -582,27 +679,21 @@ proposed features can be discussed through the Issues tab within the
 repository.</p>
 <p>Contact Us: <a href="mailto:yang.ou@pku.edu.cn"
 class="email">yang.ou@pku.edu.cn</a></p>
-<!-- # ```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Workflow 1"} -->
-<!-- # knitr::include_graphics("images/workflow1.jpg") -->
-<!-- # ``` -->
-<!-- #  -->
-<!-- # For each valid SSP-RCP combination, five General Circulation Models (GCMs) are used. This gives a grand total of 75 SSP-RCP-GCM combinations, which are fed into GCAM. -->
 <p><br></p>
 </div>
-<div id="advisory-committee" class="section level1">
-<h1>Advisory Committee</h1>
+<div id="model-use-disclaimer" class="section level1">
+<h1>Model Use Disclaimer</h1>
 <p align="center">
 <img src="images/divider.png">
 </p>
-<p><img src="images/AdvisoryCommittee.jpg" /></p>
-<p><br></p>
-</div>
-<div id="disclaimer" class="section level1">
-<h1>Disclaimer</h1>
-<p align="center">
-<img src="images/divider.png">
-</p>
-<p>GCAM-China is for educational purposes only. See the license here:
+<p>GCAM-China is an open-source research model intended for academic,
+educational, and policy analysis purposes.</p>
+<p>Users should: - follow accepted academic and professional standards;
+- cite the specific GCAM-China release used, along with relevant
+methodological and application papers (e.g. 
+<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1021/acs.est.5c11232">Wang
+&amp; Liu et al., 2026</a> ).</p>
+<p>See the license here:
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/umd-cgs/gcam-china/blob/main/LICENSE.md">umd-cgs/gcam-china/LICENSE.md</a>
 .</p>
 <p><br></p>

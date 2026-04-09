@@ -54,9 +54,8 @@ window.onhashchange = goToTab;
  
 <p style="text-align:center;">
 <a href="https://github.com/umd-cgs/gcam-china/releases" target="_blank"><img src="images/molumen_download_button_1.svg" height="50"/></a> 
-<span style="font-size: x-large;">and <a href="https://umd-cgs.github.io/metarepo_gcam-china/metarepo.html#Get_Started">Get Started</a> </span>
+<span style="font-size: x-large;">and <a href="metarepo.html#Get_Started" onclick="setTimeout(() => location.reload(), 100);">Get Started</a> </span>
 </p>
-
 
 <br>
 
@@ -89,19 +88,6 @@ GCAM-China is jointly developed and maintained by the Center for Global Sustaina
 
 <br>
 
-# Citation
-
-In publications, please refer to the model as GCAM-China v(release version number) and cite as shown on the Zenodo site, accessed by clicking the DOI number button: \
-
-| **v8** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.19471594"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.19471594.svg" alt="DOI"></a>
-
-| **v7.1** : &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.15499108"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15499108.svg" alt="DOI"></a>
-
-| **v7** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.15098771"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15098771.svg" alt="DOI"></a>
-
-| **v6** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.10819115"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10819115.svg" alt="DOI"></a>
-
-<br>
 
 
 # Get Started
@@ -141,6 +127,20 @@ Two-letter abbreviations for sub-national regions and the power grid region to w
 There is a `GCAM China` section at the bottom of the `Main_queries.xml` file, which is displayed by the model interface. This section contains some energy (primary energy, electricity, refined liquids, and aggregated final energy), water, and CO2 emissions queries which should be used instead of the corresponding queries in the standard sections (e.g. `energy`). However, most of the other queries should work for Chinese regions, and they should work for regions outside of China. 
 
 Additionally, in order to get results for China as a whole, select all of the provinces and power grid regions, as well as the `China` region when running a query, and then sum up the results. This is necessary, since the `China` region is often the residual of the national value compared to the sum of the provincial values.
+
+<br>
+
+# Citation
+
+In publications, please refer to the model as GCAM-China v(release version number) and cite as shown on the Zenodo site, accessed by clicking the DOI number button: \
+
+| **v8** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.19471594"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.19471594.svg" alt="DOI"></a>
+
+| **v7.1** : &nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.15499108"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15499108.svg" alt="DOI"></a>
+
+| **v7** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.15098771"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15098771.svg" alt="DOI"></a>
+
+| **v6** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.10819115"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10819115.svg" alt="DOI"></a>
 
 <br>
 

@@ -7,5 +7,5 @@ Meta-repository for: [umd-cgs/gcam-china](https://github.com/umd-cgs/gcam-china)
 <br>
 
 <br>
-Produces [GCAM-China landing page](https://umd-cgs.github.io/metarepo_gcam-china/index.html)
+Produces <a target="_blank" rel="noopener noreferrer" href="https://umd-cgs.github.io/metarepo_gcam-china/index.html">GCAM-China landing page</a>
 

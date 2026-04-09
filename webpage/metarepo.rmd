@@ -59,7 +59,7 @@ window.onhashchange = goToTab;
 
 <br>
 
-# Overview
+# Description
 
 <p align="center"> <img src="images/divider.png"></p>
 
@@ -73,18 +73,16 @@ Reference:
 
 GCAM-China is a China-focused version of GCAM that disaggregates the energy-economic system of the China region into 31 province-level sub-regions and six electricity grid regions that are also embedded in the global GCAM model. Electricity generation and end-use energy demand (buildings, transportation, and industry) are modeled at the provincial level in GCAM-China, and the model allows for electricity trade within grid regions. Renewable energy resources (hydro, solar, and wind) and carbon storage resources are also provincial-specific. Primary production of fossil resources including oil, gas, and coal, as well as other energy transformation sectors (hydrogen, gas, and refined liquids production) are still modeled at the aggregate national level. Agricultural and land use activities, including the supply of biomass energy feedstocks (residues and dedicated energy crops) are modeled at the level of 12 water basins in China. 
 
+GCAM-China is jointly developed and maintained by the Center for Global Sustainability at University of Maryland; the College of Environmental Sciences and Engineering at Peking University; the Institute of Carbon Neutrality at Peking University; the Department of Earth System Science, Tsinghua University; and the Institute for Carbon Neutrality, Tsinghua University.
+
 <p align="center"> <img src="images/Map_China_wide.png"></p>
 
-<ins>Updates from GCAM-China v7.1:</ins>
+## Features
 
-- Harmonized features with core **GCAM v8.2**
-- Updated model **base year** from 2015 to 2021
-- Added provincial **non-CO2 emissions**
-- Added subnational **water module**
-- Disaggregated **coal power** technologies by vintage (year of construction)
-- Added provincial **policy module** (with example representation of nuclear power incentive policy)
+GCAM-China has been brought up to date with core **GCAM v8.2** model features, including an updated model **base year**, from 2015 to 2021. Provincial **non-CO2 emissions** are now included, as is the subnational **water module**. **Coal power** is now disaggregated by vintage (year of construction). A provincial **policy module** is added, with example representation of a nuclear power incentive policy.
 
-GCAM-China is jointly developed and maintained by the Center for Global Sustainability at University of Maryland; the College of Environmental Sciences and Engineering at Peking University; the Institute of Carbon Neutrality at Peking University; the Department of Earth System Science, Tsinghua University; and the Institute for Carbon Neutrality, Tsinghua University.
+For more details of innovations brought in during previous rounds of updates, see the descriptions in <a target="_blank" rel="noopener noreferrer" href="https://github.com/umd-cgs/gcam-china/releases">github.com/umd-cgs/gcam-china/releases</a>
+
 
 <br>
 
@@ -120,10 +118,10 @@ GCAM-China is jointly developed and maintained by the Center for Global Sustaina
     
     - Mac: `ModelInterface/ModelInterface.app`
 
-<ins>Note on province abbreviations:</ins> 
+<ins>Province abbreviations:</ins> 
 Two-letter abbreviations for sub-national regions and the power grid region to which each pertains is shown here: <a target="_blank" rel="noopener noreferrer" href="https://github.com/umd-cgs/gcam-china/blob/main/input/gcamdata/inst/extdata/gcam-china/province_names_mappings.csv">input/gcamdata/inst/extdata/gcam-china/province_names_mappings.csv</a>  
 
-<ins>Notes on the queries:</ins> 
+<ins>Queries:</ins> 
 There is a `GCAM China` section at the bottom of the `Main_queries.xml` file, which is displayed by the model interface. This section contains some energy (primary energy, electricity, refined liquids, and aggregated final energy), water, and CO2 emissions queries which should be used instead of the corresponding queries in the standard sections (e.g. `energy`). However, most of the other queries should work for Chinese regions, and they should work for regions outside of China. 
 
 Additionally, in order to get results for China as a whole, select all of the provinces and power grid regions, as well as the `China` region when running a query, and then sum up the results. This is necessary, since the `China` region is often the residual of the national value compared to the sum of the provincial values.

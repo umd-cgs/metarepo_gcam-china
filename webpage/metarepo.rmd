@@ -79,7 +79,7 @@ GCAM-China is jointly developed and maintained by the Center for Global Sustaina
 
 ## Features
 
-GCAM-China has been brought up to date with core **GCAM v8.2** model features, including an updated model **base year**, from 2015 to 2021. Provincial **non-CO2 emissions** are now included, as is the subnational **water module**. **Coal power** is now disaggregated by vintage (year of construction). A provincial **policy module** is added, with example representation of a nuclear power incentive policy.
+GCAM-China has been brought up to date with core **GCAM v8.2** model features, including an updated model **base year**, from 2015 to 2021. Provincial **non-CO2 emissions** are now included, as is the subnational **water module**. Additionally, **coal power** is now disaggregated by vintage (year of construction). A provincial **policy module** is also added, with example representation of a nuclear power incentive policy.
 
 For more details of innovations brought in during previous rounds of updates, see the descriptions in <a target="_blank" rel="noopener noreferrer" href="https://github.com/umd-cgs/gcam-china/releases">github.com/umd-cgs/gcam-china/releases</a>
 
@@ -190,24 +190,56 @@ In publications, please refer to the model as GCAM-China v(release version numbe
 
 <br>
 
-# Community Contributors
+# Contributors
+
+### Maintainers
 
 |                         Profile                        |     Name    |        Affiliation        |
 |:-------------------------------------------------------|:------------|:--------------------------|
-|     [ouyang363](https://github.com/ouyang363)          |   Yang Ou   | <sup>1</sup>,<sup>2</sup> |
-|     [thuliuyang](https://github.com/thuliuyang)        |   Yang Liu  | <sup>3</sup>,<sup>4</sup> |
-|     [andym331](https://github.com/andym331)            | Andy Miller |        <sup>5</sup>       |
+|  [ouyang363](https://github.com/ouyang363)   |   Yang Ou   |       <sup>1</sup>     |
+|  [thuliuyang](https://github.com/thuliuyang) |   Yang Liu  |        <sup>2</sup>       |
+|  [andym331](https://github.com/andym331)     | Andy Miller |        <sup>3</sup>       |
+|  [rynacui](https://github.com/rynacui)       | Yiyun 'Ryna' Cui |        <sup>3</sup>    |
+
 
 <br>
-^1^ College of Environmental Sciences and Engineering at Peking University
+
+### Community Contributors
+*Alphabetically by given name*
+
+|                         Profile                        |     Name    |        Affiliation        |
+|:-------------------------------------------------------|:------------|:--------------------------|
+|     [Cici6101](https://github.com/Cici6101)	|    	Can Wang	|    <sup>4</sup>     |
+|     [FanWu1020](https://github.com/FanWu1020)	|    	Fan Wu	|    <sup>1</sup>     |
+|     [bitzhz](https://github.com/bitzhz)	|    	Hongzhi Zhang	|    <sup>4</sup>     |
+|     [wanghuaxuan](https://github.com/wanghuaxuan)	|    	Huaxuan Wang	|    <sup>2</sup>     |
+|     [ShenJX21](https://github.com/ShenJX21)	|    	Jianxiang Shen	|    <sup>2</sup>     |
+|     [jerrysong0128](https://github.com/jerrysong0128)	|  	Jingyang Song	|    <sup>1</sup>     |
+|     [MengtingZhu](https://github.com/MengtingZhu)	|    	Mengting Zhu	|    <sup>1</sup>     |
+|     [rongqizhu](https://github.com/rongqizhu)	|    	Rongqi Zhu	|    <sup>1</sup>     |
+|     [ruiwangrr](https://github.com/ruiwangrr)	|    	Rui Wang	|    <sup>2</sup>     |
+|     [XSu_97](https://github.com/XSu_97)	|    	Shuling Xu	|    <sup>5</sup>     |
+|     [jiawdo](https://github.com/jiawdo)	|    	Weidong Jia	|    <sup>6</sup>     |
+|     [jiangyongye](https://github.com/jiangyongye)	|    	Yongye Jiang	|    <sup>1</sup>     |
+|     [LYQ585](https://github.com/LYQ585)	|    	Yuqin Li	|    <sup>7</sup>     |
+|     [insomnia-hum](https://github.com/insomnia-hum)	|    	Zeyuan Liu	|    <sup>8</sup>     |
+
 <br>
-^2^ Institute of Carbon Neutrality at Peking University
+^1^ Peking University
 <br>
-^3^ Department of Earth System Science, Tsinghua University
+^2^ Tsinghua University
 <br>
-^4^ Institute for Carbon Neutrality, Tsinghua University
+^3^  Center for Global Sustainability at University of Maryland
 <br>
-^5^  Center for Global Sustainability at University of Maryland
+^4^  Beijing Institute of Technology
+<br>
+^5^  North China Electric Power University
+<br>
+^6^  Shandong University
+<br>
+^7^  Beijing Normal University
+<br>
+^8^  Zhejiang University
 
 <br>
 

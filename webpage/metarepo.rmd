@@ -195,11 +195,11 @@ In publications, please refer to the model as GCAM-China v(release version numbe
 ### Maintainers
 
 |                         Profile                        |     Name    |        Affiliation        |
-|:-------------------------------------------------------|:------------|:--------------------------|
-|  [ouyang363](https://github.com/ouyang363)   |   Yang Ou   |       <sup>1</sup>     |
-|  [thuliuyang](https://github.com/thuliuyang) |   Yang Liu  |        <sup>2</sup>       |
-|  [andym331](https://github.com/andym331)     | Andy Miller |        <sup>3</sup>       |
-|  [rynacui](https://github.com/rynacui)       | Yiyun 'Ryna' Cui |        <sup>3</sup>    |
+|:-------------------------------------------------------|:------------|:-------------------------:|
+|     [ouyang363](https://github.com/ouyang363) |    	Yang Ou   |       <sup>1</sup>     |
+|     [thuliuyang](https://github.com/thuliuyang) |    	Yang Liu  |        <sup>2</sup>       |
+|     [andym331](https://github.com/andym331) |    	Andy Miller |        <sup>3</sup>       |
+|     [rynacui](https://github.com/rynacui) |    	Yiyun 'Ryna' Cui |        <sup>3</sup>    |
 
 
 <br>
@@ -208,13 +208,13 @@ In publications, please refer to the model as GCAM-China v(release version numbe
 *Alphabetically by given name*
 
 |                         Profile                        |     Name    |        Affiliation        |
-|:-------------------------------------------------------|:------------|:--------------------------|
+|:-------------------------------------------------------|:------------|:-------------------------:|
 |     [Cici6101](https://github.com/Cici6101)	|    	Can Wang	|    <sup>4</sup>     |
 |     [FanWu1020](https://github.com/FanWu1020)	|    	Fan Wu	|    <sup>1</sup>     |
 |     [bitzhz](https://github.com/bitzhz)	|    	Hongzhi Zhang	|    <sup>4</sup>     |
 |     [wanghuaxuan](https://github.com/wanghuaxuan)	|    	Huaxuan Wang	|    <sup>2</sup>     |
 |     [ShenJX21](https://github.com/ShenJX21)	|    	Jianxiang Shen	|    <sup>2</sup>     |
-|     [jerrysong0128](https://github.com/jerrysong0128)	|  	Jingyang Song	|    <sup>1</sup>     |
+|     [jerrysong0128](https://github.com/jerrysong0128) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	|  	Jingyang Song	| <sup>1</sup> |
 |     [MengtingZhu](https://github.com/MengtingZhu)	|    	Mengting Zhu	|    <sup>1</sup>     |
 |     [rongqizhu](https://github.com/rongqizhu)	|    	Rongqi Zhu	|    <sup>1</sup>     |
 |     [ruiwangrr](https://github.com/ruiwangrr)	|    	Rui Wang	|    <sup>2</sup>     |

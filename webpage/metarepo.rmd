@@ -63,6 +63,8 @@ window.onhashchange = goToTab;
 
 <p align="center"> <img src="images/divider.png"></p>
 
+<span style="font-size: x-large;">Model documentation paper here: <a href="https://doi.org/10.5194/egusphere-2026-1919"  target="_blank"><img src="images/documentation-4.svg" height="50"/></a> </span>
+
 This documentation describes **GCAM-China v8**, which is developed based on the core Global Change Analysis Model version 8.2 (GCAM v8.2). GCAM is a multisector model developed and maintained at the Pacific Northwest National Laboratory’s Joint Global Change Research Institute (JGCRI, 2023). Both GCAM and GCAM-China are open-source community models. The documentation of the core GCAM is available at the GCAM documentation page 
 <a target="_blank" rel="noopener noreferrer" href="https://jgcri.github.io/gcam-doc/"> jgcri.github.io/gcam-doc/</a>
 , and this GCAM-China manual serves as supplementary documentation of the distinctions of GCAM-China from the core GCAM. GCAM includes representations of: economy, energy, agriculture, and water supply in 32 geopolitical regions across the globe; their GHG and air pollutant emissions and global GHG concentrations, radiative forcing, and temperature change; and the associated land allocation, water use, and agriculture production across 384 land sub-regions and 235 water basins. 
@@ -82,6 +84,14 @@ GCAM-China is jointly developed and maintained by the Center for Global Sustaina
 GCAM-China has been brought up to date with core **GCAM v8.2** model features, including an updated model **base year**, from 2015 to 2021. Provincial **non-CO2 emissions** are now included, as is the subnational **water module**. Additionally, **coal power** is now disaggregated by vintage (year of construction). A provincial **policy module** is also added, with example representation of a nuclear power incentive policy.
 
 For more details of innovations brought in during previous rounds of updates, see the descriptions in <a target="_blank" rel="noopener noreferrer" href="https://github.com/umd-cgs/gcam-china/releases">github.com/umd-cgs/gcam-china/releases</a>
+
+
+## Community-developed Tools
+
+- Automated scenario data processing into the standard IAMC format: <a target="_blank" rel="noopener noreferrer" href="https://github.com/rongqizhu/GCAM-China-reporting">github.com/rongqizhu/GCAM-China-reporting</a>
+- High-performance computing deployment toolkit:  <a target="_blank" rel="noopener noreferrer" href="https://github.com/jerrysong0128/gcam-hpc-PKU">github.com/jerrysong0128/gcam-hpc-PKU</a>
+- “1+N” regulatory measure toolbox:   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.19203270">doi.org/10.5281/zenodo.19203270</a>
+
 
 
 <br>
@@ -142,8 +152,14 @@ In publications, please refer to the model as GCAM-China v(release version numbe
 
 <br>
 
+**Additionally, all publications should cite the model documentation paper:** 
+
+- Xu, S., Liu, Y., Yu, S., Jia, W., Jiang, Y., Li, Y., Liu, Z., Miller, A., Shen, J., Song, J., Wang, C., Wang, H., Wang, R., Wu, F., Zhang, H., Zhu, M., Zhu, R., Behrendt, J., Binsted, M., Cheng, J., Dahowski, R., Davidson, C., Deng, S., Fuhrman, J., Gidden, M., Guo, C., Horing, J., Kim, H., Li, C., Liu, B., Pan, X., Patel, P., Qian, M., Qiu, Y., Shao, T., Sun, Y., Wang, L., Yang, Y., Yarlagadda, B., Yin, Z., Zang, J., Zhang, Q., Cai, W., Chen, W., Clarke, L., Cui, R., Hultman, N., Li, B., Li, J., Lu, X., McJeon, H., Wang, B., Wang, C., Wang, P., Wang, S., Wang, Z., Zhang, L., Zhang, Q., and Ou, Y.: GCAM-China-v8: An Integrated Global-to-Provincial Framework for Assessing China’s Energy and Emission Futures, EGUsphere [preprint], <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5194/egusphere-2026-1919">https://doi.org/10.5194/egusphere-2026-1919/</a>, 2026.  
+
 # GCAM-China Publications
 <p align="center"> <img src="images/divider.png"></p>
+
+- Xu, S., Liu, Y., Yu, S., Jia, W., Jiang, Y., Li, Y., Liu, Z., Miller, A., Shen, J., Song, J., Wang, C., Wang, H., Wang, R., Wu, F., Zhang, H., Zhu, M., Zhu, R., Behrendt, J., Binsted, M., Cheng, J., Dahowski, R., Davidson, C., Deng, S., Fuhrman, J., Gidden, M., Guo, C., Horing, J., Kim, H., Li, C., Liu, B., Pan, X., Patel, P., Qian, M., Qiu, Y., Shao, T., Sun, Y., Wang, L., Yang, Y., Yarlagadda, B., Yin, Z., Zang, J., Zhang, Q., Cai, W., Chen, W., Clarke, L., Cui, R., Hultman, N., Li, B., Li, J., Lu, X., McJeon, H., Wang, B., Wang, C., Wang, P., Wang, S., Wang, Z., Zhang, L., Zhang, Q., and Ou, Y.: GCAM-China-v8: An Integrated Global-to-Provincial Framework for Assessing China’s Energy and Emission Futures, EGUsphere [preprint], <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5194/egusphere-2026-1919">https://doi.org/10.5194/egusphere-2026-1919/</a>, 2026.
 
 - Wang, H., Liu, Y., Wu, F., Dai, H., Duan, H., Guo, F., Hultman, N., Lu, X., McJeon, H., Miller, A., Tong, D., Yu, S., Yuan, W., Zhang, D., Cui, R., Zhang, Q., Ou, Y., 2026. Bridging China’s Climate Targets and Mitigation Capacity through Sectoral Policy Implementation. Environ. Sci. Technol. <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1021/acs.est.5c11232">https://doi.org/10.1021/acs.est.5c11232</a> 
 

@@ -95,6 +95,12 @@ In publications, please refer to the model as **GCAM-China v**`release version n
 <!-- Please cite as GCAM-China-(release version number) as shown in: https://umd-cgs.github.io/metarepo_gcam-china/metarepo.html#Citation  -->
 
 
+**Additionally, all publications should cite the model documentation paper:** 
+
+- Xu, S., Liu, Y., Yu, S., Jia, W., Jiang, Y., Li, Y., Liu, Z., Miller, A., Shen, J., Song, J., Wang, C., Wang, H., Wang, R., Wu, F., Zhang, H., Zhu, M., Zhu, R., Behrendt, J., Binsted, M., Cheng, J., Dahowski, R., Davidson, C., Deng, S., Fuhrman, J., Gidden, M., Guo, C., Horing, J., Kim, H., Li, C., Liu, B., Pan, X., Patel, P., Qian, M., Qiu, Y., Shao, T., Sun, Y., Wang, L., Yang, Y., Yarlagadda, B., Yin, Z., Zang, J., Zhang, Q., Cai, W., Chen, W., Clarke, L., Cui, R., Hultman, N., Li, B., Li, J., Lu, X., McJeon, H., Wang, B., Wang, C., Wang, P., Wang, S., Wang, Z., Zhang, L., Zhang, Q., and Ou, Y.: GCAM-China-v8: An Integrated Global-to-Provincial Framework for Assessing China’s Energy and Emission Futures, EGUsphere [preprint], <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5194/egusphere-2026-1919">https://doi.org/10.5194/egusphere-2026-1919/</a>, 2026.  
+
+<br>
+
 
 ## Acknowledgements
 <p align="center"> <img src="images/divider.png"></p>

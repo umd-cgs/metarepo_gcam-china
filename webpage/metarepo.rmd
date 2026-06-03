@@ -57,13 +57,20 @@ window.onhashchange = goToTab;
 <span style="font-size: x-large;">and <a href="metarepo.html#Get_Started" onclick="setTimeout(() => location.reload(), 100);">Get Started</a> </span>
 </p>
 
-<br>
+<p style="text-align:center;">
+<span style="font-size: x-large;">Cite the 
+<a href="https://doi.org/10.5194/egusphere-2026-1919"  target="_blank"><img src="images/documentation-4.svg" height="40"/></a> 
+<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5194/egusphere-2026-1919"> documentation paper</a>
+<span style="font-size: x-large;"> - see 
+<a href="metarepo.html#Citation" onclick="setTimeout(() => location.reload(), 100);">Citation</a> </span>
+</p>
+
 
 # Description
 
 <p align="center"> <img src="images/divider.png"></p>
 
-<span style="font-size: x-large;">Model documentation paper here: <a href="https://doi.org/10.5194/egusphere-2026-1919"  target="_blank"><img src="images/documentation-4.svg" height="50"/></a> </span>
+<span style="font-size: x-large;">Model documentation paper here: <a href="https://doi.org/10.5194/egusphere-2026-1919"  target="_blank"><img src="images/documentation-4.svg" height="40"/></a> </span>
 
 This documentation describes **GCAM-China v8**, which is developed based on the core Global Change Analysis Model version 8.2 (GCAM v8.2). GCAM is a multisector model developed and maintained at the Pacific Northwest National Laboratory’s Joint Global Change Research Institute (JGCRI, 2023). Both GCAM and GCAM-China are open-source community models. The documentation of the core GCAM is available at the GCAM documentation page 
 <a target="_blank" rel="noopener noreferrer" href="https://jgcri.github.io/gcam-doc/"> jgcri.github.io/gcam-doc/</a>
@@ -88,9 +95,9 @@ For more details of innovations brought in during previous rounds of updates, se
 
 ## Community-developed Tools
 
-- Automated scenario data processing into the standard IAMC format: <a target="_blank" rel="noopener noreferrer" href="https://github.com/rongqizhu/GCAM-China-reporting">github.com/rongqizhu/GCAM-China-reporting</a>
-- High-performance computing deployment toolkit:  <a target="_blank" rel="noopener noreferrer" href="https://github.com/jerrysong0128/gcam-hpc-PKU">github.com/jerrysong0128/gcam-hpc-PKU</a>
-- “1+N” regulatory measure toolbox:   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.19203270">doi.org/10.5281/zenodo.19203270</a>
+- Automated scenario results processing into the standard **IAMC format**: <a target="_blank" rel="noopener noreferrer" href="https://github.com/rongqizhu/GCAM-China-reporting">github.com/rongqizhu/GCAM-China-reporting</a>
+- **High-performance computing** deployment toolkit:  <a target="_blank" rel="noopener noreferrer" href="https://github.com/jerrysong0128/gcam-hpc-PKU">github.com/jerrysong0128/gcam-hpc-PKU</a>
+- **“1+N” regulatory measure** toolbox:   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.19203270">doi.org/10.5281/zenodo.19203270</a>
 
 
 
@@ -140,7 +147,12 @@ Additionally, in order to get results for China as a whole, select all of the pr
 
 # Citation
 
-In publications, please refer to the model as GCAM-China v(release version number) and cite as shown on the Zenodo site, accessed by clicking the DOI number button: \
+**All publications should cite the model documentation paper:** 
+
+- Xu, S., Liu, Y., Yu, S., Jia, W., Jiang, Y., Li, Y., Liu, Z., Miller, A., Shen, J., Song, J., Wang, C., Wang, H., Wang, R., Wu, F., Zhang, H., Zhu, M., Zhu, R., Behrendt, J., Binsted, M., Cheng, J., Dahowski, R., Davidson, C., Deng, S., Fuhrman, J., Gidden, M., Guo, C., Horing, J., Kim, H., Li, C., Liu, B., Pan, X., Patel, P., Qian, M., Qiu, Y., Shao, T., Sun, Y., Wang, L., Yang, Y., Yarlagadda, B., Yin, Z., Zang, J., Zhang, Q., Cai, W., Chen, W., Clarke, L., Cui, R., Hultman, N., Li, B., Li, J., Lu, X., McJeon, H., Wang, B., Wang, C., Wang, P., Wang, S., Wang, Z., Zhang, L., Zhang, Q., and Ou, Y.: GCAM-China-v8: An Integrated Global-to-Provincial Framework for Assessing China’s Energy and Emission Futures, EGUsphere [preprint], <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5194/egusphere-2026-1919">https://doi.org/10.5194/egusphere-2026-1919/</a>, 2026.  
+
+<ins>Within the text:</ins>
+Please refer to the model as **GCAM-China v**`release version number` and cite as shown on the Zenodo site, accessed by clicking the DOI number button: \
 
 | **v8** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.19471594"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.19471594.svg" alt="DOI"></a>
 
@@ -151,10 +163,6 @@ In publications, please refer to the model as GCAM-China v(release version numbe
 | **v6** : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.10819115"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10819115.svg" alt="DOI"></a>
 
 <br>
-
-**Additionally, all publications should cite the model documentation paper:** 
-
-- Xu, S., Liu, Y., Yu, S., Jia, W., Jiang, Y., Li, Y., Liu, Z., Miller, A., Shen, J., Song, J., Wang, C., Wang, H., Wang, R., Wu, F., Zhang, H., Zhu, M., Zhu, R., Behrendt, J., Binsted, M., Cheng, J., Dahowski, R., Davidson, C., Deng, S., Fuhrman, J., Gidden, M., Guo, C., Horing, J., Kim, H., Li, C., Liu, B., Pan, X., Patel, P., Qian, M., Qiu, Y., Shao, T., Sun, Y., Wang, L., Yang, Y., Yarlagadda, B., Yin, Z., Zang, J., Zhang, Q., Cai, W., Chen, W., Clarke, L., Cui, R., Hultman, N., Li, B., Li, J., Lu, X., McJeon, H., Wang, B., Wang, C., Wang, P., Wang, S., Wang, Z., Zhang, L., Zhang, Q., and Ou, Y.: GCAM-China-v8: An Integrated Global-to-Provincial Framework for Assessing China’s Energy and Emission Futures, EGUsphere [preprint], <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5194/egusphere-2026-1919">https://doi.org/10.5194/egusphere-2026-1919/</a>, 2026.  
 
 # GCAM-China Publications
 <p align="center"> <img src="images/divider.png"></p>

@@ -164,6 +164,13 @@ Please refer to the model as **GCAM-China v**`release version number` and cite a
 
 <br>
 
+# Release Downloads
+<p align="center"> <img src="images/divider.png"></p>
+
+<p style="text-align:center;">
+<img src="images/release_downloads.png" alt="GCAM-China cumulative half-year release downloads, split by model version" style="width:100%; max-width:760px; height:auto;">
+</p>
+
 # GCAM-China Publications
 <p align="center"> <img src="images/divider.png"></p>
 
@@ -297,4 +304,3 @@ See the license here:
 .
 
 <br>
-
